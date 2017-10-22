@@ -30,6 +30,10 @@ public class UserMealsUtil {
     }
 
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
+        return null;
+    }
+    /*
+    public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
         // подсчитываем в мап день - количество каллорий за день
         Map<LocalDate, Integer> mapSumCaloriesPerDay = mealList
                 .stream()
@@ -52,4 +56,5 @@ public class UserMealsUtil {
                 .collect(Collectors.toList());
         return mealWithExceedsList;
     }
+    //*/
 }

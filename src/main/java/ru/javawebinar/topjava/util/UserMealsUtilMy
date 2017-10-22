@@ -1,0 +1,37 @@
+/*
+public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
+        // TODO return filtered list with correctly exceeded field
+        Map<String, Integer> map = new HashMap<>();
+
+        mealList.forEach(userMeal -> {
+            // формируем ключ в мапе для хранения количества каллорий для каждого дня
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+            String mapKey = userMeal.getDateTime().format(formatter);
+            // добавляем калории из каждого приема пищи
+            Integer mapValue = map.get(mapKey) == null ? 0 : map.get(mapKey);
+            mapValue += userMeal.getCalories();
+            // суммируем со значением в мапе
+            map.put(mapKey, mapValue);
+        });
+
+        List<UserMealWithExceed> mealListFiltered = mealList.stream()
+                .map(userMeal -> {
+            // формируем ключ для мапа
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+            String mapKey = userMeal.getDateTime().format(formatter);
+            // проверяем условие на превышение ограничения caloriesPerDay
+            boolean exceed = false;
+            if (map.get(mapKey) > caloriesPerDay) {
+                exceed = true;
+            }
+            if (TimeUtil.isBetween(userMeal.getDateTime().toLocalTime(), startTime, endTime)) {
+                return new UserMealWithExceed(userMeal.getDateTime(), userMeal.getDescription(), caloriesPerDay, exceed);
+            }
+            return null;
+        })
+                .filter(userMealWithExceed -> userMealWithExceed != null)
+                .collect(Collectors.toList());
+
+        return mealListFiltered;
+    }
+ */
