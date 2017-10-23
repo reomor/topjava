@@ -32,10 +32,6 @@ public class UserMealsUtil {
     Map<String, Integer> items = new HashMap<>();
     items.put("A", 10);
     items.put("B", 20);
-    items.put("C", 30);
-    items.put("D", 40);
-    items.put("E", 50);
-    items.put("F", 60);
 
     items.forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
 
@@ -47,8 +43,25 @@ public class UserMealsUtil {
     });
      */
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
-        mealList.forEach();
-        return null;
+        Map<LocalDate, Integer> mapSumCaloriesPerDay = new HashMap<>();
+        mealList.forEach((meal) -> {
+            int mealCalories = meal.getCalories();
+            int calories = mapSumCaloriesPerDay.getOrDefault(meal.getLocalDate(), 0);
+            mapSumCaloriesPerDay.put(meal.getLocalDate(), calories + mealCalories);
+        });
+
+        List<UserMealWithExceed> mealWithExceedsList = new ArrayList<>();
+        mealList.forEach((meal) -> {
+            if (TimeUtil.isBetween(meal.getDateTime().toLocalTime(), startTime, endTime)) {
+                mealWithExceedsList.add(new UserMealWithExceed(meal.getDateTime(),
+                        meal.getDescription(),
+                        meal.getCalories(),
+                        // получение калорий за день из ранее сформированного мапа
+                        mapSumCaloriesPerDay.get(meal.getLocalDate()) > caloriesPerDay));
+            }
+        });
+
+        return mealWithExceedsList;
     }
     /*
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
