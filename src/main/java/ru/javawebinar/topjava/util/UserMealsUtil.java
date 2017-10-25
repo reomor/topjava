@@ -28,20 +28,6 @@ public class UserMealsUtil {
 //        .toLocalDate();
 //        .toLocalTime();
     }
-    /*
-    Map<String, Integer> items = new HashMap<>();
-    items.put("A", 10);
-    items.put("B", 20);
-
-    items.forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
-
-    items.forEach((k,v)->{
-        System.out.println("Item : " + k + " Count : " + v);
-        if("E".equals(k)){
-            System.out.println("Hello E");
-        }
-    });
-     */
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
         Map<LocalDate, Integer> mapSumCaloriesPerDay = new HashMap<>();
         mealList.forEach((meal) -> {
@@ -63,29 +49,4 @@ public class UserMealsUtil {
 
         return mealWithExceedsList;
     }
-    /*
-    public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
-        // подсчитываем в мап день - количество каллорий за день
-        Map<LocalDate, Integer> mapSumCaloriesPerDay = mealList
-                .stream()
-                // группировка по дате с подсчетом поля каллорий
-                .collect(Collectors.groupingBy(UserMeal::getLocalDate, Collectors.summingInt(UserMeal::getCalories)));
-        // формирование списка объектов нового типа UserMealWithExceed в соответствии с условием выбора
-        List<UserMealWithExceed> mealWithExceedsList = mealList
-                .stream()
-                // фильтрация записей согласно временному диапазону
-                .filter(userMeal -> TimeUtil.isBetween(userMeal.getDateTime().toLocalTime(), startTime, endTime))
-                // создание объектов нового типа с дополнительным полем
-                .map(userMeal -> {
-                    UserMealWithExceed userMealWithExceed = new UserMealWithExceed(userMeal.getDateTime(),
-                            userMeal.getDescription(),
-                            userMeal.getCalories(),
-                            // получение калорий за день из ранее сформированного мапа
-                            mapSumCaloriesPerDay.get(userMeal.getLocalDate()) > caloriesPerDay);
-                    return userMealWithExceed;
-                })
-                .collect(Collectors.toList());
-        return mealWithExceedsList;
-    }
-    //*/
 }
