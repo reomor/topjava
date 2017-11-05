@@ -19,7 +19,7 @@
 
 <c:choose>
     <c:when test="${empty meals}">
-        No such parameter
+        No such parameter in attributes
     </c:when>
     <c:otherwise>
         <table>
