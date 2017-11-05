@@ -16,24 +16,22 @@ import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.toList;
 
 public class MealsUtil {
-    public static void main(String[] args) {
+    private static List<Meal> meals = Arrays.asList(
+                new Meal(LocalDateTime.of(2015, Month.MAY, 30, 10, 0), "Завтрак", 500, true),
+                new Meal(LocalDateTime.of(2015, Month.MAY, 30, 13, 0), "Обед", 1000, true),
+                new Meal(LocalDateTime.of(2015, Month.MAY, 30, 20, 0), "Ужин", 500, true),
 
-    }
+                new Meal(LocalDateTime.of(2015, Month.MAY, 31, 10, 0), "Завтрак", 1000, true),
+                new Meal(LocalDateTime.of(2015, Month.MAY, 31, 13, 0), "Обед", 500, true),
+                new Meal(LocalDateTime.of(2015, Month.MAY, 31, 20, 0), "Ужин", 510, true),
+
+                new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 10, 0), "Завтрак", 1010, true),
+                new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 13, 0), "Обед", 500, true),
+                new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 20, 0), "Ужин", 510, true)
+        );
 
     public static List<Meal> getMockMealList() {
-        return Arrays.asList(
-                new Meal(LocalDateTime.of(2015, Month.MAY, 30, 10, 0), "Завтрак", 500),
-                new Meal(LocalDateTime.of(2015, Month.MAY, 30, 13, 0), "Обед", 1000),
-                new Meal(LocalDateTime.of(2015, Month.MAY, 30, 20, 0), "Ужин", 500),
-
-                new Meal(LocalDateTime.of(2015, Month.MAY, 31, 10, 0), "Завтрак", 1000),
-                new Meal(LocalDateTime.of(2015, Month.MAY, 31, 13, 0), "Обед", 500),
-                new Meal(LocalDateTime.of(2015, Month.MAY, 31, 20, 0), "Ужин", 510),
-
-                new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 10, 0), "Завтрак", 1010),
-                new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 13, 0), "Обед", 500),
-                new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 20, 0), "Ужин", 510)
-        );
+        return meals;
     }
 
     public static List<MealWithExceed> getFilteredWithExceeded(List<Meal> meals, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {

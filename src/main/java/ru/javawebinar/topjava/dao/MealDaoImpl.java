@@ -5,15 +5,17 @@ import org.slf4j.LoggerFactory;
 import ru.javawebinar.topjava.model.Meal;
 import ru.javawebinar.topjava.util.MealsUtil;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MealDaoImpl implements MealDao {
     private static final Logger log = LoggerFactory.getLogger(MealDaoImpl.class);
 
-    private List<Meal> mockMealList = MealsUtil.getMockMealList();
+    private final List<Meal> mockMealList = new ArrayList<>(MealsUtil.getMockMealList());
 
     @Override
     public void add(Meal meal) {
+        meal.generateId();
         log.debug("meal added: " + meal);
         mockMealList.add(meal);
     }

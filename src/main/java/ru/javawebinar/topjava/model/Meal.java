@@ -6,7 +6,8 @@ import java.time.LocalTime;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Meal {
-    private static AtomicInteger id = new AtomicInteger(0);
+    private static AtomicInteger idGenerator = new AtomicInteger(0);
+    private int id;
     private final LocalDateTime dateTime;
 
     private final String description;
@@ -17,7 +18,19 @@ public class Meal {
         this.dateTime = dateTime;
         this.description = description;
         this.calories = calories;
-        this.id.incrementAndGet();
+    }
+
+    // генерация ид непосредственно перед записью в список, иначе будут висящие meal в сервлете c занятым ид и пустыми полями
+    public void generateId() {
+        this.id = idGenerator.incrementAndGet();
+    }
+
+    // отдельный констуктор для создания тестовых начальных данных
+    public Meal(LocalDateTime dateTime, String description, int calories, boolean generateId) {
+        this.dateTime = dateTime;
+        this.description = description;
+        this.calories = calories;
+        id = idGenerator.incrementAndGet();
     }
 
     public LocalDateTime getDateTime() {
@@ -40,8 +53,12 @@ public class Meal {
         return dateTime.toLocalTime();
     }
 
-    public static int getId() {
-        return id.get();
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override
@@ -52,11 +69,5 @@ public class Meal {
                 ", description='" + description + '\'' +
                 ", calories=" + calories +
                 '}';
-    }
-
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println((new Meal(LocalDateTime.MIN, "test", 0)));
-        }
     }
 }
