@@ -1,0 +1,19 @@
+.exceed {
+    color: #f41716;
+}
+.not-exceed {
+    color: #27c530;
+}
+.meals {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.meals th,
+.meals td {
+    border: 1px solid black;
+}
+.meals td:first-child,
+.meals td:nth-child(3),
+.meals td:nth-child(4) {
+    text-align: center;
+}

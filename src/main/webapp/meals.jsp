@@ -5,18 +5,7 @@
 <html>
 <head>
     <title>Users</title>
-    <style type="text/css">
-        .exceed {
-            color: #f41716;
-        }
-        .not-exceed {
-            color: #27c530;
-        }
-        .meals {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
+    <link href="./css/main.css" rel="stylesheet">
 </head>
 <body>
 <h3><a href="index.html">Home</a></h3>
