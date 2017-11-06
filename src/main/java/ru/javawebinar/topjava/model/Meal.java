@@ -3,11 +3,10 @@ package ru.javawebinar.topjava.model;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Meal {
-    private static AtomicInteger idGenerator = new AtomicInteger(0);
     private int id;
+
     private final LocalDateTime dateTime;
 
     private final String description;
@@ -18,19 +17,6 @@ public class Meal {
         this.dateTime = dateTime;
         this.description = description;
         this.calories = calories;
-    }
-
-    // генерация ид непосредственно перед записью в список, иначе будут висящие meal в сервлете c занятым ид и пустыми полями
-    public void generateId() {
-        this.id = idGenerator.incrementAndGet();
-    }
-
-    // отдельный констуктор для создания тестовых начальных данных
-    public Meal(LocalDateTime dateTime, String description, int calories, boolean generateId) {
-        this.dateTime = dateTime;
-        this.description = description;
-        this.calories = calories;
-        id = idGenerator.incrementAndGet();
     }
 
     public LocalDateTime getDateTime() {

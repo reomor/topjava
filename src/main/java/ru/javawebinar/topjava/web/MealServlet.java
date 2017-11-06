@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class MealServlet extends HttpServlet {
@@ -22,6 +23,8 @@ public class MealServlet extends HttpServlet {
     private static final Logger log = LoggerFactory.getLogger(MealServlet.class);
 
     private MealDao mealDao = new MealDaoImpl();
+
+    private DateTimeFormatter jspDateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.debug("in doGet");
@@ -36,6 +39,8 @@ public class MealServlet extends HttpServlet {
             request.setAttribute("meal", meal);
         } else if ("delete".equals(action)) {
             mealDao.delete(Integer.parseInt(mealId));
+        } else if ("addnew".equals(action)) {
+            request.removeAttribute("meal");
         }
 
         log.debug("put Meals in attributes");
@@ -51,7 +56,7 @@ public class MealServlet extends HttpServlet {
         request.setAttribute("mealsWithExceed", filteredWithExceeded);
 
         //response.sendRedirect("meals.jsp");
-        log.debug("redirect from doGet to meals.jsp");
+        log.debug("forward from doGet to meals.jsp");
         request.getRequestDispatcher(forwardPath).forward(request, response);
     }
 
@@ -76,19 +81,12 @@ public class MealServlet extends HttpServlet {
             mealDao.update(meal);
         }
 
-        log.debug("put Meals in attributes");
-        request.setAttribute("meals", mealDao.getAll());
-
-        log.debug("put MealListWithExceeded to attributes");
-        int caloriesPerDay = 2000;
-        List<MealWithExceed> filteredWithExceeded = MealsUtil.getFilteredWithExceeded(mealDao.getAll(),
-                LocalTime.MIN,
-                LocalTime.MAX,
-                caloriesPerDay);
-
-        request.setAttribute("mealsWithExceed", filteredWithExceeded);
-
         log.debug("redirect from doPost to meals.jsp");
-        request.getRequestDispatcher("meals.jsp").forward(request, response);
+        //request.getRequestDispatcher("meals.jsp").forward(request, response);
+        //response.sendRedirect("meals.jsp");
+        //response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
+        //response.setHeader("Location", "meals.jsp");
+        //this.doGet(request, response);
+        response.sendRedirect("meals");
     }
 }
