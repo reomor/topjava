@@ -15,16 +15,20 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class MealServlet extends HttpServlet {
 
     private static final Logger log = LoggerFactory.getLogger(MealServlet.class);
 
-    private MealDao mealDao = new MealDaoImpl();
+    private MealDao mealDao;
 
-    private DateTimeFormatter jspDateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
+    //private DateTimeFormatter jspDateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
+
+    @Override
+    public void init() throws ServletException {
+        mealDao = new MealDaoImpl();
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.debug("in doGet");
@@ -34,17 +38,23 @@ public class MealServlet extends HttpServlet {
         String action = request.getParameter("action");
         String mealId = request.getParameter("mealId");
 
-        if ("edit".equals(action)) {
-            Meal meal = mealDao.getById(Integer.parseInt(mealId));
-            request.setAttribute("meal", meal);
-        } else if ("delete".equals(action)) {
-            mealDao.delete(Integer.parseInt(mealId));
-        } else if ("addnew".equals(action)) {
-            request.removeAttribute("meal");
+        if (action != null){
+            switch (action) {
+                case "edit":
+                    Meal meal = mealDao.getById(Integer.parseInt(mealId));
+                    request.setAttribute("meal", meal);
+                    break;
+                case "delete":
+                    mealDao.delete(Integer.parseInt(mealId));
+                    response.sendRedirect("meals");
+                    return;
+                case "addnew":
+                    request.removeAttribute("meal");
+                    break;
+                default:
+                    log.debug("action: (" + action + ") is not supported.");
+            }
         }
-
-        log.debug("put Meals in attributes");
-        request.setAttribute("meals", mealDao.getAll());
 
         log.debug("put MealListWithExceeded to attributes");
         int caloriesPerDay = 2000;
@@ -60,17 +70,21 @@ public class MealServlet extends HttpServlet {
         request.getRequestDispatcher(forwardPath).forward(request, response);
     }
 
+    private Meal createMealFromRequest(HttpServletRequest request) {
+        String requestDescription = request.getParameter("description");
+        LocalDateTime requestDateTime = LocalDateTime.parse(request.getParameter("datetime"));
+        int requestCalories = Integer.parseInt(request.getParameter("calories"));
+
+        return new Meal(requestDateTime, requestDescription, requestCalories);
+    }
+
     // update or create new
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.debug("in doPost");
         request.setCharacterEncoding("UTF-8");
 
         String requestId = request.getParameter("id");
-        String requestDescription = request.getParameter("description");
-        LocalDateTime requestDateTime = LocalDateTime.parse(request.getParameter("datetime"));
-        int requestCalories = Integer.parseInt(request.getParameter("calories"));
-
-        Meal meal = new Meal(requestDateTime, requestDescription, requestCalories);
+        Meal meal = createMealFromRequest(request);
 
         if (requestId == null || requestId.isEmpty()) {
             // create new
@@ -82,11 +96,6 @@ public class MealServlet extends HttpServlet {
         }
 
         log.debug("redirect from doPost to meals.jsp");
-        //request.getRequestDispatcher("meals.jsp").forward(request, response);
-        //response.sendRedirect("meals.jsp");
-        //response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
-        //response.setHeader("Location", "meals.jsp");
-        //this.doGet(request, response);
         response.sendRedirect("meals");
     }
 }

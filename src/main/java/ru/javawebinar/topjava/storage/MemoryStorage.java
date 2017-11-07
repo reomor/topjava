@@ -9,13 +9,15 @@ import java.time.Month;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class MemoryStorage implements Storage {
     private static AtomicInteger idGenerator = new AtomicInteger(0);
     private static final Logger log = LoggerFactory.getLogger(MemoryStorage.class);
 
-    private static List<Meal> meals = new ArrayList<>();
+    //private static List<Meal> meals = new ArrayList<>();
+    private static List<Meal> meals = new CopyOnWriteArrayList<>();
 
     public void initStorage() {
         log.debug("Storage initialized with some test data");
@@ -45,25 +47,28 @@ public class MemoryStorage implements Storage {
     }
 
     @Override
-    public synchronized void add(Meal meal) {
+    public void add(Meal meal) {
         int id = getGeneratedId();
         log.debug("id (" + id + ") generated");
         meal.setId(id);
+        log.debug("meal with id (" + id + ") is added: " + meal);
         meals.add(meal);
     }
 
     @Override
-    public synchronized Meal getById(int id) {
+    public Meal getById(int id) {
         for (Meal meal : meals) {
             if (meal.getId() == id) {
+                log.debug("meal by id (" + id + ") found: " + meal);
                 return meal;
             }
         }
+        log.debug("meal by id (" + id + ") not found. Nothing to delete.");
         return null;
     }
 
     @Override
-    public synchronized void delete(int id) {
+    public void delete(int id) {
         Meal mealToDelete = getById(id);
         if (mealToDelete == null) {
             log.debug("meal by id (" + id + ") not found. Nothing to delete.");
@@ -74,7 +79,7 @@ public class MemoryStorage implements Storage {
     }
 
     @Override
-    public synchronized void update(Meal meal) {
+    public void update(Meal meal) {
         Meal mealToUpdate = getById(meal.getId());
         if (mealToUpdate == null) {
             log.debug("meal by id (" + meal.getId() + ") not found. Nothing to update.");

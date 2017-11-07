@@ -16,14 +16,14 @@
     </c:when>
     <c:otherwise>
         <table class="meals">
-            <th>ID</th>
+           <%-- <th>ID</th>--%>
             <th>Description</th>
             <th>DateTime</th>
             <th>Calories</th>
             <th colspan="2">Action</th>
             <c:forEach items="${mealsWithExceed}" var="meal">
                 <tr class=" + <c:out value="${meal.isExceed() ? 'exceed' : 'not-exceed'}"/> ">
-                    <td>${meal.getId()}</td>
+                    <%--<td>${meal.getId()}</td>--%>
                     <td>${meal.getDescription()}</td>
                     <fmt:parseDate value="${meal.getDateTime()}" pattern="yyyy-MM-dd'T'HH:mm" var="datetimeParsed" type="both"/>
                     <fmt:formatDate pattern="dd-MM-yyyy HH:mm" value="${datetimeParsed}" var="datetimeFormatted"/>
@@ -37,9 +37,10 @@
     </c:otherwise>
 </c:choose>
 <h2>Add new meal</h2>
-<form method="GET" action="meals">
-    <input type="submit" value="Add new"/>
-</form>
+<a href="meals?action=addnew">Add new via GET</a>
+<%--<form method="POST" action="meals?action=addnew">
+    <input type="submit" id="addnew" name="addnew" value="Add new via POST"/>
+</form>--%>
 <form method="POST" action="meals">
     Meal ID : <input type="text" readonly="readonly" name="id" value="<c:out value="${meal.getId()}" />" /> <br />
     Description : <input type="text" name="description" value="<c:out value="${meal.getDescription()}" />" /> <br />
