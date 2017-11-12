@@ -64,6 +64,7 @@ public class InMemoryUserRepositoryImpl implements UserRepository {
         return null;
     }
 
+/*
     {
         repository.put(1, new User(1, "bbb", "email", "email", Role.ROLE_ADMIN, Role.ROLE_USER));
         repository.put(2, new User(2, "aaa", "email2", "email", Role.ROLE_ADMIN, Role.ROLE_USER));
@@ -73,4 +74,6 @@ public class InMemoryUserRepositoryImpl implements UserRepository {
         InMemoryUserRepositoryImpl inMemoryUserRepository = new InMemoryUserRepositoryImpl();
         System.out.println(inMemoryUserRepository.getAll());
     }
+*/
+
 }
