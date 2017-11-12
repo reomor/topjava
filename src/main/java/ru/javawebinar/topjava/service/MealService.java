@@ -11,7 +11,7 @@ public interface MealService {
 
     void update(Meal meal, int userId);
 
-    void delete(Meal meal, int userId);
+    void delete(int id, int userId);
 
     List<Meal> getAllByUserId(int userId);
 

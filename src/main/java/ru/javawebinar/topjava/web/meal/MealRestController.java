@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import ru.javawebinar.topjava.AuthorizedUser;
 import ru.javawebinar.topjava.model.Meal;
+import ru.javawebinar.topjava.repository.mock.InMemoryMealRepositoryImpl;
 import ru.javawebinar.topjava.service.MealService;
+import ru.javawebinar.topjava.service.MealServiceImpl;
 
 import java.util.List;
 
@@ -17,27 +19,32 @@ public class MealRestController {
     @Autowired
     private MealService service;
 
-    Meal add(Meal meal) {
+    // for test without Spring context
+    public MealRestController() {
+        service = new MealServiceImpl(new InMemoryMealRepositoryImpl());
+    }
+
+    public Meal save(Meal meal) {
         return service.add(meal, AuthorizedUser.id());
     }
 
-    Meal get(int id) {
+    public Meal get(int id) {
         return service.get(id, AuthorizedUser.id());
     }
 
-    void update(Meal meal) {
+    public void update(Meal meal) {
         service.update(meal, AuthorizedUser.id());
     }
 
-    void delete(Meal meal) {
-        service.delete(meal, AuthorizedUser.id());
+    public void delete(int id) {
+        service.delete(id, AuthorizedUser.id());
     }
 
-    List<Meal> getAllByUserId() {
+    public List<Meal> getAllByUserId() {
         return service.getAllByUserId(AuthorizedUser.id());
     }
 
-    List<Meal> getAll() {
+    public List<Meal> getAll() {
         return service.getAll();
     }
 }

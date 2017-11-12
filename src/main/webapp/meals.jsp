@@ -25,6 +25,8 @@
     <table border="1" cellpadding="8" cellspacing="0">
         <thead>
         <tr>
+            <th></th>
+            <th></th>
             <th>Date</th>
             <th>Description</th>
             <th>Calories</th>
@@ -35,6 +37,8 @@
         <c:forEach items="${meals}" var="meal">
             <jsp:useBean id="meal" scope="page" type="ru.javawebinar.topjava.to.MealWithExceed"/>
             <tr class="${meal.exceed ? 'exceeded' : 'normal'}">
+                <td>${meal.id}</td>
+                <td>${meal.userId}</td>
                 <td>
                         <%--${meal.dateTime.toLocalDate()} ${meal.dateTime.toLocalTime()}--%>
                         <%--<%=TimeUtil.toString(meal.getDateTime())%>--%>

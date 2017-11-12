@@ -11,7 +11,7 @@ public interface MealRepository {
 
     //void delete(int id);
 
-    boolean delete(Meal meal, int userId);
+    boolean delete(int id, int userId);
 
     //Meal get(int id);
 
