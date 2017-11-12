@@ -9,7 +9,13 @@ public interface MealRepository {
 
     void delete(int id);
 
+    void delete(int id, int userId);
+
     Meal get(int id);
 
+    Meal get(int id, int userId);
+
     Collection<Meal> getAll();
+
+    Collection<Meal> getAllbyUserId(int userId);
 }
