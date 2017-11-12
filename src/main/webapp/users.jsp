@@ -6,5 +6,6 @@
 <body>
 <h3><a href="index.html">Home</a></h3>
 <h2>Users</h2>
+<h2>Current user ID is: ${userid}</h2>
 </body>
 </html>

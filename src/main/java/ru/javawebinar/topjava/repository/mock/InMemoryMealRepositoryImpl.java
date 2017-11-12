@@ -3,9 +3,11 @@ package ru.javawebinar.topjava.repository.mock;
 import org.springframework.stereotype.Repository;
 import ru.javawebinar.topjava.model.Meal;
 import ru.javawebinar.topjava.repository.MealRepository;
+import ru.javawebinar.topjava.to.MealWithExceed;
 import ru.javawebinar.topjava.util.MealsUtil;
 import ru.javawebinar.topjava.util.exception.NotFoundException;
 
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -68,6 +70,11 @@ public class InMemoryMealRepositoryImpl implements MealRepository {
         return false;
     }
 
+    public List<MealWithExceed> getAllFiltered(int userId, LocalDateTime localDTFrom, LocalDateTime localDTTo) {
+        Collection<Meal> meals = getAllByUserId(userId);
+        return MealsUtil.getFilteredWithExceededDT(meals, localDTFrom, localDTTo, MealsUtil.DEFAULT_CALORIES_PER_DAY);
+    }
+
     @Override
     public List<Meal> getAllByUserId(int userId) {
         List<Meal> userMealList = new ArrayList<>();
@@ -76,6 +83,13 @@ public class InMemoryMealRepositoryImpl implements MealRepository {
                 userMealList.add(meal);
             }
         }
+        Collections.sort(userMealList, new Comparator<Meal>() {
+            @Override
+            public int compare(Meal o1, Meal o2) {
+                // по убыванию даты
+                return -o1.getDateTime().compareTo(o2.getDateTime());
+            }
+        });
         return userMealList;
     }
 
