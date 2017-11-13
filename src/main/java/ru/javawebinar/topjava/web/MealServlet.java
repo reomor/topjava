@@ -36,6 +36,8 @@ public class MealServlet extends HttpServlet {
         }
     }
 
+
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
@@ -76,6 +78,13 @@ public class MealServlet extends HttpServlet {
                 break;
             case "filter":
                 log.info("filter applied");
+                request.setAttribute("meals",
+                        controller.getAllFiltered(request.getParameter("dateFrom"),
+                                request.getParameter("dateTo"),
+                                request.getParameter("timeFrom"),
+                                request.getParameter("timeTo")));
+                request.getRequestDispatcher("/meals.jsp").forward(request, response);
+                break;
             case "all":
             default:
                 log.info("getAll");
@@ -84,10 +93,7 @@ public class MealServlet extends HttpServlet {
                         MealsUtil.getWithExceeded(controller.getAllByUserId(), MealsUtil.DEFAULT_CALORIES_PER_DAY));
                 */
                 request.setAttribute("meals",
-                        controller.getAllFiltered(request.getParameter("dateFrom"),
-                                request.getParameter("dateTo"),
-                                request.getParameter("timeFrom"),
-                                request.getParameter("timeTo")));
+                        controller.getAll());
 
                 request.getRequestDispatcher("/meals.jsp").forward(request, response);
                 break;

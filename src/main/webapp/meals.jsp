@@ -29,10 +29,13 @@
         <br>
         Time from:<input type="time" name="timeFrom">
         Time to:<input type="time" name="timeTo">
-        <hr/>
         <button type="submit">Apply filter</button>
     </form>
-
+    <hr/>
+    <form method="get" action="meals">
+        <button type="submit">Clear filter</button>
+    </form>
+    <hr/>
     <table border="1" cellpadding="8" cellspacing="0">
         <thead>
         <tr>

@@ -29,7 +29,7 @@ public class MealRestController {
         return service.get(id, AuthorizedUser.id());
     }
 
-    public void update(Meal meal) {
+    public void update(Meal meal, int id) {
         service.update(meal, AuthorizedUser.id());
     }
 
@@ -45,18 +45,14 @@ public class MealRestController {
         LocalTime localTimeTo = (timeTo == null || timeTo.isEmpty()) ? LocalTime.MAX : LocalTime.parse(timeTo);
 
         // concat to one object
-        //LocalDateTime LocalDateTime.of(LocalDate date,   LocalTime time)
+        //LocalDateTime LocalDateTime.of(LocalDate date, LocalTime time)
 
         return service.getAllFiltered(AuthorizedUser.id(),
                 LocalDateTime.of(localDateFrom, localTimeFrom),
                 LocalDateTime.of(localDateTo, localTimeTo));
     }
 
-    public List<Meal> getAllByUserId() {
-        return service.getAllByUserId(AuthorizedUser.id());
-    }
-
-    public List<Meal> getAll() {
-        return service.getAll();
+    public List<MealWithExceed> getAll() {
+        return service.getAll(AuthorizedUser.id());
     }
 }
