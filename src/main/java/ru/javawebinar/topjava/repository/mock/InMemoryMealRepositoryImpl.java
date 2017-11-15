@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 @Repository
 public class InMemoryMealRepositoryImpl implements MealRepository {
@@ -33,77 +34,53 @@ public class InMemoryMealRepositoryImpl implements MealRepository {
     public Meal save(Meal meal, int userId) {
         if (meal.isNew()) {
             meal.setId(counter.incrementAndGet());
-            meal.setUserId(userId);
         } else {
             Meal mealById = get(meal.getId(), userId);
             if (mealById == null) {
                 return null;
             }
         }
+        meal.setUserId(userId);
         repository.put(meal.getId(), meal);
         return meal;
     }
-
+/*
     private Meal get(int id) {
         return repository.get(id);
     }
+*/
 
     @Override
     public Meal get(int id, int userId) {
-        Meal meal = get(id);
-        if (meal.getUserId() != userId) {
+        Meal meal = repository.get(id);
+        if (meal == null || meal.getUserId() != userId) {
             return null;
         }
         return meal;
     }
-
+/*
     private Meal delete(int id) {
         return repository.remove(id);
     }
+*/
 
     @Override
     public boolean delete(int id, int userId) {
         Meal mealById = get(id, userId);
-        if (mealById != null) {
-            return (delete(id) != null);
-        }
-        return false;
-    }
-
-    public List<MealWithExceed> getAllFiltered(int userId, LocalDateTime localDTFrom, LocalDateTime localDTTo) {
-        Collection<Meal> meals = getAllByUserId(userId);
-        return MealsUtil.getFilteredWithExceededDT(meals, localDTFrom, localDTTo, MealsUtil.DEFAULT_CALORIES_PER_DAY);
+        return mealById != null && (repository.remove(id) != null);
     }
 
     @Override
-    public List<Meal> getAllByUserId(int userId) {
-        List<Meal> userMealList = new ArrayList<>();
-        for (Meal meal : getAll()) {
-            if (meal.getUserId() == userId) {
-                userMealList.add(meal);
-            }
-        }
-        Collections.sort(userMealList, new Comparator<Meal>() {
-            @Override
-            public int compare(Meal o1, Meal o2) {
-                // по убыванию даты
-                return -o1.getDateTime().compareTo(o2.getDateTime());
-            }
-        });
-        return userMealList;
+    public List<Meal> getAllByUserId(Integer userId) {
+        return repository.values().stream()
+                .filter(meal -> userId == null || userId.equals(meal.getUserId()))
+                .sorted((o1, o2) -> -o1.getDateTime().compareTo(o2.getDateTime()))
+                .collect(Collectors.toList());
     }
 
     @Override
     public List<Meal> getAll() {
-        List<Meal> values = new ArrayList<>(repository.values());
-        Collections.sort(values, new Comparator<Meal>() {
-            @Override
-            public int compare(Meal o1, Meal o2) {
-                // по убыванию даты
-                return -o1.getDateTime().compareTo(o2.getDateTime());
-            }
-        });
-        return values;
+        return getAllByUserId(null);
     }
 }
 

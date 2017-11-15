@@ -19,9 +19,9 @@ public interface MealRepository {
 
     Meal get(int id, int userId);
 
-    List<MealWithExceed> getAllFiltered(int userId, LocalDateTime localDTFrom, LocalDateTime localDTTo);
+    //List<MealWithExceed> getAllFiltered(int userId, LocalDateTime localDTFrom, LocalDateTime localDTTo);
 
     List<Meal> getAll();
 
-    List<Meal> getAllByUserId(int userId);
+    List<Meal> getAllByUserId(Integer userId);
 }

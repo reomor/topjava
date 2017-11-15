@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 public class DateTimeUtil {
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
-    public static <T extends Comparable> boolean isBetween(T l, T start, T end) {
+    public static <T extends Comparable<? super T>> boolean isBetween(T l, T start, T end) {
         return l.compareTo(start) >= 0 && l.compareTo(end) <= 0;
     }
 

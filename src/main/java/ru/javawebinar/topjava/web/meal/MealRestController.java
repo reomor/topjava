@@ -13,6 +13,8 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.List;
+import static ru.javawebinar.topjava.util.ValidationUtil.assureIdConsistent;
+import static ru.javawebinar.topjava.util.ValidationUtil.checkNew;
 
 @Controller
 public class MealRestController {
@@ -30,6 +32,7 @@ public class MealRestController {
     }
 
     public void update(Meal meal, int id) {
+        assureIdConsistent(meal, id);
         service.update(meal, AuthorizedUser.id());
     }
 
