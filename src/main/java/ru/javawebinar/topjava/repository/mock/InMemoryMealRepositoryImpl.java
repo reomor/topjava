@@ -72,6 +72,7 @@ public class InMemoryMealRepositoryImpl implements MealRepository {
 
     @Override
     public List<Meal> getAllByUserId(Integer userId) {
+        //values.sort(Comparator.comparing(AbstractNamedEntity::getName).thenComparing(...))
         return repository.values().stream()
                 .filter(meal -> userId == null || userId.equals(meal.getUserId()))
                 .sorted((o1, o2) -> -o1.getDateTime().compareTo(o2.getDateTime()))

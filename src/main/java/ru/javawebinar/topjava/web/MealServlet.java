@@ -51,7 +51,12 @@ public class MealServlet extends HttpServlet {
 
         log.info(meal.isNew() ? "Create {}" : "Update {}", meal);
         //repository.save(meal);
-        controller.save(meal);
+        if(meal.isNew()) {
+            controller.save(meal);
+        } else {
+            controller.update(meal, meal.getId());
+        }
+
         response.sendRedirect("meals");
     }
 
