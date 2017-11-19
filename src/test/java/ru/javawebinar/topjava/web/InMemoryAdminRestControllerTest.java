@@ -3,6 +3,8 @@ package ru.javawebinar.topjava.web;
 import org.junit.*;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.env.AbstractEnvironment;
+import org.springframework.test.context.ActiveProfiles;
 import ru.javawebinar.topjava.UserTestData;
 import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.repository.mock.InMemoryUserRepositoryImpl;
@@ -20,7 +22,9 @@ public class InMemoryAdminRestControllerTest {
 
     @BeforeClass
     public static void beforeClass() {
+        System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "inmemory");
         appCtx = new ClassPathXmlApplicationContext("spring/spring-app.xml");
+        //appCtx.getEnvironment().setActiveProfiles("inmemory");
         System.out.println("\n" + Arrays.toString(appCtx.getBeanDefinitionNames()) + "\n");
         controller = appCtx.getBean(AdminRestController.class);
     }
