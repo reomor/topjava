@@ -107,10 +107,12 @@ public class MealServiceTest {
         assertMatch(service.getAll(USER_ID), MEAL02, MEAL03, MEAL04, MEAL05, MEAL06);
     }
 
+    /*
     @Test
     public void checkEqualTo() {
         Meal meal01_edited = new Meal(MEAL01);
         meal01_edited.setDescription("Dinner");
         assertMatch(meal01_edited, MEAL01);
     }
+    //*/
 }
