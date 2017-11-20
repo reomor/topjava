@@ -12,7 +12,7 @@ import java.util.List;
 import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFoundWithId;
 
 @Service
-@Profile({"inmemory", "jdbc"})
+//@Profile({"inmemory", "jdbc"})
 public class MealServiceImpl implements MealService {
 
     private final MealRepository repository;

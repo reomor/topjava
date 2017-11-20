@@ -13,7 +13,7 @@ import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFound;
 import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFoundWithId;
 
 @Service
-@Profile({"inmemory", "jdbc"})
+//@Profile({"inmemory", "jdbc"})
 public class UserServiceImpl implements UserService {
 
     private final UserRepository repository;

@@ -28,7 +28,7 @@ import static ru.javawebinar.topjava.MealTestData.*;
 })
 @RunWith(SpringRunner.class)
 @Sql(scripts = "classpath:db/populateDB.sql", config = @SqlConfig(encoding = "UTF-8"))
-@ActiveProfiles("jdbc")
+//@ActiveProfiles("jdbc")
 public class MealServiceTest {
     @Autowired
     private MealService service;
@@ -105,5 +105,12 @@ public class MealServiceTest {
     public void deleteWithForeignId() throws Exception {
         service.delete(MEAL01_ID, ADMIN_ID);
         assertMatch(service.getAll(USER_ID), MEAL02, MEAL03, MEAL04, MEAL05, MEAL06);
+    }
+
+    @Test
+    public void checkEqualTo() {
+        Meal meal01_edited = new Meal(MEAL01);
+        meal01_edited.setDescription("Dinner");
+        assertMatch(meal01_edited, MEAL01);
     }
 }

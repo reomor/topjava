@@ -18,9 +18,9 @@ import java.util.List;
 
 public class SpringMain {
     public static void main(String[] args) {
-        System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "inmemory");
+        //System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "inmemory");
         // java 7 Automatic resource management
-        try (ConfigurableApplicationContext appCtx = new ClassPathXmlApplicationContext("spring/spring-app.xml")) {
+        try (ConfigurableApplicationContext appCtx = new ClassPathXmlApplicationContext("spring/spring-app-mock.xml")) {
             //appCtx.getEnvironment().setActiveProfiles("inmemory");
             System.out.println("Bean definition names: " + Arrays.toString(appCtx.getBeanDefinitionNames()));
             AdminRestController adminUserController = appCtx.getBean(AdminRestController.class);

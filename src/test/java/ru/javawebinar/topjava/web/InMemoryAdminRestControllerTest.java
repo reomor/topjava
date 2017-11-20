@@ -22,8 +22,8 @@ public class InMemoryAdminRestControllerTest {
 
     @BeforeClass
     public static void beforeClass() {
-        System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "inmemory");
-        appCtx = new ClassPathXmlApplicationContext("spring/spring-app.xml");
+        //System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "inmemory");
+        appCtx = new ClassPathXmlApplicationContext("spring/spring-app-mock.xml");
         //appCtx.getEnvironment().setActiveProfiles("inmemory");
         System.out.println("\n" + Arrays.toString(appCtx.getBeanDefinitionNames()) + "\n");
         controller = appCtx.getBean(AdminRestController.class);
