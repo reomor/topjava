@@ -45,8 +45,8 @@ public class JdbcMealRepositoryImpl implements MealRepository {
                 .addValue("id", meal.getId())
                 .addValue("description", meal.getDescription())
                 .addValue("datetime", meal.getDateTime())
-                .addValue("calories", meal.getCalories())
-                .addValue("user_id", userId);
+                .addValue("calories", meal.getCalories());
+                //.addValue("user_id", userId);
         if (meal.isNew()) {
             Number newId;
             try {
@@ -56,8 +56,10 @@ public class JdbcMealRepositoryImpl implements MealRepository {
             }
             meal.setId(newId.intValue());
         } else {
+            //unsafe, van update foreign
             final int updateStatus = namedParameterJdbcTemplate.update(
-                    "UPDATE meals SET description=:description, datetime=:datetime, calories=:calories, user_id=:user_id WHERE id=:id", map);
+                    //"UPDATE meals SET description=:description, datetime=:datetime, calories=:calories, user_id=:user_id WHERE id=:id", map);
+                    "UPDATE meals SET description=:description, datetime=:datetime, calories=:calories WHERE id=:id AND user_id=:user_id", map);
             if (updateStatus == 0) {
                 return null;
             }
