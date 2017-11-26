@@ -1,5 +1,7 @@
 package ru.javawebinar.topjava.model;
 
+import ru.javawebinar.topjava.util.LocalDateTimeConverter;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -10,7 +12,8 @@ import java.time.LocalTime;
 @NamedQueries({
         @NamedQuery(name = Meal.GET, query = "SELECT m FROM Meal m WHERE m.id=:id and m.user.id=:userid"),
         @NamedQuery(name = Meal.DELETE, query = "DELETE FROM Meal m WHERE m.id=:id and m.user.id=:userid"),
-        @NamedQuery(name = Meal.GET_ALL_SORTED, query = "SELECT m FROM Meal m WHERE m.user.id=:userid ORDER BY m.dateTime DESC")
+        @NamedQuery(name = Meal.GET_ALL_SORTED, query = "SELECT m FROM Meal m WHERE m.user.id=:userid ORDER BY m.dateTime DESC"),
+        @NamedQuery(name = Meal.GET_BETWEEN_SORTED, query = "SELECT m FROM Meal m WHERE m.user.id=:userid AND m.dateTime BETWEEN :dtFrom AND :dtTo ORDER BY m.dateTime DESC")
 })
 @Entity
 @Table(
@@ -28,6 +31,7 @@ public class Meal extends AbstractBaseEntity {
 
     @Column(name = "date_time", nullable = false)
     @NotNull
+    @Convert(converter = LocalDateTimeConverter.class)
     private LocalDateTime dateTime;
 
     @Column(name = "description", nullable = false)
@@ -105,4 +109,17 @@ public class Meal extends AbstractBaseEntity {
                 ", calories=" + calories +
                 '}';
     }
+    //*/
+    /*
+    @Override
+    public String toString() {
+        return "Meal{" +
+                "dateTime=" + dateTime +
+                ", description='" + description + '\'' +
+                ", calories=" + calories +
+                ", user=" + user +
+                ", id=" + id +
+                '}';
+    }
+    //*/
 }

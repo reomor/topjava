@@ -10,6 +10,8 @@ import static java.time.LocalDateTime.of;
 import static org.assertj.core.api.Assertions.assertThat;
 import static ru.javawebinar.topjava.model.AbstractBaseEntity.START_SEQ;
 
+import static ru.javawebinar.topjava.UserTestData.*;
+
 public class MealTestData {
     public static final int MEAL1_ID = START_SEQ + 2;
     public static final int ADMIN_MEAL_ID = START_SEQ + 8;
@@ -23,14 +25,30 @@ public class MealTestData {
     public static final Meal ADMIN_MEAL1 = new Meal(ADMIN_MEAL_ID, of(2015, Month.JUNE, 1, 14, 0), "Админ ланч", 510);
     public static final Meal ADMIN_MEAL2 = new Meal(ADMIN_MEAL_ID + 1, of(2015, Month.JUNE, 1, 21, 0), "Админ ужин", 1500);
 
+    static {
+        MEAL1.setUser(USER);
+        MEAL2.setUser(USER);
+        MEAL3.setUser(USER);
+        MEAL4.setUser(USER);
+        MEAL5.setUser(USER);
+        MEAL6.setUser(USER);
+
+        ADMIN_MEAL1.setUser(ADMIN);
+        ADMIN_MEAL2.setUser(ADMIN);
+    }
+
     public static final List<Meal> MEALS = Arrays.asList(MEAL6, MEAL5, MEAL4, MEAL3, MEAL2, MEAL1);
 
     public static Meal getCreated() {
-        return new Meal(null, of(2015, Month.JUNE, 1, 18, 0), "Созданный ужин", 300);
+        Meal meal = new Meal(null, of(2015, Month.JUNE, 1, 18, 0), "Созданный ужин", 300);
+        meal.setUser(USER);
+        return meal;
     }
 
     public static Meal getUpdated() {
-        return new Meal(MEAL1_ID, MEAL1.getDateTime(), "Обновленный завтрак", 200);
+        Meal meal = new Meal(MEAL1_ID, MEAL1.getDateTime(), "Обновленный завтрак", 200);
+        meal.setUser(USER);
+        return meal;
     }
 
     public static void assertMatch(Meal actual, Meal expected) {
