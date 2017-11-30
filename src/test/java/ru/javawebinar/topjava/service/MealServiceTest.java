@@ -2,11 +2,9 @@ package ru.javawebinar.topjava.service;
 
 import org.junit.*;
 import org.junit.rules.ExpectedException;
-import org.junit.rules.TestRule;
-import org.junit.rules.TestWatcher;
+import org.junit.rules.*;
 import org.junit.runner.Description;
 import org.junit.runner.RunWith;
-import org.junit.runners.model.Statement;
 import org.slf4j.bridge.SLF4JBridgeHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -22,8 +20,12 @@ import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
+import org.slf4j.Logger;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.slf4j.LoggerFactory.getLogger;
 import static ru.javawebinar.topjava.MealTestData.*;
 import static ru.javawebinar.topjava.UserTestData.ADMIN_ID;
 import static ru.javawebinar.topjava.UserTestData.USER_ID;
@@ -35,6 +37,8 @@ import static ru.javawebinar.topjava.UserTestData.USER_ID;
 @RunWith(SpringJUnit4ClassRunner.class)
 @Sql(scripts = "classpath:db/populateDB.sql", config = @SqlConfig(encoding = "UTF-8"))
 public class MealServiceTest {
+
+    static final Logger log = getLogger(MealServiceTest.class);
 
     static {
         SLF4JBridgeHandler.install();
@@ -48,6 +52,7 @@ public class MealServiceTest {
     public final ExpectedException thrown = ExpectedException.none();
 
     private static Map<String, Long> testsTime = new HashMap<>();
+    private static Map<String, Long> stopWatchTime = new HashMap<>();
 
     /*
     class TestTiming implements TestRule {
@@ -83,18 +88,34 @@ public class MealServiceTest {
             long endTime = System.nanoTime();
             long duration = (endTime - startTime) / 1_000_000;
             testsTime.put(description.getMethodName(), duration);
-            System.out.println(description.getMethodName() + " lasts " + duration + "ms");
+//            System.out.println(description.getMethodName() + " lasts " + duration + "ms");
+            log.info(description.getMethodName() + " lasts " + duration + "ms");
         }
     };
 
     @AfterClass
     public static void printTestsTime() {
-        System.out.println("=== Tests duration ===");
+        log.info("=== Tests duration ===");
         for(Map.Entry<String, Long> entry : testsTime.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue() + "ms");
+            //System.out.println(entry.getKey() + ": " + entry.getValue() + "ms");
+            log.info(entry.getKey() + ": " + entry.getValue() + "ms");
         }
-        System.out.println("=== /Tests duration ===");
+        log.info("=== /Tests duration ===");
     }
+
+    private static void logInfo(Description description, String status, long nanos) {
+        String testName = description.getMethodName();
+        log.info(String.format("Test %s %s, spent %d microseconds", testName, status, TimeUnit.NANOSECONDS.toMicros(nanos)));
+        //System.out.println(String.format("Test %s %s, spent %d microseconds", testName, status, TimeUnit.NANOSECONDS.toMicros(nanos)));
+    }
+
+    @Rule
+    public Stopwatch stopwatch = new Stopwatch() {
+        @Override
+        protected void finished(long nanos, Description description) {
+            logInfo(description, "finished", nanos);
+        }
+    };
 
     @Test
     @Transactional

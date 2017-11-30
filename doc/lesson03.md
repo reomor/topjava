@@ -18,8 +18,8 @@
 
 
 
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-86cd322445303c5c004f8612ba4b203e9dc7e7759558ffb5175639c167a7aed0.css" integrity="sha256-hs0yJEUwPFwAT4YSuksgPp3H53WVWP+1F1Y5wWenrtA=" media="all" rel="stylesheet" />
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-602af24d23274376c1f0ae991ac44c5c59a073a495c5800ead26b3153e68ae28.css" integrity="sha256-YCryTSMnQ3bB8K6ZGsRMXFmgc6SVxYAOrSazFT5orig=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-c9193575f18b28be82c0a963e144ff6fa7a809dd8ae003a1d1e5979bed3f7f00.css" integrity="sha256-yRk1dfGLKL6CwKlj4UT/b6eoCd2K4AOh0eWXm+0/fwA=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-9ed815ea772b21ac723e5af484a801e4529591a0abda03969434dc16af6ecf16.css" integrity="sha256-ntgV6ncrIaxyPlr0hKgB5FKVkaCr2gOWlDTcFq9uzxY=" media="all" rel="stylesheet" />
   
   
   
@@ -36,10 +36,10 @@
     <meta content="https://avatars1.githubusercontent.com/u/11200258?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="JavaWebinar/topjava" property="og:title" /><meta content="https://github.com/JavaWebinar/topjava" property="og:url" /><meta content="Contribute to topjava development by creating an account on GitHub." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OjJkY2Y4NTBmMDkxNDg5Yzg2ZDRiMDQxOWE5ZGFiYTUwYTM1M2IzODQzOWNiNTNkY2ZlY2E1MGVmYzAyOTU2YjY=--3db26e2720e497be1bd16478053d43aa272361b7">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OmMxYmNmNmQ2MDVhYzI4YTRhNDQyMmQyZWVmNzljMmYzMTE3MTdlYTk2ZDFkMGY4MTBhMTg0NzRiOTg3MzQ5YjY=--8d4fac3970241ee6d62e57c7789c2cbde7db01a0">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="047B:371A:151A1CB:24FEF13:5A0DD1FF" data-pjax-transient>
+  <meta name="request-id" content="04AE:1447:176C681:2A6CD1D:5A202000" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="047B:371A:151A1CB:24FEF13:5A0DD1FF" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="04AE:1447:176C681:2A6CD1D:5A202000" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,13 +63,13 @@
   <meta name="user-login" content="reomor">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZmE4Y2NlYjllNWIxZGMxYjkyYTUxNTYxNmRjMWMwOTlmNjAyMjg1ZWY5ZmIxZGVjNTRkYzllZWE2MzkyOWZkZXx7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMDQ3QjozNzFBOjE1MUExQ0I6MjRGRUYxMzo1QTBERDFGRiIsInRpbWVzdGFtcCI6MTUxMDg1NTE3MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="NjE1ZmJlMzhmMmNhM2M4NWQwZTRjMmUyY2NlYTY0MjBjMGNlNDc1OGY1ZTBiMTcxODhlZjhkY2VlZGEwNGMwYXx7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMDRBRToxNDQ3OjE3NkM2ODE6MkE2Q0QxRDo1QTIwMjAwMCIsInRpbWVzdGFtcCI6MTUxMjA1NDc4OCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
   <meta name="html-safe-nonce" content="fa82dd700a6a0972927d8c1ff85d92a6707462f2">
 
-  <meta http-equiv="x-pjax-version" content="07db9314a549076f7af4cef0a89719ea">
+  <meta http-equiv="x-pjax-version" content="fcc2ac04d9d4cc6d7c4a7381e4f11c31">
   
 
       <link href="https://github.com/JavaWebinar/topjava/commits/doc.atom" rel="alternate" title="Recent Commits to topjava:doc" type="application/atom+xml">
@@ -167,18 +167,18 @@
       <div class="d-flex">
         
 <ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
-  <li class="dropdown js-menu-container js-header-notifications">
+  <li class="dropdown js-menu-container">
     <span class="d-inline-block  px-2">
       
-      <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-channel="notification-changed:1889491" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
-          <span class="mail-status "></span>
-          <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
+    <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-channel="notification-changed:1889491" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status "></span>
+        <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
 </a>
     </span>
   </li>
 
   <li class="dropdown js-menu-container">
-    <details class="dropdown-details js-dropdown-details d-flex px-2 flex-items-center">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex px-2 flex-items-center">
       <summary class="HeaderNavlink"
          aria-label="Create new…"
          data-ga-click="Header, create new, icon:add">
@@ -220,7 +220,7 @@
 
   <li class="dropdown js-menu-container">
 
-    <details class="dropdown-details js-dropdown-details d-flex pl-2 flex-items-center">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex pl-2 flex-items-center">
       <summary class="HeaderNavlink name mt-1"
         aria-label="View profile and more"
         data-ga-click="Header, show menu, icon:avatar">
@@ -253,7 +253,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="a+a36yxNrgpqUh+FjMn08mZ7jTisT7Ra1gKOl5X6djTem/1V95oNGvRnQlKmb54XMiI3pRAEo0OfaVjIV/VU1g==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="saqvKrZeMZC5WUDc/1ir4nvsCAgr74UdSSmR29rSmFkE1+WUbYmSgCdsHQvV/sEHL7WylZekkgQAQkeEGN26uw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -264,7 +264,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BA/EB3jasIoy//MJ3VZJH3QRhkCDABWo1kr0b1shk8uxco65ow0TmqzKrt738CP6IEg83T9LArGfISIwmS6xKQ==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="TJoLAwq8JTy7hcsSjjFYv5MIaWS0ERwWafxJSGzpqGz550G90WuGLCWwlsWklzJax1HT+QhaCw8gl58XruaKjg==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -299,7 +299,7 @@
 
         <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="A7CFgmEJL37wRk4NNhpbFCek7AEKlfdblLaYDSPIWpAuVtUZ8Ar+IiTbZeKZIhuQkERU+IsLqc/ks4bIwm2t0A==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kNuzddWDpx97zAeJfcJZIxSh2cMAHMAuzdnhLxQMfzK9PePuRIB2Q69RLGbS+hmno0FhOoGCnrq93P/q9amIcg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/JavaWebinar/topjava/subscription"
@@ -379,7 +379,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XzxR4EISYFLQ4an/lCvF2w8vgmf0U6OLvAm7EUSn3Oyw3htRjJkkoCdXtMi5m5+n0Br1QHuIL4YxspYu1HZ9Gw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xJc0HdIACHOjpPTVoR0iMS3rB4WtZd9GO2rcDEgfk8UrdX6sHItMgVQS6eKMrXhN8t5woiK+U0u20fEz2M4yMg==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -390,11 +390,11 @@
         Unstar
       </button>
         <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="4 users starred this repository">
-          4
+           aria-label="6 users starred this repository">
+          6
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lx07t9DZUiKvBGAHQrUcFpq73uGQCLiVBGfKcjVhdLkqgZGVfoTCOUpfOZROmZGTqwPrJBhbMd0ssybt5PYi7Q==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="f/LKl/HrwRolhCOCJRTpLSzUkX4TpkYsWfH5L7rJUCfCbmC1X7ZRAcDfehEpOGSoHWyku5v1z2RxJRWwa14Gcw==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -405,15 +405,15 @@
         Star
       </button>
         <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="4 users starred this repository">
-          4
+           aria-label="6 users starred this repository">
+          6
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="oarQvtBfDrwoHPTHAjlmRkfe83M0zsZPBv3d3Us6I8hBmQv3oUINQOvNQRqJil4d8yYnz59ysL0Fyqs4Z6K/EQ==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6EEHhXfHV2CR9JQvgL+c1X8Ur3uFeo2KFMKlV4t4jk8IctzMBtpUnFIlIfILDKSOy+x7xy7G+3gX9dOyp+ASlg==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -425,8 +425,8 @@
             </button>
 </form>
     <a href="/JavaWebinar/topjava/network" class="social-count"
-       aria-label="40 users forked this repository">
-      40
+       aria-label="51 users forked this repository">
+      51
     </a>
   </li>
 </ul>
@@ -466,7 +466,7 @@
     <a href="/JavaWebinar/topjava/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /JavaWebinar/topjava/pulls" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
+      <span class="Counter">1</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
@@ -494,9 +494,9 @@
   <div class="repository-content">
 
     
-  <a href="/JavaWebinar/topjava/blob/9b2dae9eb056fd6142020737b778a57e499d7c30/doc/lesson03.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/JavaWebinar/topjava/blob/25ada2d245d6174d5753a78815f8635bff8d4d65/doc/lesson03.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:fb9a8f30553b5dae2634a2c48b3fcab9 -->
+  <!-- blob contrib key: blob_contributors:v21:3cb8c1f60c1a69dad08d675f51f1adf3 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -593,15 +593,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/9b2dae9eb056fd6142020737b778a57e499d7c30" data-pjax>
-          9b2dae9
+        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/dc19e42e1a72f1073c8b1213ee12992d463334c8" data-pjax>
+          dc19e42
         </a>
-        <relative-time datetime="2017-11-16T10:07:44Z">Nov 16, 2017</relative-time>
+        <relative-time datetime="2017-11-28T10:53:08Z">Nov 28, 2017</relative-time>
       </span>
       <div>
         <img alt="@JavaWebinar" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/11200258?s=40&amp;v=4" width="20" />
         <a href="/JavaWebinar" class="user-mention" rel="author">JavaWebinar</a>
-          <a href="/JavaWebinar/topjava/commit/9b2dae9eb056fd6142020737b778a57e499d7c30" class="message" data-pjax="true" title="Update lesson03.md">Update lesson03.md</a>
+          <a href="/JavaWebinar/topjava/commit/dc19e42e1a72f1073c8b1213ee12992d463334c8" class="message" data-pjax="true" title="Update lesson03.md">Update lesson03.md</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -641,12 +641,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson03.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YsGLO90UBtQTkrmixO4M4c2ZLYmQqIM205BJUhrMwo/EJsW/KfCU82K2kLJf/T/Bx05e8rD4DhCIV6jJzl0ozA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson03.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hiaFVTORS28wbZ6nibqFMaRfbdZPVDIZbp552M2HYQQgwcvRx3XZSEFJt7cSqbYRrogerW8Evz81WZhDGRaLRw==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson03.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="07Uq5b8GHoTvv2Z89DHsZsyT7o//YTmNIea49i5uY1HYvMKQpEXFlrEff3Ix+KzzvQ+pygZ/5Me7YhqNpZsJaA==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson03.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2I2+DJckpi9WRaxqhKpL3g1cn8bGIRY8neIFZQRFhB3ThFZ5jGd9PQjltWRBYwtLfMDYgz8/y3YHZqcej7DuJA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -654,16 +654,16 @@
 </form>  </div>
 
   <div class="file-info">
-      245 lines (177 sloc)
+      252 lines (183 sloc)
       <span class="file-info-divider"></span>
-    29.9 KB
+    31.5 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
     <article class="markdown-body entry-content" itemprop="text"><h1><a href="#Онлайн-проект-topjava" aria-hidden="true" class="anchor" id="user-content-Онлайн-проект-topjava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Онлайн проект <a href="https://github.com/JavaWebinar/topjava">Topjava</a></h1>
-<h2><a href="#Материалы-занятия--скачать-все-патчи-можно-через-download-папки-patch" aria-hidden="true" class="anchor" id="user-content-Материалы-занятия--скачать-все-патчи-можно-через-download-папки-patch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFT1NxdTFOQ1dvVnM">Материалы занятия</a>  (скачать все патчи можно через Download папки patch)</h2>
+<h2><a href="#Материалы-занятия--скачать-все-патчи-можно-через-download-папки-patch" aria-hidden="true" class="anchor" id="user-content-Материалы-занятия--скачать-все-патчи-можно-через-download-папки-patch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFT1NxdTFOQ1dvVnM" rel="nofollow">Материалы занятия</a>  (скачать все патчи можно через Download папки patch)</h2>
 <h3><a href="#-Правки-в-проекте" aria-hidden="true" class="anchor" id="user-content--Правки-в-проекте"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" alt="correction" style="max-width:100%;"></a> Правки в проекте</h3>
 <h4><a href="#apply-3_0_fixpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_0_fixpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_0_fix.patch</h4>
 <ul>
@@ -673,20 +673,20 @@
 <li>В поля ввода формы добавил <code>required</code></li>
 </ul>
 <h2><a href="#-Разбор-домашнего-задания-hw02" aria-hidden="true" class="anchor" id="user-content--Разбор-домашнего-задания-hw02"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" alt="hw" style="max-width:100%;"></a> Разбор домашнего задания HW02</h2>
-<h3><a href="#-1-hw2" aria-hidden="true" class="anchor" id="user-content--1-hw2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdDhnNHFMU2dKQzQ">HW2</a></h3>
+<h3><a href="#-1-hw2" aria-hidden="true" class="anchor" id="user-content--1-hw2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdDhnNHFMU2dKQzQ" rel="nofollow">HW2</a></h3>
 <blockquote>
-<p><strong>ВНИМАНИЕ! При удалении класса из исходников он (скомпилированный) остается в target (и classpath). В этом случае (или в любом другом, когда проект начинает глючить) сделайте <code>mvn clean</code>.</strong></p>
+<p><strong>ВНИМАНИЕ! При удалении класса из исходников, его скомпилированная версия все еще будет находиться в target (и classpath). В этом случае (или в любом другом, когда проект начинает глючить) сделайте <code>mvn clean</code>.</strong></p>
 </blockquote>
 <h4><a href="#apply-3_01_hw2_repositorypatch" aria-hidden="true" class="anchor" id="user-content-apply-3_01_hw2_repositorypatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_01_HW2_repository.patch</h4>
 <blockquote>
 <ul>
-<li>В репозиториях по другому инстанциировал компараторы. <a href="http://stackoverflow.com/questions/19718353">Оптимизация анонимных классов</a> не требуется! Почитайте комменты от Holger: <em>Java 8 relieves us from the need to think about such things at all</em>.</li>
-<li>Зарефакторил <code>&lt;T extends Comparable&lt;? super T&gt;&gt; DateTimeUtil.isBetween(T value, T start, T end)</code>. Дженерики означают, что мы принимаем экземпляры класса, который имплементит компаратор, который умеет сравнивать T или суперклассы от T</li>
-<li>В <code>InMemoryMealRepositoryImpl.save()</code> сделал обновление атомарным. В варианте <code>computeIfPresent</code> (см. псевдокод в <code>Map.computeIfPresent</code>) удаление элемента <code>if (newValue == null) remove</code> не используем, т.к. передаем ненулевое новое значение. Используем только атомарноный <code>put</code>, если элемент присутствует, те вместо 2х операций, разнесенных во времени
+<li>В репозиториях по другому инстанциировал компараторы. <a href="http://stackoverflow.com/questions/19718353" rel="nofollow">Оптимизация анонимных классов</a> не требуется! Почитайте комменты от Holger: <em>Java 8 relieves us from the need to think about such things at all</em>.</li>
+<li>Зарефакторил <code>&lt;T extends Comparable&lt;? super T&gt;&gt; DateTimeUtil.isBetween(T value, T start, T end)</code>. Дженерики означают, что мы принимаем экземпляры класса, реализующего компаратор, который умеет сравнивать T или суперклассы от T</li>
+<li>В <code>InMemoryMealRepositoryImpl.save()</code> вместо 2-х разнесенных по времени операций
 <ul>
-<li>проверка <code>get(meal.getId(), userId)</code></li>
+<li><code>get(meal.getId(), userId)</code></li>
 <li><code>meals.put(meal.getId(), meal)</code>,
-между которыми может быть например операция удаления этой еды из другого потока делается <code>meals.computeIfPresent</code>. <code>ConcurrentHashMap</code> в отличие от <code>HashMap</code> делает операции атомарно.</li>
+между которыми может вклинится операция удаления этой еды из другого потока, сделал обновление атомарным, используя <code>ConcurrentHashMap.computeIfPresent()</code> (см. псевдокод в <code>Map.computeIfPresent</code>. <code>ConcurrentHashMap</code> в отличие от <code>HashMap</code> делает операции атомарно).</li>
 </ul>
 </li>
 </ul>
@@ -708,15 +708,15 @@
 <h4><a href="#apply-3_04_hw2_optional_filterpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_04_hw2_optional_filterpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_04_HW2_optional_filter.patch</h4>
 <blockquote>
 <ul>
-<li>Вместо <code>MealServlet.resetParam</code> (перемещение параметров фильтрации в атрибуты запроса для отображения в <code>meals.jsp</code>), достаю их в jsp напрямую из запроса через <a href="https://stackoverflow.com/a/1890462/548473"><code>${param.xxx}</code></a></li>
+<li>Вместо <code>MealServlet.resetParam</code> (перемещение параметров фильтрации в атрибуты запроса для отображения в <code>meals.jsp</code>), достаю их в jsp напрямую из запроса через <a href="https://stackoverflow.com/a/1890462/548473" rel="nofollow"><code>${param.xxx}</code></a></li>
 <li>В демо фильтр не хранится в сессии (скидывается по F5). Что такое сессия будем разбирать, когда будем делать реальную авторизацию</li>
 </ul>
 </blockquote>
 <h4><a href="#apply-3_05_hw2_optional_select_userpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_05_hw2_optional_select_userpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_05_HW2_optional_select_user.patch</h4>
-<h3><a href="#-2-Вопросы-по-api-и-слоям-приложения" aria-hidden="true" class="anchor" id="user-content--2-Вопросы-по-api-и-слоям-приложения"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGRVM0QyblJtNGc">Вопросы по API и слоям приложения</a></h3>
+<h3><a href="#-2-Вопросы-по-api-и-слоям-приложения" aria-hidden="true" class="anchor" id="user-content--2-Вопросы-по-api-и-слоям-приложения"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGRVM0QyblJtNGc" rel="nofollow">Вопросы по API и слоям приложения</a></h3>
 <ul>
-<li><a href="http://stackoverflow.com/questions/21554977/should-services-always-return-dtos-or-can-they-also-return-domain-models">Should services always return DTOs, or can they also return domain models?</a></li>
-<li><a href="http://stackoverflow.com/questions/31644131/spring-dto-dao-resource-entity-mapping-goes-in-which-application-layer-cont/35798539#35798539">Mapping Entity-&gt;DTO goes in which application layer: Controller or Service?</a></li>
+<li><a href="http://stackoverflow.com/questions/21554977/should-services-always-return-dtos-or-can-they-also-return-domain-models" rel="nofollow">Should services always return DTOs, or can they also return domain models?</a></li>
+<li><a href="http://stackoverflow.com/questions/31644131/spring-dto-dao-resource-entity-mapping-goes-in-which-application-layer-cont/35798539#35798539" rel="nofollow">Mapping Entity-&gt;DTO goes in which application layer: Controller or Service?</a></li>
 </ul>
 <h3><a href="#-Вопросы-по-hw2" aria-hidden="true" class="anchor" id="user-content--Вопросы-по-hw2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Вопросы по HW2</h3>
 <blockquote>
@@ -728,26 +728,26 @@
 </blockquote>
 <p>В данном случае двойная мапа - самый эффективный способ хранения, который не требует итерирования (перебора всех значений).</p>
 <h2><a href="#Занятие-3" aria-hidden="true" class="anchor" id="user-content-Занятие-3"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Занятие 3:</h2>
-<h3><a href="#-3-Коротко-о-жизненном-цикле-spring-контекста" aria-hidden="true" class="anchor" id="user-content--3-Коротко-о-жизненном-цикле-spring-контекста"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле Spring контекста.</a></h3>
+<h3><a href="#-3-Коротко-о-жизненном-цикле-spring-контекста" aria-hidden="true" class="anchor" id="user-content--3-Коротко-о-жизненном-цикле-spring-контекста"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA" rel="nofollow">Коротко о жизненном цикле Spring контекста.</a></h3>
 <h4><a href="#apply-3_06_bean_life_cyclepatch" aria-hidden="true" class="anchor" id="user-content-apply-3_06_bean_life_cyclepatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_06_bean_life_cycle.patch</h4>
 <ul>
-<li><a href="http://habrahabr.ru/post/222579/">Spring изнутри. Этапы инициализации контекста.</a></li>
+<li><a href="http://habrahabr.ru/post/222579/" rel="nofollow">Spring изнутри. Этапы инициализации контекста.</a></li>
 <li>Ресурсы:
 <ul>
-<li><a href="https://www.youtube.com/watch?v=BmBr5diz8WA">Евгений Борисов. Spring, часть 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=cou_qomYLNU">Евгений Борисов. Spring, часть 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=BmBr5diz8WA" rel="nofollow">Евгений Борисов. Spring, часть 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=cou_qomYLNU" rel="nofollow">Евгений Борисов. Spring, часть 2</a></li>
 </ul>
 </li>
 </ul>
-<h3><a href="#--4-Тестирование-через-junit" aria-hidden="true" class="anchor" id="user-content---4-Тестирование-через-junit"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a>  4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlkU1B0QnNnSGs">Тестирование через JUnit.</a></h3>
+<h3><a href="#--4-Тестирование-через-junit" aria-hidden="true" class="anchor" id="user-content---4-Тестирование-через-junit"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a>  4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlkU1B0QnNnSGs" rel="nofollow">Тестирование через JUnit.</a></h3>
 <blockquote>
 <p><strong>ВНИМАНИЕ!! Перед накаткой патча создайте каталог test (из корня проекта путь <code>\src\test</code>), иначе часть файлов попадет в <code>src\main</code>.</strong></p>
 <ul>
-<li>в <code>maven-surefire-plugin</code> (JUnit) <a href="http://stackoverflow.com/questions/17656475/maven-source-encoding-in-utf-8-not-working/17671104#17671104">поменял кодировку на UTF-8</a></li>
+<li>в <code>maven-surefire-plugin</code> (JUnit) <a href="http://stackoverflow.com/questions/17656475/maven-source-encoding-in-utf-8-not-working/17671104#17671104" rel="nofollow">поменял кодировку на UTF-8</a></li>
 <li>добавил метод <code>InMemoryUserRepositoryImpl.init()</code> для инициализации.
 <ul>
 <li><code>save()</code> не больше работает для  отсутствующих <code>id</code></li>
-<li>автогенерацию id начал с 10</li>
+<li>автогенерацию id начал со 100</li>
 </ul>
 </li>
 </ul>
@@ -755,10 +755,10 @@
 <h4><a href="#apply-3_07_add_junitpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_07_add_junitpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_07_add_junit.patch</h4>
 <h4><a href="#-Вопрос-почему-проект-упадет-при-попытке-открыть-страничку-еды-в-логе-смотреть-самый-верх-самого-нижнего-исключения" aria-hidden="true" class="anchor" id="user-content--Вопрос-почему-проект-упадет-при-попытке-открыть-страничку-еды-в-логе-смотреть-самый-верх-самого-нижнего-исключения"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Вопрос: почему проект упадет при попытке открыть страничку еды (в логе смотреть самый верх самого нижнего исключения)?</h4>
 <ul>
-<li><a href="http://junit.org/junit4/">JUnit 4</a></li>
-<li><a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a></li>
+<li><a href="http://junit.org/junit4/" rel="nofollow">JUnit 4</a></li>
+<li><a href="http://habrahabr.ru/post/120101/" rel="nofollow">Тестирование в Java. JUnit</a></li>
 </ul>
-<h3><a href="#-5-spring-test" aria-hidden="true" class="anchor" id="user-content--5-spring-test"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 5. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFai1veG9qaFZlZ2s">Spring Test</a></h3>
+<h3><a href="#-5-spring-test" aria-hidden="true" class="anchor" id="user-content--5-spring-test"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 5. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFai1veG9qaFZlZ2s" rel="nofollow">Spring Test</a></h3>
 <blockquote>
 <ul>
 <li>поменял <code>@RunWith</code>: <code>SpringRunner</code> is an alias for the <code>SpringJUnit4ClassRunner</code></li>
@@ -766,83 +766,90 @@
 </blockquote>
 <h4><a href="#apply-3_08_add_spring_testpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_08_add_spring_testpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_08_add_spring_test.patch</h4>
 <ul>
-<li><a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/#testing">Spring Testing</a></li>
+<li><a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/#testing" rel="nofollow">Spring Testing</a></li>
 </ul>
-<h3><a href="#-6-Базы-данных-Обзор-nosql-и-java-persistence-solution-без-orm" aria-hidden="true" class="anchor" id="user-content--6-Базы-данных-Обзор-nosql-и-java-persistence-solution-без-orm"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVlNYczhnSU9JdXc">Базы данных. Обзор NoSQL и Java persistence solution без ORM.</a></h3>
+<h3><a href="#-6-Базы-данных-Обзор-nosql-и-java-persistence-solution-без-orm" aria-hidden="true" class="anchor" id="user-content--6-Базы-данных-Обзор-nosql-и-java-persistence-solution-без-orm"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVlNYczhnSU9JdXc" rel="nofollow">Базы данных. Обзор NoSQL и Java persistence solution без ORM.</a></h3>
 <ul>
-<li><a href="https://ru.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>.</li>
+<li><a href="https://ru.wikipedia.org/wiki/PostgreSQL" rel="nofollow">PostgreSQL</a>.</li>
 <li><a href="https://github.com/pgjdbc/pgjdbc">PostgreSQL JDBC Driver</a></li>
-<li><a href="http://java-course.ru/begin/postgresql/">Установка PostgreSQL</a>. <strong>ВНИМАНИЕ! с postgres 9.6 возможны проблемы.</strong></li>
-<li>Чтобы избежать проблем с правами и именами каталогов, <a href="https://stackoverflow.com/questions/43432713/postgresql-installation-on-windows-8-1-database-cluster-initialisation-failed"><strong>рекомендуют установить postgres в простой каталог, например <code>C:\Postgresql</code></strong>. И при проблемах создать каталог data на другом диске</a>. Если Unix, проверить права доступа к папке.</li>
+<li><a href="http://java-course.ru/begin/postgresql/" rel="nofollow">Установка PostgreSQL</a>. <strong>ВНИМАНИЕ! с postgres 9.6 возможны проблемы.</strong></li>
+<li>Чтобы избежать проблем с правами и именами каталогов, <a href="https://stackoverflow.com/questions/43432713/postgresql-installation-on-windows-8-1-database-cluster-initialisation-failed" rel="nofollow"><strong>рекомендуют установить postgres в простой каталог, например <code>C:\Postgresql</code></strong>. И при проблемах создать каталог data на другом диске</a>. Если Unix, проверить права доступа к папке.</li>
 </ul>
 <blockquote>
 <p>Создать в pgAdmin новую базу <code>topjava</code> и новую роль <code>user</code>, пароль <code>password</code></p>
 </blockquote>
 <p><a href="https://cloud.githubusercontent.com/assets/13649199/18809406/118f9c48-8283-11e6-8f10-d8291517a497.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/18809406/118f9c48-8283-11e6-8f10-d8291517a497.png" alt="image" style="max-width:100%;"></a></p>
+<blockquote>
+<p>Проверьте, что у user в Privileges есть возможность авторизации (особенно для pgAdmin4)</p>
+</blockquote>
 <ul>
-<li><a href="http://alexander.holbreich.org/2013/03/nosql-or-rdbms/">NoSQL or RDBMS.</a> <a href="http://habrahabr.ru/post/77909/">Обзор NoSQL систем</a>. <a href="http://blog.nahurst.com/visual-guide-to-nosql-systems">CAP</a></li>
-<li><a href="http://db-engines.com/en/ranking">DB-Engines Ranking</a></li>
-<li><a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a></li>
-<li>Обзор Java persistence solution без ORM: <a href="http://commons.apache.org/proper/commons-dbutils/">commons-dbutils</a>,
-<a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/jdbc.html">Spring JdbcTemplate</a>,
-<a href="http://en.wikipedia.org/wiki/MyBatis">MyBatis</a>, <a href="http://www.jdbi.org/">JDBI</a>, <a href="http://www.jooq.org/">jOOQ</a></li>
+<li><a href="http://alexander.holbreich.org/2013/03/nosql-or-rdbms/" rel="nofollow">NoSQL or RDBMS.</a> <a href="http://habrahabr.ru/post/77909/" rel="nofollow">Обзор NoSQL систем</a>. <a href="http://blog.nahurst.com/visual-guide-to-nosql-systems" rel="nofollow">CAP</a></li>
+<li><a href="http://db-engines.com/en/ranking" rel="nofollow">DB-Engines Ranking</a></li>
+<li><a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity" rel="nofollow">JDBC</a></li>
+<li>Обзор Java persistence solution без ORM: <a href="http://commons.apache.org/proper/commons-dbutils/" rel="nofollow">commons-dbutils</a>,
+<a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/jdbc.html" rel="nofollow">Spring JdbcTemplate</a>,
+<a href="http://en.wikipedia.org/wiki/MyBatis" rel="nofollow">MyBatis</a>, <a href="http://www.jdbi.org/" rel="nofollow">JDBI</a>, <a href="http://www.jooq.org/" rel="nofollow">jOOQ</a></li>
 <li>Основы:
 <ul>
-<li><a href="https://ru.wikipedia.org/wiki/Реляционная_СУБД">Реляционная СУБД</a></li>
-<li><a href="http://habrahabr.ru/post/103021/">Реляционные базы</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2">Уроки по JDBC</a></li>
-<li><a href="http://postgresguide.com/">Postgres Guide</a></li>
-<li><a href="http://www.postgresqltutorial.com">PostgreSQL Tutorial</a></li>
-<li><a href="http://campus.codeschool.com/courses/try-sql">Try SQL</a></li>
-<li><a href="http://java-course.ru/begin/database01/">Базы данных на Java</a></li>
-<li><a href="http://java-course.ru/begin/database02/">Возможности JDBC — второй этап</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Реляционная_СУБД" rel="nofollow">Реляционная СУБД</a></li>
+<li><a href="http://habrahabr.ru/post/103021/" rel="nofollow">Реляционные базы</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2" rel="nofollow">Уроки по JDBC</a></li>
+<li><a href="http://postgresguide.com/" rel="nofollow">Postgres Guide</a></li>
+<li><a href="http://www.postgresqltutorial.com" rel="nofollow">PostgreSQL Tutorial</a></li>
+<li><a href="http://campus.codeschool.com/courses/try-sql" rel="nofollow">Try SQL</a></li>
+<li><a href="http://java-course.ru/begin/database01/" rel="nofollow">Базы данных на Java</a></li>
+<li><a href="http://java-course.ru/begin/database02/" rel="nofollow">Возможности JDBC — второй этап</a></li>
 </ul>
 </li>
 <li>Дополнительно:
 <ul>
-<li><a href="https://postgrespro.ru/docs/postgresql/9.6/index.html">Документация к PostgreSQL 9.6</a></li>
-<li><a href="https://postgrespro.ru/education/books">Книги по PostgreSQL</a></li>
+<li><a href="https://postgrespro.ru/docs/postgresql/9.6/index.html" rel="nofollow">Документация к PostgreSQL 9.6</a></li>
+<li><a href="https://postgrespro.ru/education/books" rel="nofollow">Книги по PostgreSQL</a></li>
 </ul>
 </li>
 </ul>
-<h3><a href="#-7-Настройка-database-в-idea" aria-hidden="true" class="anchor" id="user-content--7-Настройка-database-в-idea"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE">Настройка Database в IDEA.</a></h3>
+<h3><a href="#-7-Настройка-database-в-idea" aria-hidden="true" class="anchor" id="user-content--7-Настройка-database-в-idea"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE" rel="nofollow">Настройка Database в IDEA.</a></h3>
 <h4><a href="#apply-3_09_add_postgresqlpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_09_add_postgresqlpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_09_add_postgresql.patch</h4>
 <ul>
-<li><a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.</li>
+<li><a href="http://habrahabr.ru/company/JetBrains/blog/204064/" rel="nofollow">Настройка Database в IDEA</a> и запуск SQL.</li>
 </ul>
-<h3><a href="#-8-Скрипты-инициализации-базы-spring-jdbc-template" aria-hidden="true" class="anchor" id="user-content--8-Скрипты-инициализации-базы-spring-jdbc-template"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGNWUXhaVzdlU0k">Скрипты инициализации базы. Spring Jdbc Template.</a></h3>
+<h3><a href="#-8-Скрипты-инициализации-базы-spring-jdbc-template" aria-hidden="true" class="anchor" id="user-content--8-Скрипты-инициализации-базы-spring-jdbc-template"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGNWUXhaVzdlU0k" rel="nofollow">Скрипты инициализации базы. Spring Jdbc Template.</a></h3>
 <blockquote>
 <p>в <code>JdbcUserRepositoryImpl.getByEmail()</code> заменил <code>queryForObject()</code> на <code>query()</code>. Загляните в код: <code>queryForObject</code> бросает <code>EmptyResultDataAccessException</code> вместо нужного нам <code>null</code>.</p>
 </blockquote>
 <h4><a href="#apply-3_10_db_implementationpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_10_db_implementationpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_10_db_implementation.patch</h4>
 <ul>
-<li>Подключение <a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/jdbc.html">Spring Jdbc</a>.</li>
-<li>Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">Property Placeholder</a></li>
+<li>Подключение <a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/jdbc.html" rel="nofollow">Spring Jdbc</a>.</li>
+<li>Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/" rel="nofollow">Property Placeholder</a></li>
 </ul>
 <blockquote>
 <p>Проверьте, что в контекст Spring проекта включены оба файла конфигурации</p>
 </blockquote>
 <p><a href="https://cloud.githubusercontent.com/assets/13649199/24730713/eb21456a-1a6d-11e7-997c-fb4ad728ba45.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/24730713/eb21456a-1a6d-11e7-997c-fb4ad728ba45.png" alt="image" style="max-width:100%;"></a></p>
-<h3><a href="#-9-Тестирование-userservice-через-assertj" aria-hidden="true" class="anchor" id="user-content--9-Тестирование-userservice-через-assertj"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 9. <a href="https://drive.google.com/open?id=1SPMkWMYPvpk9i0TA7ioa-9Sn1EGBtClD">Тестирование UserService через AssertJ.</a></h3>
-<ul>
-<li><a href="https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma">The JPA hashCode() / equals() dilemma</a></li>
-<li><a href="https://stackoverflow.com/questions/17949752">Junit Matcher for comparators</a></li>
-<li><a href="http://joel-costigliola.github.io/assertj/assertj-core-features-highlight.html#custom-comparison-strategy">AssertJ custom comparison strategy</a>. <a href="http://joel-costigliola.github.io/assertj/assertj-core-features-highlight.html#field-by-field-comparison">AssertJ field by field comparisons</a></li>
-</ul>
+<h3><a href="#-9-Тестирование-userservice-через-assertj" aria-hidden="true" class="anchor" id="user-content--9-Тестирование-userservice-через-assertj"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 9. <a href="https://drive.google.com/open?id=1SPMkWMYPvpk9i0TA7ioa-9Sn1EGBtClD" rel="nofollow">Тестирование UserService через AssertJ.</a></h3>
 <h4><a href="#apply-3_11_test_userservicepatch" aria-hidden="true" class="anchor" id="user-content-apply-3_11_test_userservicepatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_11_test_UserService.patch</h4>
-<h3><a href="#-10-Логирование-тестов" aria-hidden="true" class="anchor" id="user-content--10-Логирование-тестов"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 10. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmZaSm9UMktXUnc">Логирование тестов.</a></h3>
+<ul>
+<li><a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/#integration-testing-annotations-spring" rel="nofollow">Spring Testing Annotations</a></li>
+<li><a href="https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma" rel="nofollow">The JPA hashCode() / equals() dilemma</a></li>
+<li><a href="https://stackoverflow.com/questions/17949752" rel="nofollow">Junit Matcher for comparators</a></li>
+<li><a href="http://joel-costigliola.github.io/assertj/assertj-core-features-highlight.html#custom-comparison-strategy" rel="nofollow">AssertJ custom comparison strategy</a>. <a href="http://joel-costigliola.github.io/assertj/assertj-core-features-highlight.html#field-by-field-comparison" rel="nofollow">AssertJ field by field comparisons</a></li>
+</ul>
+<h3><a href="#-10-Логирование-тестов" aria-hidden="true" class="anchor" id="user-content--10-Логирование-тестов"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 10. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmZaSm9UMktXUnc" rel="nofollow">Логирование тестов.</a></h3>
 <h4><a href="#apply-3_12_test_loggingpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_12_test_loggingpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_12_test_logging.patch</h4>
 <blockquote>
 <ul>
-<li>Новый PostgreSQL JDBC Driver <a href="https://github.com/pgjdbc/pgjdbc#changelog">логирует через java.util.logging</a>.  <a href="http://stackoverflow.com/a/43242620/548473">Направил логирование в SLF4J</a></li>
-<li>Поменял формат вывода. См. <a href="https://logback.qos.ch/manual/layouts.html">Logback Layouts</a></li>
+<li>Новый PostgreSQL JDBC Driver <a href="https://github.com/pgjdbc/pgjdbc#changelog">логирует через java.util.logging</a>.  <a href="http://stackoverflow.com/a/43242620/548473" rel="nofollow">Направил логирование в SLF4J</a></li>
+<li>Поменял формат вывода. См. <a href="https://logback.qos.ch/manual/layouts.html" rel="nofollow">Logback Layouts</a></li>
 </ul>
 </blockquote>
+<ul>
+<li>Ресурсы, которые кладутся в classpath, maven при сборке берет из определенных каталогов <code>resources</code> (<a href="https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html" rel="nofollow">Introduction to the Standard Directory Layout</a>). Их можно настраивать через <a href="https://maven.apache.org/plugins/maven-resources-plugin/examples/resource-directory.html" rel="nofollow">maven-resources-plugin</a>, меняем в проекте Masterjava.</li>
+</ul>
 <h4><a href="#apply-3_13_fix_servletpatch" aria-hidden="true" class="anchor" id="user-content-apply-3_13_fix_servletpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 3_13_fix_servlet.patch</h4>
 <p><strong>Приложение перестало работать, тк. для репозитория мы используем заглушку <code>JdbcMealRepositoryImpl</code></strong></p>
-<h3><a href="#-11-Ответы-на-Ваши-вопросы" aria-hidden="true" class="anchor" id="user-content--11-Ответы-на-Ваши-вопросы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 11. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNDlOQVpOWF82OTA">Ответы на Ваши вопросы</a></h3>
+<h3><a href="#-11-Ответы-на-Ваши-вопросы" aria-hidden="true" class="anchor" id="user-content--11-Ответы-на-Ваши-вопросы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 11. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNDlOQVpOWF82OTA" rel="nofollow">Ответы на Ваши вопросы</a></h3>
 <ul>
-<li>Что такое REST? <a href="http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/">10 Best Practices for Better RESTful API</a></li>
+<li>Что такое REST? <a href="http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/" rel="nofollow">10 Best Practices for Better RESTful API</a></li>
 <li>Зачем нужна сортировка еды?</li>
 <li>Можно ли обойтись без <code>MapSqlParameterSource</code>?</li>
 <li>Как происходит работа с DB в тестах?</li>
@@ -855,11 +862,11 @@
 <p>Какая разница между @BeforeClass and @Before?</p>
 </blockquote>
 <p><code>@BeforeClass</code> выполняется один раз после загрузки класса (поэтому метод может быть только статический), <code>@Before</code> перед каждым тестом.
-Также: для чистоты тестов экземпляр тестового класса пересоздается перед каждым тестом: <a href="http://stackoverflow.com/questions/6094081/junit-using-constructor-instead-of-before">http://stackoverflow.com/questions/6094081/junit-using-constructor-instead-of-before</a></p>
+Также: для чистоты тестов экземпляр тестового класса пересоздается перед каждым тестом: <a href="http://stackoverflow.com/questions/6094081/junit-using-constructor-instead-of-before" rel="nofollow">http://stackoverflow.com/questions/6094081/junit-using-constructor-instead-of-before</a></p>
 <blockquote>
 <p>Тесты в классе в каком-то определенном порядке выполняются ("сверху вниз" например)?</p>
 </blockquote>
-<p>Порядок по умолчанию неопределен, каждый тест должен быть автономен и не зависеть от других. См. также <a href="http://stackoverflow.com/questions/3693626/how-to-run-test-methods-in-specific-order-in-junit4">http://stackoverflow.com/questions/3693626/how-to-run-test-methods-in-specific-order-in-junit4</a></p>
+<p>Порядок по умолчанию неопределен, каждый тест должен быть автономен и не зависеть от других. См. также <a href="http://stackoverflow.com/questions/3693626/how-to-run-test-methods-in-specific-order-in-junit4" rel="nofollow">http://stackoverflow.com/questions/3693626/how-to-run-test-methods-in-specific-order-in-junit4</a></p>
 <blockquote>
 <p>Обязательно ли разворачивать postgreSQL?</p>
 </blockquote>
@@ -876,7 +883,7 @@
 <li>Логика в базе - это процедуры и триггеры. Нет никакого ООП, переиспользовать код достаточно сложно, никагого рефакторинга, поиска по коду и других плюшек IDE. Нельзя делать всякие вещи типа кэширования, хранения в сесии - это все для логики на стороне java. Например json можно напрямую отдать в процедуру и там парсить и вставлять в таблицы или наоборот - собирать из таблиц и возвращать.
 А затем потребуется некоторая логика на стороне приложения и все равно придется этот json дополнительно разпарсивать в java.
 Я на таком проекте делал специальную миграцию, чтобы процедуры мигрировать не как sql скрипты, а каждую процедуру хранить как класс с историей изменений. Если логика: триггеры и простые процедуры записи-чтения, которые не требуют переиспользования кода или
-проект небольшой это допустимо, иначе проект становится трудно поддерживать. Также иногда используют <a href="http://postgresql.ru.net/gruber/ch20.html">View</a> для разграничения доступа. Например, для финансовых систем, таблицы проводок доступны только  для админ учеток, а View просто не дадут увидеть (тем более изменить) данны обычному оператору на уровне СУБД.</li>
+проект небольшой это допустимо, иначе проект становится трудно поддерживать. Также иногда используют <a href="http://postgresql.ru.net/gruber/ch20.html" rel="nofollow">View</a> для разграничения доступа. Например, для финансовых систем, таблицы проводок доступны только  для админ учеток, а View просто не дадут увидеть (тем более изменить) данны обычному оператору на уровне СУБД.</li>
 </ul>
 <blockquote>
 <p>У JUnit есть ассерты и у спринга тоже. Можно ли обойтись без JUnit?</p>
@@ -885,11 +892,11 @@
 <blockquote>
 <p>Я так понял VARCHAR быстрее, чем TEXT, когда мы работаем с небольшими записями. Наши записи будут небольшими (255). Почему вы приняли решение перейти на TEXT?</p>
 </blockquote>
-<p>В отличие от MySql в Postgres  VARCHAR и TEXT - тоже самое: <a href="http://stackoverflow.com/questions/4848964/postgresql-difference-between-text-and-varchar-character-varying">http://stackoverflow.com/questions/4848964/postgresql-difference-between-text-and-varchar-character-varying</a></p>
+<p>В отличие от MySql в Postgres  VARCHAR и TEXT - тоже самое: <a href="http://stackoverflow.com/questions/4848964/postgresql-difference-between-text-and-varchar-character-varying" rel="nofollow">http://stackoverflow.com/questions/4848964/postgresql-difference-between-text-and-varchar-character-varying</a></p>
 <blockquote>
 <p>Зачем при создании таблицы мы создаем <code>CREATE UNIQUE INDEX</code> и <code>CREATE INDEX</code>. При каких запросах он будет использоваться?</p>
 </blockquote>
-<p>UNIQUE индекс нужен для обеcпечения уникальности, DB не даст сделать одинаковый индекс. Индексы используется для скорости выполнения запросов. Обычно они задействуются, когда в запросе есть условия, на которые сделан индекс. Узнать по конкретному запросу можно  запросив план запроса: см. <a href="https://habrahabr.ru/post/203320">Оптимизация запросов. Основы EXPLAIN в PostgreSQL</a>. На измерение производительности с индексами посмотрим в следующем уроке.</p>
+<p>UNIQUE индекс нужен для обеcпечения уникальности, DB не даст сделать одинаковый индекс. Индексы используется для скорости выполнения запросов. Обычно они задействуются, когда в запросе есть условия, на которые сделан индекс. Узнать по конкретному запросу можно  запросив план запроса: см. <a href="https://habrahabr.ru/post/203320" rel="nofollow">Оптимизация запросов. Основы EXPLAIN в PostgreSQL</a>. На измерение производительности с индексами посмотрим в следующем уроке.</p>
 <blockquote>
 <p>А это нормально, что у нас в базе у meals есть userId, а в классе - нет?</p>
 </blockquote>
@@ -897,11 +904,11 @@
 <blockquote>
 <p>Почему мы использует один sequence на разные таблицы?</p>
 </blockquote>
-<p>Мы будем использовать Hibernate, по умолчанию он делает глобальный sequence на все таблицы. В этом подходе есть <a href="http://stackoverflow.com/questions/1536479/asking-for-opinions-one-sequence-for-all-tables">как плюсы, так и минусы</a>, из плюсов - удобно делать ссылки в коде и в таблицах на при наследовании и мапы в коде. В дополнение: <a href="http://stackoverflow.com/questions/6633384/can-i-configure-hibernate-to-create-separate-sequence-for-each-table-by-default">Configure Hibernate to create separate sequence for each table by default</a>.</p>
+<p>Мы будем использовать Hibernate, по умолчанию он делает глобальный sequence на все таблицы. В этом подходе есть <a href="http://stackoverflow.com/questions/1536479/asking-for-opinions-one-sequence-for-all-tables" rel="nofollow">как плюсы, так и минусы</a>, из плюсов - удобно делать ссылки в коде и в таблицах на при наследовании и мапы в коде. В дополнение: <a href="http://stackoverflow.com/questions/6633384/can-i-configure-hibernate-to-create-separate-sequence-for-each-table-by-default" rel="nofollow">Configure Hibernate to create separate sequence for each table by default</a>.</p>
 <h2><a href="#-Домашнее-задание-hw03" aria-hidden="true" class="anchor" id="user-content--Домашнее-задание-hw03"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" alt="hw" style="max-width:100%;"></a> Домашнее задание HW03</h2>
 <ul>
 <li>1 Понять, почему перестали работать <code>SpringMain, InMemoryAdminRestControllerTest, InMemoryAdminRestControllerSpringTest</code></li>
-<li>2 Дополнить скрипты создания и инициализации базы таблицой MEALS. Запустить скрипты на вашу базу (через Run). Порядок таблиц при DROP и DELETE важен, если они связаны fk. Проверьте, что ваши скрипты работают</li>
+<li>2 Дополнить скрипты создания и инициализации базы таблицой MEALS. Запустить скрипты на вашу базу (через Run). Порядок таблиц при DROP и DELETE важен, если они связаны внешними ключами (foreign key, fk). Проверьте, что ваши скрипты работают</li>
 <li>3 Реализовать через Spring JDBC Template <code>JdbcMealRepositoryImpl</code>
 <ul>
 <li>3.1. сделать каждый метод за один SQL запрос</li>
@@ -920,23 +927,23 @@
 <p>По <code>Ctrl+Shift+T</code> (выбрать JUnit4) можно создать тест для конкретного класса, выбрав для него нужные методы. Тестовый класс создастся в папке <code>test</code> в том же пакете, что и тестируемый.</p>
 </blockquote>
 <ul>
-<li>5.1 Сделать тестовые данные <code>MealTestData</code>, АНАЛОГИЧНЫЕ пропопулированным в <code>populateDB.sql</code>.</li>
+<li>5.1 Сделать тестовые данные <code>MealTestData</code> (точно такие же, как вставляем в <code>populateDB.sql</code>).</li>
 <li>5.2 Сделать тесты на чужую еду (delete, get, update) с тем чтобы получить <code>NotFoundException</code>.</li>
-<li>6 Предложить решение, как почнинить <code>SpringMain, InMemory*Test</code>. <code>InMemory*Test</code> <strong>должны использовать реализацию в памяти</strong></li>
+<li>6 Почнинить <code>SpringMain, InMemory*Test</code>. <code>InMemory*Test</code> <strong>должны использовать реализацию в памяти</strong></li>
 <li>7 Сделать индексы к таблице <code>Meals</code>: запретить создавать у одного и того-же юзера еду с одинаковой dateTime.
-Индекс на pk (id) postgres создает автоматически: <a href="http://stackoverflow.com/questions/970562/postgres-and-indexes-on-foreign-keys-and-primary-keys">Postgres and Indexes on Foreign Keys and Primary Keys</a>
+Индекс на pk (id) postgres создает автоматически: <a href="http://stackoverflow.com/questions/970562/postgres-and-indexes-on-foreign-keys-and-primary-keys" rel="nofollow">Postgres and Indexes on Foreign Keys and Primary Keys</a>
 <ul>
-<li><a href="http://postgresguide.com/performance/indexes.html">Postgres Guide: Indexes</a></li>
-<li><a href="https://habrahabr.ru/post/203320/">Оптимизация запросов. Основы EXPLAIN в PostgreSQL</a></li>
-<li><a href="https://habrahabr.ru/post/203386/">Оптимизация запросов. Часть 2</a></li>
-<li><a href="https://habrahabr.ru/post/203484/">Оптимизация запросов. Часть 3</a></li>
+<li><a href="http://postgresguide.com/performance/indexes.html" rel="nofollow">Postgres Guide: Indexes</a></li>
+<li><a href="https://habrahabr.ru/post/203320/" rel="nofollow">Оптимизация запросов. Основы EXPLAIN в PostgreSQL</a></li>
+<li><a href="https://habrahabr.ru/post/203386/" rel="nofollow">Оптимизация запросов. Часть 2</a></li>
+<li><a href="https://habrahabr.ru/post/203484/" rel="nofollow">Оптимизация запросов. Часть 3</a></li>
 </ul>
 </li>
 </ul>
 <blockquote>
 <p><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Как правильно придумать индекс для базы? Указать в нем все поля, комбинация которых создает по смыслу уникальную запись, или какие-то еще есть условия?</p>
 </blockquote>
-<p>Индекс нужно делать по тем полям, по которым будут искаться записи (участвуют в WHERE, ORDER BY). Уникальность - совсем не обязательное условие. Индексы ускоряют поиск по определенным полям таблицы. Они не бесплатные (хранятся в памяти, замедляется вставка), поэтому на всякий случай их делать не надо. Также не строят индексы на колонки с малым процентом уникальности (например поле "М/Ж"). Поля индекса НЕ КОММУТАТИВНЫ и порядок полей в описании индекса НЕОБХОДИМО соблюдать (в силу использования B-деревьев и их производных как поисковый механизм индекса). При построении плана запроса EXPLAIN учитывается количество записей в базе, поэтому вместо индексного поиска (Index Scan) база может выбрать последовательный (Seq Scan). Проверить, работают ли индексы можно <a href="http://stackoverflow.com/questions/14554302/postgres-query-optimization-forcing-an-index-scan">отключив Seq Scan</a>. Также см. <a href="https://dba.stackexchange.com/a/27493/3684">Queries on the first field of composite index</a></p>
+<p>Индекс нужно делать по тем полям, по которым будут искаться записи (участвуют в WHERE, ORDER BY). Уникальность - совсем не обязательное условие. Индексы ускоряют поиск по определенным полям таблицы. Они не бесплатные (хранятся в памяти, замедляется вставка), поэтому на всякий случай их делать не надо. Также не строят индексы на колонки с малым процентом уникальности (например поле "М/Ж"). Поля индекса НЕ КОММУТАТИВНЫ и порядок полей в описании индекса НЕОБХОДИМО соблюдать (в силу использования B-деревьев и их производных как поисковый механизм индекса). При построении плана запроса EXPLAIN учитывается количество записей в базе, поэтому вместо индексного поиска (Index Scan) база может выбрать последовательный (Seq Scan). Проверить, работают ли индексы можно <a href="http://stackoverflow.com/questions/14554302/postgres-query-optimization-forcing-an-index-scan" rel="nofollow">отключив Seq Scan</a>. Также см. <a href="https://dba.stackexchange.com/a/27493/3684" rel="nofollow">Queries on the first field of composite index</a></p>
 <h3><a href="#-Решение-проблем" aria-hidden="true" class="anchor" id="user-content--Решение-проблем"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" alt="error" style="max-width:100%;"></a> Решение проблем</h3>
 <blockquote>
 <p>Из каталога <code>main</code> не видятся классы/ресурсы в <code>test</code></p>
@@ -965,6 +972,9 @@
 <li>5: В реализации <code>JdbcMealRepositoryImpl</code> одним SQL запросом используйте возвращаемое <code>update</code> значение <code>the number of rows affected</code></li>
 <li>6: При тестировании не портите констант из <code>MealTestData</code></li>
 <li>7: Проверьте, что все, что относится к тестам, ноходится в каталоге <code>test</code> (не попадает в сборку проекта)</li>
+<li>8: Еще раз: в тестах проверять через <code>JUnit Assert</code> нельзя. Он проверяет через <code>equals</code>, который, учитавая будующие JPA реализации, мы не можем переопределить как сравнение по всем поля.</li>
+<li>9: НЕ делайте склейку SQL запросов вручную из параметров, только через <code>jdbcTemplate</code> параметры! См. <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_SQL-%D0%BA%D0%BE%D0%B4%D0%B0" rel="nofollow">Внедрение_SQL-кода</a></li>
+<li>10: Напомню: <code>BeanPropertyRowMapper</code> работает через отражение. Ему нужны геттеры/сеттеры и имена полей должны "совпадать" с колонками <code>ResultSet</code> (Column values are mapped based on matching the column name as obtained from result set metadata to public setters for the corresponding properties. The names are matched either directly or by transforming a name separating the parts with underscores to the same name using "camel" case).</li>
 </ul>
 </article>
   </div>
@@ -991,7 +1001,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.17416s from unicorn-2878683037-3rjdp">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.26483s from unicorn-3583283770-nw1t4">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -1025,10 +1035,10 @@
   </div>
 
 
-    <script crossorigin="anonymous" integrity="sha256-5o4DAg4RwsPXWu3hUX/KM40ddyQeOO9IU2dkk89xQto=" src="https://assets-cdn.github.com/assets/compat-e68e03020e11c2c3d75aede1517fca338d1d77241e38ef4853676493cf7142da.js"></script>
-    <script crossorigin="anonymous" integrity="sha256-F7VsAbjYEuEdAvWDOjCP6snWeqx5tkyuQYm7fPXaSw0=" src="https://assets-cdn.github.com/assets/frameworks-17b56c01b8d812e11d02f5833a308feac9d67aac79b64cae4189bb7cf5da4b0d.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-5CqL+cOAdYc045hR2wTefL7rLzhg771IHJasEsJabss=" src="https://assets-cdn.github.com/assets/compat-e42a8bf9c380758734e39851db04de7cbeeb2f3860efbd481c96ac12c25a6ecb.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-R7c3eUp64zkx0aUKgHD8RyBMQTxCRYqXgUMLHeA4450=" src="https://assets-cdn.github.com/assets/frameworks-47b737794a7ae33931d1a50a8070fc47204c413c42458a9781430b1de038e39d.js"></script>
     
-    <script async="async" crossorigin="anonymous" integrity="sha256-9FNNb9TYeJV92lXqe/r2NKipr2Ztm3XyzMIpTQW4lnc=" src="https://assets-cdn.github.com/assets/github-f4534d6fd4d878957dda55ea7bfaf634a8a9af666d9b75f2ccc2294d05b89677.js"></script>
+    <script async="async" crossorigin="anonymous" integrity="sha256-OzK4E/OipCFUNexRRWCeuMesN9rTrlxRXQ5kCz0nk2Y=" src="https://assets-cdn.github.com/assets/github-3b32b813f3a2a4215435ec5145609eb8c7ac37dad3ae5c515d0e640b3d279366.js"></script>
     
     
     
