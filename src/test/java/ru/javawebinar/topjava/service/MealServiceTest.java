@@ -44,36 +44,11 @@ public class MealServiceTest {
         SLF4JBridgeHandler.install();
     }
 
-    @Autowired
-    private MealService service;
-
     // doesn't work properly with TestTiming
     @Rule
     public final ExpectedException thrown = ExpectedException.none();
 
     private static Map<String, Long> testsTime = new HashMap<>();
-    private static Map<String, Long> stopWatchTime = new HashMap<>();
-
-    /*
-    class TestTiming implements TestRule {
-        @Override
-        public Statement apply(final Statement base, Description description) {
-            return new Statement() {
-                @Override
-                public void evaluate() throws Throwable {
-                    long startTime = System.nanoTime();
-                    base.evaluate();
-                    long endTime = System.nanoTime();
-                    long duration = (endTime - startTime) / 1_000_000;
-                    testsTime.put(description.getMethodName(), duration);
-                    System.out.println(description.getMethodName() + " lasts " + duration + "ms");
-                }
-            };
-        }
-    }
-    @Rule
-    public TestTiming rule = new TestTiming();
-    //*/
 
     @Rule
     public TestWatcher watcher = new TestWatcher() {
@@ -103,17 +78,14 @@ public class MealServiceTest {
         log.info("=== /Tests duration ===");
     }
 
-    private static void logInfo(Description description, String status, long nanos) {
-        String testName = description.getMethodName();
-        log.info(String.format("Test %s %s, spent %d microseconds", testName, status, TimeUnit.NANOSECONDS.toMicros(nanos)));
-        //System.out.println(String.format("Test %s %s, spent %d microseconds", testName, status, TimeUnit.NANOSECONDS.toMicros(nanos)));
-    }
+    @Autowired
+    private MealService service;
 
     @Rule
     public Stopwatch stopwatch = new Stopwatch() {
         @Override
         protected void finished(long nanos, Description description) {
-            logInfo(description, "finished", nanos);
+            log.info(TimeUnit.NANOSECONDS.toMillis(nanos) + "ms");
         }
     };
 
