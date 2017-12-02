@@ -19,7 +19,7 @@ import static ru.javawebinar.topjava.UserTestData.ADMIN;
 
 @ContextConfiguration({"classpath:spring/spring-app.xml", "classpath:spring/mock.xml"})
 @RunWith(SpringRunner.class)
-public class InMemoryAdminRestControllerSpringTest {
+public abstract class InMemoryAdminRestControllerSpringTest {
 
     @Autowired
     private AdminRestController controller;
