@@ -6,7 +6,7 @@ public class Profiles {
             JPA = "jpa",
             DATAJPA = "datajpa";
 
-    public static final String REPOSITORY_IMPLEMENTATION = DATAJPA;
+    public static final String REPOSITORY_IMPLEMENTATION = JDBC;
 
     public static final String
             POSTGRES_DB = "postgres",
@@ -20,7 +20,7 @@ public class Profiles {
         } catch (ClassNotFoundException ex) {
             try {
                 Class.forName("org.hsqldb.jdbcDriver");
-                return Profiles.HSQL_DB;
+                return HSQL_DB;
             } catch (ClassNotFoundException e) {
                 throw new IllegalStateException("Could not find DB driver");
             }
