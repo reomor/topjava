@@ -54,4 +54,11 @@ public class DataJpaMealRepositoryImpl implements MealRepository {
     public List<Meal> getBetween(LocalDateTime startDate, LocalDateTime endDate, int userId) {
         return crudRepository.findAllByFilter(userId, startDate, endDate);
     }
+
+    public Meal getMealWithUser(int id, int userId) {
+        Meal meal = get(id, userId);
+        if (meal == null) return null;
+        meal.setUser(crudUserRepository.findById(userId).orElse(null));
+        return meal;
+    }
 }
