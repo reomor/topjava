@@ -26,7 +26,6 @@ public interface CrudMealRepository extends JpaRepository<Meal, Integer> {
     List<Meal> findAllByFilter(@Param("userId") int userId, @Param("startDate") LocalDateTime startDate, @Param("endDate") LocalDateTime endDate);
 
     @Override
-    @Transactional
     Meal save(Meal entity);
 
     @Override

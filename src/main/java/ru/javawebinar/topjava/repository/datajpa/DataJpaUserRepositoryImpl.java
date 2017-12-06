@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.repository.UserRepository;
 
@@ -18,6 +19,7 @@ public class DataJpaUserRepositoryImpl implements UserRepository {
     private CrudUserRepository crudRepository;
 
     @Override
+    @Transactional
     public User save(User user) {
         return crudRepository.save(user);
     }
