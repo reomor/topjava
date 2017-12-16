@@ -1,4 +1,6 @@
-package ru.javawebinar.topjava.web;
+/*
+package ru.javawebinar.topjava.remove;
+
 
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
@@ -89,3 +91,4 @@ public class MealServlet extends HttpServlet {
         return Integer.parseInt(paramId);
     }
 }
+//*/

@@ -4,7 +4,9 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <html>
-<jsp:include page="fragments/headTag.jsp"/>
+<head>
+    <jsp:include page="fragments/headTag.jsp"/>
+</head>
 <body>
 <jsp:include page="fragments/bodyHeader.jsp"/>
 
