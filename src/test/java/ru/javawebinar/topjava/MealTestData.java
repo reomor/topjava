@@ -2,6 +2,7 @@ package ru.javawebinar.topjava;
 
 import org.springframework.test.web.servlet.ResultMatcher;
 import ru.javawebinar.topjava.model.Meal;
+import ru.javawebinar.topjava.to.MealWithExceed;
 
 import java.time.Month;
 import java.util.Arrays;
@@ -50,5 +51,13 @@ public class MealTestData {
 
     public static ResultMatcher contentJson(Meal expected) {
         return content().json(writeIgnoreProps(expected, "user"));
+    }
+
+    public static ResultMatcher contentJson(Meal ... expected) {
+        return content().json(writeIgnoreProps(Arrays.asList(expected), "user"));
+    }
+
+    public static void assertMatch(Iterable<MealWithExceed> actual, Iterable<MealWithExceed> expected, boolean flag) {
+        assertThat(actual).usingElementComparatorIgnoringFields("user").isEqualTo(expected);
     }
 }

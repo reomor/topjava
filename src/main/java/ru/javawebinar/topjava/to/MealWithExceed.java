@@ -3,15 +3,17 @@ package ru.javawebinar.topjava.to;
 import java.time.LocalDateTime;
 
 public class MealWithExceed {
-    private final Integer id;
+    private Integer id;
 
-    private final LocalDateTime dateTime;
+    private LocalDateTime dateTime;
 
-    private final String description;
+    private String description;
 
-    private final int calories;
+    private int calories;
 
-    private final boolean exceed;
+    private boolean exceed;
+
+    public MealWithExceed() {}
 
     public MealWithExceed(Integer id, LocalDateTime dateTime, String description, int calories, boolean exceed) {
         this.id = id;
