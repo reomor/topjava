@@ -88,9 +88,9 @@ public class MealRestControllerTest extends AbstractControllerTest {
                 .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON));
                 // got MealWithExceed
                 //.andExpect(contentJson(MEAL4));
-        List<MealWithExceed> mealWithExceeds = TestUtil.readValuesFromJson(resultActions, MealWithExceed.class);
-        List<MealWithExceed> withExceeded = MealsUtil.getWithExceeded(Arrays.asList(MEAL2, MEAL1), AuthorizedUser.getCaloriesPerDay());
+        List<MealWithExceed> actual = TestUtil.readValuesFromJson(resultActions, MealWithExceed.class);
+        List<MealWithExceed> expected = MealsUtil.getWithExceeded(Arrays.asList(MEAL2, MEAL1), AuthorizedUser.getCaloriesPerDay());
 
-        assertMatch(mealWithExceeds, withExceeded, true);
+        assertMatch(actual, expected, true);
     }
 }
