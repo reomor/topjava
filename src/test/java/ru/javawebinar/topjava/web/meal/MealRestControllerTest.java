@@ -81,13 +81,27 @@ public class MealRestControllerTest extends AbstractControllerTest {
     }
 
     @Test
-    public void testBetween() throws Exception {
-        ResultActions resultActions = mockMvc.perform(get(REST_URL + "between?startDateTime=2015-05-30T10:00:00&endDateTime=2015-05-30T13:00:00"))
+    public void testBetweenDT() throws Exception {
+        ResultActions resultActions = mockMvc.perform(get(REST_URL + "betweendt?startDateTime=2015-05-30T10:00:00&endDateTime=2015-05-30T13:00:00"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON));
                 // got MealWithExceed
                 //.andExpect(contentJson(MEAL4));
+        List<MealWithExceed> actual = TestUtil.readValuesFromJson(resultActions, MealWithExceed.class);
+        List<MealWithExceed> expected = MealsUtil.getWithExceeded(Arrays.asList(MEAL2, MEAL1), AuthorizedUser.getCaloriesPerDay());
+
+        assertMatch(actual, expected, true);
+    }
+
+    @Test
+    public void testBetween() throws Exception {
+        ResultActions resultActions = mockMvc.perform(get(REST_URL + "between?startDate=2015-05-30&endDate=2015-05-30&startTime=10:00:00&endTime=13:00:00"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON));
+        // got MealWithExceed
+        //.andExpect(contentJson(MEAL4));
         List<MealWithExceed> actual = TestUtil.readValuesFromJson(resultActions, MealWithExceed.class);
         List<MealWithExceed> expected = MealsUtil.getWithExceeded(Arrays.asList(MEAL2, MEAL1), AuthorizedUser.getCaloriesPerDay());
 
