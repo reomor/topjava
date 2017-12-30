@@ -36,10 +36,10 @@
     <meta content="https://avatars1.githubusercontent.com/u/11200258?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="JavaWebinar/topjava" property="og:title" /><meta content="https://github.com/JavaWebinar/topjava" property="og:url" /><meta content="Contribute to topjava development by creating an account on GitHub." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OmVlNjQ2MDg5NjQ3YTEzMmU5OWQyZTFkZjhlMmFlZTk0ZWQwZjg3YjQ4ZGIxYmE5MWE0ZGNmNTE4MmU3MWQyYzA=--6d2e6d0ba88b40e829010ba41551e348b2cd3da2">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OmI2YzE1YWFhYTg4MDFiZWNjZmNhZDQ4YjM2NmZmNGNkNjU1YjViNDc0MTI1MDQ3MGU5ZjhlNTBmMDk3MmYzM2U=--276a1af0df4745fd3078acb787580a80f734031f">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="0C45:4AE5:11D8FAD:1DBFAED:5A3BF819" data-pjax-transient>
+  <meta name="request-id" content="1CE7:89C8:44F6F73:73F5521:5A47E3CB" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -49,7 +49,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="0C45:4AE5:11D8FAD:1DBFAED:5A3BF819" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="1CE7:89C8:44F6F73:73F5521:5A47E3CB" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -64,7 +64,7 @@
   <meta name="user-login" content="reomor">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NjM3YjRjMjZkNGYxM2E2ZjQ3OTk3ZDVmNmUyZWJhMWZjZmIyOWMwOTBkMjVlZTUxYzVhY2ExZGU0MDJjNzRhY3x7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMEM0NTo0QUU1OjExRDhGQUQ6MURCRkFFRDo1QTNCRjgxOSIsInRpbWVzdGFtcCI6MTUxMzg3OTU4NCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="N2IzNzQyOGFkZDdmY2IzNjkyMTM3NDA4ZjQzNjczNmQxNGEzMzIwNGM3ODlhZmE1Yjg2MDMzNTAxMzU5ZDk1YXx7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMUNFNzo4OUM4OjQ0RjZGNzM6NzNGNTUyMTo1QTQ3RTNDQiIsInRpbWVzdGFtcCI6MTUxNDY2MDgxNSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -255,7 +255,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YJYe5XUX2azys8LYkUSV+ExdPvxxP0iyWeh6OA3Vt9nV61RbrsB6vGyGnw+74v8dGASEYc10X6sQg6xnz9qVOw==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6HPCQQE185YoHs+8p5lUTgBcptFN1fPaHcd5O3O9MGFdDoj/2uJQhrYrkmuNPz6rVAUcTPGe5MNUrK9ksbISgw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -266,7 +266,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="aeVlXXBTsJPRrFFPEqH6Dz2b+OhQeKUMwR5vK/tgSoDcmC/jq4QTg0+ZDJg4B5DqacJCdewzshWIdbl0OW9oYg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="c9XoAjpDZQk0LmRDHtthGHURB+rXP89Ted7V3rOmB0DGqKK84ZTGGaobOZQ0fQv9IUi9d2t02EowtQOBcaklog==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -301,7 +301,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="DhE0fLpQXcMf+11097w8wjxxK78oq7ifioPkSMclUsgj92TnK1OMn8tmdptYhHxGi5GTRqk15gv6hvqNJoCliA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="LWPlw9INHAAOpFMRPxpdAVGP3SVFaPPS7ebJAEoqCz8AhbVYQw7NXNo5eP6QIh2F5m9l3MT2rUad49fFq4/8fw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/JavaWebinar/topjava/subscription"
@@ -318,8 +318,8 @@
           </a>
           <a class="social-count js-social-count"
             href="/JavaWebinar/topjava/watchers"
-            aria-label="4 users are watching this repository">
-            4
+            aria-label="5 users are watching this repository">
+            5
           </a>
 
         <div class="select-menu-modal-holder">
@@ -381,7 +381,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Cbap2lgas23KqHSjYrvYlrc+1JE7/PGY5QP/pQMzp2vmVONrlpH3nz0eaZRPC4LqaAujtrQnfZVouNKak+IGnA==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PQlW+ho1X1qsP3SZ5MoTOatWdtgB2oEh3/zdLkNSjqnS6xxL1L4bqFuJaa7JeklFdGMB/44BDSxSR/AR04MvXg==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -396,7 +396,7 @@
           6
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="B2KYWGfrw1mIMuiy4T2SLhanSgFMo85TlrjDcrp0euC6/jJ6ybZTQm1psSHtER+rJx9/xMTwRxu+bC/ta+MstA==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9gTRHFZ2CA9+Zp22S0AG9N2ziqWx31IP+AlV7TBvPiRLmHs++CuYFJs9xCVHbItx7Au/YDmM20fQ3bly4fhocA==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -415,7 +415,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Z2UrxJ8tkaX/we+J4HBJnsbAir0/bttr8GNh7+Fm2+aHVvCN7jCSWTwQWlRrw3HFcjheAZTSrZnzVBcKzf5HPw==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="OGC+bpYG2tABfAF1DlPtRWy5hcFzreH7mrDXUEhoTQHYU2Un5xvZLMKttKiF4NUe2EFRfdgRlwmZh6G1ZPDR2A==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -427,8 +427,8 @@
             </button>
 </form>
     <a href="/JavaWebinar/topjava/network" class="social-count"
-       aria-label="57 users forked this repository">
-      57
+       aria-label="58 users forked this repository">
+      58
     </a>
   </li>
 </ul>
@@ -468,7 +468,7 @@
     <a href="/JavaWebinar/topjava/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /JavaWebinar/topjava/pulls" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">2</span>
+      <span class="Counter">3</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
@@ -496,9 +496,9 @@
   <div class="repository-content">
 
     
-  <a href="/JavaWebinar/topjava/blob/9155cc07fb41c81c3298aedd81ba86d4d249d159/doc/lesson07.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/JavaWebinar/topjava/blob/8d7624e60aa48b46ff88823231935fd5d4c6a657/doc/lesson07.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:6457c91f70452bbe24ab3565818e5d81 -->
+  <!-- blob contrib key: blob_contributors:v21:2bbfbe078d6f7d501ad8ad30c47d8e6e -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -595,15 +595,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/9155cc07fb41c81c3298aedd81ba86d4d249d159" data-pjax>
-          9155cc0
+        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/9855578d99c6f79a000c512e291597138b15c6cc" data-pjax>
+          9855578
         </a>
-        <relative-time datetime="2017-12-21T15:26:23Z">Dec 21, 2017</relative-time>
+        <relative-time datetime="2017-12-26T14:21:00Z">Dec 26, 2017</relative-time>
       </span>
       <div>
         <img alt="@JavaWebinar" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/11200258?s=40&amp;v=4" width="20" />
         <a href="/JavaWebinar" class="user-mention" rel="author">JavaWebinar</a>
-          <a href="/JavaWebinar/topjava/commit/9155cc07fb41c81c3298aedd81ba86d4d249d159" class="message" data-pjax="true" title="Update lesson07">Update lesson07</a>
+          <a href="/JavaWebinar/topjava/commit/9855578d99c6f79a000c512e291597138b15c6cc" class="message" data-pjax="true" title="Update lesson07.md">Update lesson07.md</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -643,12 +643,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson07.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tjD7ARJuLjID58pKyOUORbLZzkejAWEtNCHyqPwllgACauRWbNnkU4cqbBt2RS4DZSB3X8zv3fUS6RPqr/tUHg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson07.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ktUT6ldgeqm9R5gh68/wLU8vo5/f9LOFpscW9/4WbzEmjwy9KdewyDmKPnBVb9BrmNYah7AaD12AD/e1rcitLw==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson07.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="OB4UGCu8NikzRbBEawy7Zf6nV4IWDQd+ZE5V5IEYHozn6gfl54Ke37g+5OtBDgMSQqKcC+bQ7E09fBJt6Tf0yw==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson07.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WPQD6Ccig3lhR5xDXWDPwzR+V2GuZKzQuPZYcyGcXmOHABAV6xwrj+o8yOx3Yne0iHuc6F65R+PhxB/6SbO0JA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -656,9 +656,9 @@
 </form>  </div>
 
   <div class="file-info">
-      153 lines (114 sloc)
+      155 lines (116 sloc)
       <span class="file-info-divider"></span>
-    16.3 KB
+    16.8 KB
   </div>
 </div>
 
@@ -831,7 +831,7 @@ GROUP BY u.id
 <li><a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters" rel="nofollow">Difference between Spring MVC formatters and converters</a></li>
 </ul>
 </li>
-<li>4: Протестировать <code>MealRestController</code> через любой инструмент (SoapUi, curl, IDEA Test RESTful Web Service, Postman)</li>
+<li>4: Протестировать <code>MealRestController</code> (SoapUi, curl, IDEA Test RESTful Web Service, Postman). Запросы <code>curl</code> занести в отдельный <code>md</code> файл (либо <code>README.md</code>)</li>
 </ul>
 <p><strong>На следующем занятии используется JavaScript/jQuery. Если у вас там пробелы, <a href="https://github.com/JavaOPs/topjava#html-javascript-css">пройдите его основы</a></strong></p>
 <hr>
@@ -844,6 +844,8 @@ GROUP BY u.id
 <li>5: При проблемах с собственным форматтером убедитесь, что в конфигурации <code>&lt;mvc:annotation-driven...</code> не дублируется</li>
 <li>6: <strong>Проверьте выполение ВСЕХ тестов через maven</strong>. В случае проблем проверьте, что не портите константу из <code>MealTestData</code></li>
 <li>7: <code>@Autowired</code> в тестах нужно делать в том месте, где класс будет использоваться. Общий принцип: не размазывать код по классам, объявление переменных держать как можно ближе к ее использованию, группировать (не смешивать) код с разной функциональностью.</li>
+<li>8: Попробуйте в <code>RootControllerTest.testMeals</code> сделать сравнение через <code>model().attribute("meals", expectedValue)</code>. Учтите, что вывод результатов через <code>toString</code> к сравнению отношения не имеет</li>
+<li>9: Посмотрите, нет ли в <code>MealTestData</code> методов, которые можно сделать общими (через generic и <code>TestUtil</code>)</li>
 </ul>
 </article>
   </div>
@@ -871,7 +873,7 @@ GROUP BY u.id
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.19855s from unicorn-1787571345-ng87f">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.15119s from unicorn-3391298341-jtnvs">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
