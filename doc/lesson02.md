@@ -18,8 +18,8 @@
 
 
 
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-86cd322445303c5c004f8612ba4b203e9dc7e7759558ffb5175639c167a7aed0.css" integrity="sha256-hs0yJEUwPFwAT4YSuksgPp3H53WVWP+1F1Y5wWenrtA=" media="all" rel="stylesheet" />
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-602af24d23274376c1f0ae991ac44c5c59a073a495c5800ead26b3153e68ae28.css" integrity="sha256-YCryTSMnQ3bB8K6ZGsRMXFmgc6SVxYAOrSazFT5orig=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-f27d807afb610bf126cbfb9ce429438a328e012239e5a77fc8152b794553dfc0.css" integrity="sha256-8n2AevthC/Emy/uc5ClDijKOASI55ad/yBUreUVT38A=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-1d7717dfa90687d65ce00c80ab42271195164d949715783c2c80c9f85595784e.css" integrity="sha256-HXcX36kGh9Zc4AyAq0InEZUWTZSXFXg8LIDJ+FWVeE4=" media="all" rel="stylesheet" />
   
   
   
@@ -36,19 +36,20 @@
     <meta content="https://avatars1.githubusercontent.com/u/11200258?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="JavaWebinar/topjava" property="og:title" /><meta content="https://github.com/JavaWebinar/topjava" property="og:url" /><meta content="Contribute to topjava development by creating an account on GitHub." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OjkzMGM4MjMyZWFiNzg1OTQ0ZDNjY2FhNmEwMmU4ZjIxMDc4YzI3NTZmOTU5ODMzNWU3YWI3MDczMWFlODI3OTQ=--fb603b236bf4c901791de53d6e78b4d4dd761a14">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OmYyNTFhYjYxYjk4NTFkMzJjODE2ZmYxN2FiZWQ4NDY0Zjc0ZGUyOGU2Y2YwYTdhODQ5ZjNmOTk3NmQyNzIwN2Y=--9c95ab2cacbd530cd531d40b9cdbfa0bf081bb04">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="047B:371A:1519F77:24FEBBC:5A0DD1FB" data-pjax-transient>
+  <meta name="request-id" content="38E4:14C71:7647321:C5DD152:5A55088E" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
-  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="047B:371A:1519F77:24FEBBC:5A0DD1FB" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="38E4:14C71:7647321:C5DD152:5A55088E" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,13 +64,13 @@
   <meta name="user-login" content="reomor">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZTQwNWJlY2M3ZGFlZTA4ZDZhYjFjZjZhZjZlY2RkMmY1YTg3N2Q0Zjg3ODY2OGExNmM0ZTE3YzFhZjg1OTAzNnx7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMDQ3QjozNzFBOjE1MTlGNzc6MjRGRUJCQzo1QTBERDFGQiIsInRpbWVzdGFtcCI6MTUxMDg1NTE2NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="ODc1NDIyNWZlZTg2OWI0NGZmOTYwNmM4NDFjNTViY2M3MjIxMTllZjU3YjM4ZmZkM2E5ODczM2I0NzhmYzQwN3x7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMzhFNDoxNEM3MTo3NjQ3MzIxOkM1REQxNTI6NUE1NTA4OEUiLCJ0aW1lc3RhbXAiOjE1MTU1MjIxOTEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
   <meta name="html-safe-nonce" content="fa82dd700a6a0972927d8c1ff85d92a6707462f2">
 
-  <meta http-equiv="x-pjax-version" content="07db9314a549076f7af4cef0a89719ea">
+  <meta http-equiv="x-pjax-version" content="9ffdd113ec2a1de902de624b42adb9ea">
   
 
       <link href="https://github.com/JavaWebinar/topjava/commits/doc.atom" rel="alternate" title="Recent Commits to topjava:doc" type="application/atom+xml">
@@ -167,18 +168,18 @@
       <div class="d-flex">
         
 <ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
-  <li class="dropdown js-menu-container js-header-notifications">
+  <li class="dropdown js-menu-container">
     <span class="d-inline-block  px-2">
       
-      <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-channel="notification-changed:1889491" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
-          <span class="mail-status "></span>
-          <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
+    <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-channel="notification-changed:1889491" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status "></span>
+        <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
 </a>
     </span>
   </li>
 
   <li class="dropdown js-menu-container">
-    <details class="dropdown-details js-dropdown-details d-flex px-2 flex-items-center">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex px-2 flex-items-center">
       <summary class="HeaderNavlink"
          aria-label="Create new…"
          data-ga-click="Header, create new, icon:add">
@@ -220,7 +221,7 @@
 
   <li class="dropdown js-menu-container">
 
-    <details class="dropdown-details js-dropdown-details d-flex pl-2 flex-items-center">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex pl-2 flex-items-center">
       <summary class="HeaderNavlink name mt-1"
         aria-label="View profile and more"
         data-ga-click="Header, show menu, icon:avatar">
@@ -253,7 +254,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="LxfAW67PE4L/MKaxzPRIbBjDDChvvs9iBHzN/r4iaSSaaorldRiwkmEF+2bmUiKJTJq2tdP12HtNFxuhfC1Lxg==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8BVcjHvWBeNx2D5DHKvGst2ZXFMq8QRhlOuA4VgOQVZFaBYyoAGm8+/tY5Q2DaxXicDmzpa6E3jdgFa+mgFjtA==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -264,7 +265,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6XtqpgjN3+o+ecTSvMex4S9DZk7i+EGcKBObvqEyg1FcBiAY0xp8+qBMmQWWYdsEexrc016zVoVheE3hYz2hsw==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yfsWcre2kcLE1Z3x8abFaRHybuHDh8uvbTsjXDZtjIt8hlzMbGEy0lrgwCbbAK+MRavUfH/M3LYkUPUD9GKuaQ==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -272,7 +273,6 @@
     </div>
   </div>
 </header>
-
 
       
 
@@ -285,21 +285,22 @@
 
 
 
-  <div role="main">
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
-    <div id="js-repo-pjax-container" data-pjax-container>
+  <div role="main" >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
       
 
 
 
 
 
-    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav ">
-      <div class="repohead-details-container clearfix container ">
 
-        <ul class="pagehead-actions">
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yndGlNTJK6iZ42hq/Ho+gbsTmyERQOmUkMsrI2Rxkb/nkRYPRcr69E1+Q4VTQn4FDPMj2JDetwDgzjXmhdRm/w==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="m9ztkvBhEDclnQjdwbCKPTQO4JlwbQhKqaU2cWrB9Za2Or0JYWLBa/EAIzJuiMq5g+5YYPHzVt7ZoCi0i2QC1g==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/JavaWebinar/topjava/subscription"
@@ -314,11 +315,11 @@
                 Watch
             </span>
           </a>
-            <a class="social-count js-social-count"
-              href="/JavaWebinar/topjava/watchers"
-              aria-label="4 users are watching this repository">
-              4
-            </a>
+          <a class="social-count js-social-count"
+            href="/JavaWebinar/topjava/watchers"
+            aria-label="5 users are watching this repository">
+            5
+          </a>
 
         <div class="select-menu-modal-holder">
           <div class="select-menu-modal subscription-menu-modal js-menu-content">
@@ -379,7 +380,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Qf2K3Un5t569t9UFhQgVURp+vS15sD8SzV8qCVOUDJSuH8Bsh3LzbEoByDKouE8txUvKCvZrsx9A5Ac2w0WtYw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="r6/QkspRFyf2ifgKdZal8CbqYv+984tXyw9NXJj435NATZojBNpT1QE/5T1YJv+M+d8V2DIoB1pGtGBjCCl+ZA==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -390,11 +391,11 @@
         Unstar
       </button>
         <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="4 users starred this repository">
-          4
+           aria-label="7 users starred this repository">
+          7
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GzYvkA3+0lUC4ebHy9b/4LTdTHa9/lhXgD4C450TfiWmqoWyo6NCTue6v1TH+nJlhWV5szWt0R+o6u58TIQocQ==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="blyiG+VV0+YfjWtrmcPpHQEmIUy7J7lsIK+6v6Lb8ePTwAg5SwhD/frWMviV72SYMJ4UiTN0MCQIe1Ygc0yntw==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -405,15 +406,15 @@
         Star
       </button>
         <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="4 users starred this repository">
-          4
+           aria-label="7 users starred this repository">
+          7
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cnIGTPnvAMj+Vui552SfJsT3mIldzHc8Gm15fwPJ3oSSQd0FiPIDND2HXWRs16d9cA9MNfZwAc4ZWg+aL1FCXQ==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lJnoQdfZ8YqBriWoNHVIA1R+l99owWAjb0s3D5Fdmvt0qjMIpsTydkJ/kHW/xnBY4IZDY8N9FtFsfEHqvcUGIg==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -425,13 +426,13 @@
             </button>
 </form>
     <a href="/JavaWebinar/topjava/network" class="social-count"
-       aria-label="40 users forked this repository">
-      40
+       aria-label="59 users forked this repository">
+      59
     </a>
   </li>
 </ul>
 
-        <h1 class="public ">
+      <h1 class="public ">
   <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
   <span class="author" itemprop="author"><a href="/JavaWebinar" class="url fn" rel="author">JavaWebinar</a></span><!--
 --><span class="path-divider">/</span><!--
@@ -439,8 +440,8 @@
 
 </h1>
 
-      </div>
-      
+    </div>
+    
 <nav class="reponav js-repo-nav js-sidenav-container-pjax container"
      itemscope
      itemtype="http://schema.org/BreadcrumbList"
@@ -466,7 +467,7 @@
     <a href="/JavaWebinar/topjava/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /JavaWebinar/topjava/pulls" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
+      <span class="Counter">3</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
@@ -488,15 +489,15 @@
 </nav>
 
 
-    </div>
+  </div>
 
-<div class="container new-discussion-timeline experiment-repo-nav">
-  <div class="repository-content">
+<div class="container new-discussion-timeline experiment-repo-nav ">
+  <div class="repository-content ">
 
     
-  <a href="/JavaWebinar/topjava/blob/9b2dae9eb056fd6142020737b778a57e499d7c30/doc/lesson02.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/JavaWebinar/topjava/blob/6aef295341970e96e469217fdfd821412007c57c/doc/lesson02.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:7d91addbff1e5bdc339dd056e4bde294 -->
+  <!-- blob contrib key: blob_contributors:v21:52429336623dd6bb975bd287221fb0e7 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -593,15 +594,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/ca3278f5242f3e87308265efdbb06337f121a430" data-pjax>
-          ca3278f
+        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/bf0ccc58390beb8169821243c7ac49d9f36d9684" data-pjax>
+          bf0ccc5
         </a>
-        <relative-time datetime="2017-11-15T23:21:14Z">Nov 16, 2017</relative-time>
+        <relative-time datetime="2018-01-08T21:08:13Z">Jan 9, 2018</relative-time>
       </span>
       <div>
         <img alt="@JavaWebinar" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/11200258?s=40&amp;v=4" width="20" />
         <a href="/JavaWebinar" class="user-mention" rel="author">JavaWebinar</a>
-          <a href="/JavaWebinar/topjava/commit/ca3278f5242f3e87308265efdbb06337f121a430" class="message" data-pjax="true" title="Add lesson02">Add lesson02</a>
+          <a href="/JavaWebinar/topjava/commit/bf0ccc58390beb8169821243c7ac49d9f36d9684" class="message" data-pjax="true" title="Update spring docs reference to current version">Update spring docs reference to current version</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -641,12 +642,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson02.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ErR/A5os7zMrF2o4CMZdtI5Oj+PHwu82+F+SmdR0FGSNbS6SYag9pjLubVZGpPkUfdXXqmJneTgJLKT+iZOTkg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson02.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PAt3VOMunUkpYrmSrdsM+/jLwb+anBskcbYBvan+ys+j0ibFGKpP3DCbvvzjuahbC1CZ9j85jSqAxTfa9BlNOQ==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson02.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jpVQe9a3zGR8I7pkEDZILmN3mlndjKoNhMsZt93Mc6XWa7lqeyWq4x9yjwMx885hw9uYg4K2qVkHELoVgsnIKw==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson02.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="w9c07Ls94ae3mo5JVwq37Ft4XFo4cysd3AXUO+vDyVmbKd39Fq+HINTLuy52zzGj+9RegGdJKElf3neZtMZy1w==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -663,7 +664,7 @@
     
   <div id="readme" class="readme blob instapaper_body">
     <article class="markdown-body entry-content" itemprop="text"><h1><a href="#Онлайн-проект-topjava" aria-hidden="true" class="anchor" id="user-content-Онлайн-проект-topjava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Онлайн проект <a href="https://github.com/JavaWebinar/topjava">Topjava</a></h1>
-<h2><a href="#Материалы-занятия-скачать-все-патчи-можно-через-download-папки-patch" aria-hidden="true" class="anchor" id="user-content-Материалы-занятия-скачать-все-патчи-можно-через-download-папки-patch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFfkpsWE1uX19zV19IVHd0bTlDclc5QmhMMm4xa0Npek9DT18tdkwyLTBZdXM">Материалы занятия</a> (скачать все патчи можно через Download папки patch)</h2>
+<h2><a href="#Материалы-занятия-скачать-все-патчи-можно-через-download-папки-patch" aria-hidden="true" class="anchor" id="user-content-Материалы-занятия-скачать-все-патчи-можно-через-download-папки-patch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFfkpsWE1uX19zV19IVHd0bTlDclc5QmhMMm4xa0Npek9DT18tdkwyLTBZdXM" rel="nofollow">Материалы занятия</a> (скачать все патчи можно через Download папки patch)</h2>
 <h3><a href="#-Правки-в-проекте" aria-hidden="true" class="anchor" id="user-content--Правки-в-проекте"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" alt="correction" style="max-width:100%;"></a> Правки в проекте</h3>
 <h4><a href="#apply-2_0_add_fixpatch" aria-hidden="true" class="anchor" id="user-content-apply-2_0_add_fixpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_0_add_fix.patch</h4>
 <h2><a href="#-Разбор-домашнего-задания-hw1" aria-hidden="true" class="anchor" id="user-content--Разбор-домашнего-задания-hw1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" alt="hw" style="max-width:100%;"></a> Разбор домашнего задания HW1:</h2>
@@ -672,7 +673,7 @@
 <li><strong>откройте вкладку Maven Projects и сделайте <code>clean</code></strong></li>
 <li><strong>если страничка в браузере работает неверно, очистите кэш (<code>Ctrl+F5</code> в хроме)</strong></li>
 </ul>
-<h3><a href="#-1-Отображения-списка-еды-в-jsp" aria-hidden="true" class="anchor" id="user-content--1-Отображения-списка-еды-в-jsp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFXzByNVF3VV9zM1k">Отображения списка еды в JSP</a></h3>
+<h3><a href="#-1-Отображения-списка-еды-в-jsp" aria-hidden="true" class="anchor" id="user-content--1-Отображения-списка-еды-в-jsp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFXzByNVF3VV9zM1k" rel="nofollow">Отображения списка еды в JSP</a></h3>
 <h4><a href="#apply-2_1_hw1patch" aria-hidden="true" class="anchor" id="user-content-apply-2_1_hw1patch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_1_HW1.patch</h4>
 <blockquote>
 <ul>
@@ -682,74 +683,74 @@
 <li>Сделал вспомогательный метод <code>getWithExceeded</code></li>
 </ul>
 </li>
-<li>Форматирование даты сделал на основе <a href="http://stackoverflow.com/questions/35606551/jstl-localdatetime-format#35607225">JSTL LocalDateTime format</a></li>
+<li>Форматирование даты сделал на основе <a href="http://stackoverflow.com/questions/35606551/jstl-localdatetime-format#35607225" rel="nofollow">JSTL LocalDateTime format</a></li>
 <li>Переименовал <code>TimeUtil</code> в <code>DateTimeUtil</code></li>
 <li>Переименовал <code>mealList.jsp</code> в <code>meals.jsp</code></li>
 <li>Добавил еще один способ вывести <code>dateTime</code> через стандартную JSTL функцию <code>replace</code>  (префикс <code>fn</code> в шапке также надо поменять)</li>
 </ul>
 </blockquote>
 <ul>
-<li><a href="http://www.java2ee.ru/jsp/useBean.html">jsp:useBean</a></li>
-<li><a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a></li>
+<li><a href="http://www.java2ee.ru/jsp/useBean.html" rel="nofollow">jsp:useBean</a></li>
+<li><a href="http://design-pattern.ru/patterns/mvc.html" rel="nofollow">MVC - Model View Controller</a></li>
 </ul>
-<h3><a href="#-2-optional-реализация-crud" aria-hidden="true" class="anchor" id="user-content--2-optional-реализация-crud"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQndBeWFOa3phRTg">Optional: реализация CRUD</a></h3>
+<h3><a href="#-2-optional-реализация-crud" aria-hidden="true" class="anchor" id="user-content--2-optional-реализация-crud"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQndBeWFOa3phRTg" rel="nofollow">Optional: реализация CRUD</a></h3>
 <h4><a href="#apply-2_2_hw1_optionalpatch" aria-hidden="true" class="anchor" id="user-content-apply-2_2_hw1_optionalpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_2_HW1_optional.patch</h4>
 <p>Про использование паттерна Repository будет подробно рассказано в видео "Слои приложения"</p>
 <blockquote>
 <ul>
 <li>Переименовал <code>mealEdit.jsp</code> в <code>mealForm.jsp</code></li>
-<li>В <code>meal.jsp</code> используется <a href="http://stackoverflow.com/questions/1890438/how-to-get-parameters-from-the-url-with-jsp#1890462">параметр запроса <code>param.action</code></a>, который не кладется в атрибуты.</li>
+<li>В <code>meal.jsp</code> используется <a href="http://stackoverflow.com/questions/1890438/how-to-get-parameters-from-the-url-with-jsp#1890462" rel="nofollow">параметр запроса <code>param.action</code></a>, который не кладется в атрибуты.</li>
 <li>В <code>MealServlet.doGet()</code> сделал выбор через <code>switch</code></li>
 <li>Пофиксил багу c <code>history.back()</code> в <code>mealForm.jsp</code> для <strong>FireFox</strong> (коммит формы при Cancel, сделал <code>type="button"</code>).</li>
 </ul>
 </blockquote>
 <p>Дополнительно:</p>
 <ul>
-<li><a href="http://stackoverflow.com/questions/246859/http-1-0-vs-1-1">HTTP 1.0 vs 1.1</a></li>
+<li><a href="http://stackoverflow.com/questions/246859/http-1-0-vs-1-1" rel="nofollow">HTTP 1.0 vs 1.1</a></li>
 </ul>
 <h3><a href="#-Вопросы-по-hw1" aria-hidden="true" class="anchor" id="user-content--Вопросы-по-hw1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Вопросы по HW1</h3>
 <blockquote>
 <p>Зачем в <code>InMemoryMealRepositoryImpl</code> наполнять map с помощью нестатического блока инициализации, а не в конструкторе?</p>
 </blockquote>
-<p>Разницы нет. Сделал чтобы напомнить вам про эту конструкцию. <a href="https://habrahabr.ru/post/133237/">Малоизвестные особенности Java</a></p>
+<p>Разницы нет. Сделал чтобы напомнить вам про эту конструкцию. <a href="https://habrahabr.ru/post/133237/" rel="nofollow">Малоизвестные особенности Java</a></p>
 <blockquote>
 <p>Почему <code>InMemoryMealRepositoryImpl</code> не singleton?</p>
 </blockquote>
-<p>Начиная с Servlet API 2.3 пул сервлетов не создается, <a href="https://stackoverflow.com/questions/6298309">создается только один инстанс сервлетов</a>. Те. <code>InMemoryMealRepositoryImpl</code> в нашем случае создается тоже только один раз. Далее все наши классы слоев приложения будут создаваться через Spring, бины которого по умолчанию являются синглтонами (в его контексте).</p>
+<p>Начиная с Servlet API 2.3 пул сервлетов не создается, <a href="https://stackoverflow.com/questions/6298309" rel="nofollow">создается только один инстанс сервлетов</a>. Те. <code>InMemoryMealRepositoryImpl</code> в нашем случае создается тоже только один раз. Далее все наши классы слоев приложения будут создаваться через Spring, бины которого по умолчанию являются синглтонами (в его контексте).</p>
 <blockquote>
 <p><code>Objects.requireNonNull</code> в <code>MealServlet.getId(request)</code> если у нас нет <code>id</code> в запросе бросает NPE (<code>NullPointerException</code>). Но оно вылетит и без этого метода. Зачем он нужен и почему мы его не обрабатываем?</p>
 </blockquote>
-<p><code>Objects.requireNonNull</code> - это проверка предусловия (будет подробно на 4-м занятии). Означает что в метод пришел неверный аргумент (должен быть не null) и приложение сообщает об ошибке сразу на входе (а не "может быть где-то потом"). См. <a href="https://stackoverflow.com/a/27511204/548473">What is the purpose of Objects#requireNonNull</a>. Если ее проглатывать или замазывать, то приложение возможно где-то работает неверно (приходят неверные аргументы), а мы об этом не узнаем. Красиво обрабатывать ошибки будем на последних занятиях (Spring Exception Handling).</p>
+<p><code>Objects.requireNonNull</code> - это проверка предусловия (будет подробно на 4-м занятии). Означает что в метод пришел неверный аргумент (должен быть не null) и приложение сообщает об ошибке сразу на входе (а не "может быть где-то потом"). См. <a href="https://stackoverflow.com/a/27511204/548473" rel="nofollow">What is the purpose of Objects#requireNonNull</a>. Если ее проглатывать или замазывать, то приложение возможно где-то работает неверно (приходят неверные аргументы), а мы об этом не узнаем. Красиво обрабатывать ошибки будем на последних занятиях (Spring Exception Handling).</p>
 <h2><a href="#Занятие-2" aria-hidden="true" class="anchor" id="user-content-Занятие-2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Занятие 2:</h2>
-<h3><a href="#-3-Библиотека-vs-Фреймворк-Стандартные-библиотеки-apache-commons-guava" aria-hidden="true" class="anchor" id="user-content--3-Библиотека-vs-Фреймворк-Стандартные-библиотеки-apache-commons-guava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVDJZVTktQzRYTWc">Библиотека vs Фреймворк. Стандартные библиотеки Apache Commons, Guava</a></h3>
+<h3><a href="#-3-Библиотека-vs-Фреймворк-Стандартные-библиотеки-apache-commons-guava" aria-hidden="true" class="anchor" id="user-content--3-Библиотека-vs-Фреймворк-Стандартные-библиотеки-apache-commons-guava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVDJZVTktQzRYTWc" rel="nofollow">Библиотека vs Фреймворк. Стандартные библиотеки Apache Commons, Guava</a></h3>
 <ul>
-<li><a href="http://commons.apache.org/">Apache Commons</a>, <a href="https://github.com/google/guava/wiki">Guava</a>
+<li><a href="http://commons.apache.org/" rel="nofollow">Apache Commons</a>, <a href="https://github.com/google/guava/wiki">Guava</a>
 <ul>
-<li>Guava используется на проекте <a href="http://javaops.ru/reg/masterjava">Многомодульный maven. Многопоточность. XML (JAXB/StAX). Веб сервисы (JAX-RS/SOAP). Удаленное взаимодействие (JMS/AKKA)</a></li>
+<li>Guava используется на проекте <a href="http://javaops.ru/reg/masterjava" rel="nofollow">Многомодульный maven. Многопоточность. XML (JAXB/StAX). Веб сервисы (JAX-RS/SOAP). Удаленное взаимодействие (JMS/AKKA)</a></li>
 </ul>
 </li>
 </ul>
-<h3><a href="#-4-Слои-приложения-Создание-каркаса-приложения" aria-hidden="true" class="anchor" id="user-content--4-Слои-приложения-Создание-каркаса-приложения"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeWZ1d1cxaUZiUmc">Слои приложения. Создание каркаса приложения.</a></h3>
+<h3><a href="#-4-Слои-приложения-Создание-каркаса-приложения" aria-hidden="true" class="anchor" id="user-content--4-Слои-приложения-Создание-каркаса-приложения"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeWZ1d1cxaUZiUmc" rel="nofollow">Слои приложения. Создание каркаса приложения.</a></h3>
 <h4><a href="#apply-2_3_app_layerspatch" aria-hidden="true" class="anchor" id="user-content-apply-2_3_app_layerspatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_3_app_layers.patch</h4>
 <blockquote>
 <ul>
 <li>Переименовал <code>ExceptionUtil</code> в <code>ValidationUtil</code></li>
 <li>Поменял <code>LoggedUser</code> на <code>AuthorizedUser</code></li>
-<li>Добавил проверку id пользователя, пришедшего в контроллер (<a href="https://stackoverflow.com/a/32728226/548473">treat IDs in REST body</a>, "If it is a public API you should be conservative when you reply, but accept liberally")</li>
+<li>Добавил проверку id пользователя, пришедшего в контроллер (<a href="https://stackoverflow.com/a/32728226/548473" rel="nofollow">treat IDs in REST body</a>, "If it is a public API you should be conservative when you reply, but accept liberally")</li>
 </ul>
 </blockquote>
 <p><a href="https://camo.githubusercontent.com/b9f2254339fd88d875e11ecd9a539e01f4f6a17b/687474703a2f2f342e62702e626c6f6773706f742e636f6d2f2d4234426472504866494c412f547536644335754b3464492f41414141414141414165512f6950454d305763745237592f73313630302f526f6f2b546563686e6963616c2b4172636869746563747572652b4469616772616d2e706e67" target="_blank"><img src="https://camo.githubusercontent.com/b9f2254339fd88d875e11ecd9a539e01f4f6a17b/687474703a2f2f342e62702e626c6f6773706f742e636f6d2f2d4234426472504866494c412f547536644335754b3464492f41414141414141414165512f6950454d305763745237592f73313630302f526f6f2b546563686e6963616c2b4172636869746563747572652b4469616772616d2e706e67" alt="Слои приложения" data-canonical-src="http://4.bp.blogspot.com/-B4BdrPHfILA/Tu6dC5uK4dI/AAAAAAAAAeQ/iPEM0WctR7Y/s1600/Roo+Technical+Architecture+Diagram.png" style="max-width:100%;"></a></p>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Multilayered_architecture">Паттерн "Слои приложения"</a></li>
-<li><a href="https://ru.wikipedia.org/wiki/Data_Access_Object">Data Access Object</a></li>
-<li><a href="http://martinfowler.com/eaaCatalog/dataTransferObject.html">Паттерн DTO</a></li>
-<li><a href="http://stackoverflow.com/questions/1612334/difference-between-dto-vo-pojo-javabeans">Value Object и Data Transfer Object</a></li>
-<li><a href="http://stackoverflow.com/questions/21554977/should-services-always-return-dtos-or-can-they-also-return-domain-models">Should services always return DTOs, or can they also return domain models?</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Multilayered_architecture" rel="nofollow">Паттерн "Слои приложения"</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Data_Access_Object" rel="nofollow">Data Access Object</a></li>
+<li><a href="http://martinfowler.com/eaaCatalog/dataTransferObject.html" rel="nofollow">Паттерн DTO</a></li>
+<li><a href="http://stackoverflow.com/questions/1612334/difference-between-dto-vo-pojo-javabeans" rel="nofollow">Value Object и Data Transfer Object</a></li>
+<li><a href="http://stackoverflow.com/questions/21554977/should-services-always-return-dtos-or-can-they-also-return-domain-models" rel="nofollow">Should services always return DTOs, or can they also return domain models?</a></li>
 <li>Дополнительно:
 <ul>
-<li><a href="http://codehelper.ru/questions/205/new/repository-и-dao-отличия-преимущества-недостатки">Паттерны Repository и DAO</a></li>
-<li><a href="http://habrahabr.ru/post/263033/">Забудьте о DAO, используйте Repository</a></li>
-<li><a href="http://stackoverflow.com/questions/6640784/difference-between-active-record-and-dao">Difference between Active Record and DAO</a></li>
+<li><a href="http://codehelper.ru/questions/205/new/repository-и-dao-отличия-преимущества-недостатки" rel="nofollow">Паттерны Repository и DAO</a></li>
+<li><a href="http://habrahabr.ru/post/263033/" rel="nofollow">Забудьте о DAO, используйте Repository</a></li>
+<li><a href="http://stackoverflow.com/questions/6640784/difference-between-active-record-and-dao" rel="nofollow">Difference between Active Record and DAO</a></li>
 </ul>
 </li>
 </ul>
@@ -768,7 +769,7 @@
 <p>(D)TO может быть как частью одного entity  (набор полей) так и набором нескольких entities.
 В нашем проекте для данных, которые надо отдавать наружу и отличающихся от Entiy (хранимый бин), мы будем делать (Data) Transfer Object и класть в отдельный пакет to. Например <code>MealsWithExceeded</code> мы отдаем наружу и он является Transfer Object, его надо перенести в пакет <code>to</code>.
 На многих проектах (и собеседованиях) практикуют разделение на уровне maven модулей entity слоя от логики и соответствующей конвертацией ВСЕХ Entity в TO, даже если у них те же самые поля.
-Хороший ответ когда TO обязательны есть на <a href="http://stackoverflow.com/questions/21554977/should-services-always-return-dtos-or-can-they-also-return-domain-models#21569720">stackoverflow: When to Use</a>.</p>
+Хороший ответ когда TO обязательны есть на <a href="http://stackoverflow.com/questions/21554977/should-services-always-return-dtos-or-can-they-also-return-domain-models#21569720" rel="nofollow">stackoverflow: When to Use</a>.</p>
 <blockquote>
 <p>Почему контроллеры положили в папку web, а не в conrollers?</p>
 </blockquote>
@@ -776,7 +777,7 @@
 <blockquote>
 <p>Зачем мы наследуем <code>NotFoundException</code> от <code>RuntimeException</code>?</p>
 </blockquote>
-<p>Так с ним удобнее работать. И у нас нет никаких действий по восстановлению состояния приложения (no recoverable conditions): <a href="http://stackoverflow.com/questions/6115896/java-checked-vs-unchecked-exception-explanation">checked vs unchecked exception</a>. По последним данным checked exception вообще depricated: <a href="http://blog.takipi.com/ignore-checked-exceptions-all-the-cool-devs-are-doing-it-based-on-600000-java-projects">Ignore Checked Exceptions</a></p>
+<p>Так с ним удобнее работать. И у нас нет никаких действий по восстановлению состояния приложения (no recoverable conditions): <a href="http://stackoverflow.com/questions/6115896/java-checked-vs-unchecked-exception-explanation" rel="nofollow">checked vs unchecked exception</a>. По последним данным checked exception вообще depricated: <a href="http://blog.takipi.com/ignore-checked-exceptions-all-the-cool-devs-are-doing-it-based-on-600000-java-projects" rel="nofollow">Ignore Checked Exceptions</a></p>
 <blockquote>
 <p>Зачем в API пишем <code>NotFoundException</code>, если они <code>RuntimeException</code>?</p>
 </blockquote>
@@ -793,58 +794,58 @@
 <p>Что лучше возвращать из API: <code>Collection</code> или <code>List</code></p>
 </blockquote>
 <p>Вообще, как правило, возвращают <code>List</code>, если не просится по коду более общий случай (например возможный <code>Set</code> или <code>Collection</code>, возвращаемый <code>Map.values()</code>). Если возвращается отсортированный список, то <code>List</code> будет адекватнее.</p>
-<h3><a href="#-5-Обзор--spring-framework-spring-context" aria-hidden="true" class="anchor" id="user-content--5-Обзор--spring-framework-spring-context"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 5. <a href="https://drive.google.com/file/d/1fBSLGEbc7YXBbmr_EwEHltCWNW_pUmIH">Обзор  Spring Framework. Spring Context.</a></h3>
+<h3><a href="#-5-Обзор--spring-framework-spring-context" aria-hidden="true" class="anchor" id="user-content--5-Обзор--spring-framework-spring-context"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 5. <a href="https://drive.google.com/file/d/1fBSLGEbc7YXBbmr_EwEHltCWNW_pUmIH" rel="nofollow">Обзор  Spring Framework. Spring Context.</a></h3>
 <h4><a href="#apply-2_4_add_spring_contextpatch" aria-hidden="true" class="anchor" id="user-content-apply-2_4_add_spring_contextpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_4_add_spring_context.patch</h4>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Spring_Framework">Spring Framework</a></li>
-<li><a href="http://spring.io/projects">Проекты Spring</a>.</li>
-<li><a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/overview.html">Обзор Spring Framework</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Spring_Framework" rel="nofollow">Spring Framework</a></li>
+<li><a href="http://spring.io/projects" rel="nofollow">Проекты Spring</a>.</li>
+<li><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/html/overview.html" rel="nofollow">Обзор Spring Framework</a></li>
 </ul>
 <h4><a href="#apply-2_5_add_dependency_injectionpatch" aria-hidden="true" class="anchor" id="user-content-apply-2_5_add_dependency_injectionpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_5_add_dependency_injection.patch</h4>
 <ul>
-<li><a href="https://ru.wikipedia.org/wiki/Инверсия_управления">Инверсия управления.</a></li>
-<li><a href="http://habrahabr.ru/post/131993/">IoC, DI, IoC-контейнер — Просто о простом</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Инверсия_управления" rel="nofollow">Инверсия управления.</a></li>
+<li><a href="http://habrahabr.ru/post/131993/" rel="nofollow">IoC, DI, IoC-контейнер — Просто о простом</a></li>
 </ul>
 <h4><a href="#apply-2_6_add_annotation_processingpatch" aria-hidden="true" class="anchor" id="user-content-apply-2_6_add_annotation_processingpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_6_add_annotation_processing.patch</h4>
 <ul>
-<li><a href="http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in">Difference
+<li><a href="http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in" rel="nofollow">Difference
 between @Component, @Repository &amp; @Service annotations in Spring</a></li>
-<li><a href="http://www.mkyong.com/spring/spring-auto-scanning-components/">Spring Auto Scanning Components</a></li>
-<li><a href="http://www.seostella.com/ru/article/2012/02/12/ispolzovanie-annotacii-autowired-v-spring-3.html">Использование аннотации @Autowired</a></li>
+<li><a href="http://www.mkyong.com/spring/spring-auto-scanning-components/" rel="nofollow">Spring Auto Scanning Components</a></li>
+<li><a href="http://www.seostella.com/ru/article/2012/02/12/ispolzovanie-annotacii-autowired-v-spring-3.html" rel="nofollow">Использование аннотации @Autowired</a></li>
 <li>Дополнительное:
 <ul>
-<li><a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/beans.html">Introduction to the Spring IoC container
+<li><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html" rel="nofollow">Introduction to the Spring IoC container
 and beans</a></li>
-<li><a href="http://it.vaclav.kiev.ua/2010/12/25/spring-framework-for-begginers-part-7/">Constructor против Setter Injection </a></li>
-<li><a href="https://spring.io/guides">Getting Started</a></li>
-<li><a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/">Spring Framework Reference Documentation</a></li>
+<li><a href="http://it.vaclav.kiev.ua/2010/12/25/spring-framework-for-begginers-part-7/" rel="nofollow">Constructor против Setter Injection </a></li>
+<li><a href="https://spring.io/guides" rel="nofollow">Getting Started</a></li>
+<li><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/" rel="nofollow">Spring Framework Reference Documentation</a></li>
 <li><a href="https://github.com/spring-projects">Spring на GitHub</a></li>
-<li><a href="https://dzone.com/refcardz/spring-annotations">Spring Annotations</a></li>
+<li><a href="https://dzone.com/refcardz/spring-annotations" rel="nofollow">Spring Annotations</a></li>
 </ul>
 </li>
 </ul>
 <h4><a href="#apply-2_7_constructor_injectionpatch" aria-hidden="true" class="anchor" id="user-content-apply-2_7_constructor_injectionpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 2_7_constructor_injection.patch</h4>
 <ul>
-<li><a href="https://stackoverflow.com/a/2153680/548473">Inject 2 beans of same type</a></li>
-<li><a href="https://habrahabr.ru/post/334636/">Перевод "Field Dependency Injection Considered Harmful"</a></li>
-<li><a href="http://www.vogella.com/tutorials/AssertJ/article.html">Tutorial: testing with AssertJ</a></li>
-<li><a href="http://stackoverflow.com/questions/39890849/what-exactly-is-field-injection-and-how-to-avoid-it">Field vs Constructor vs Setter DI</a></li>
-<li><a href="https://spring.io/blog/2016/03/04/core-container-refinements-in-spring-framework-4-3#implicit-constructor-injection-for-single-constructor-scenarios">Implicit constructor injection for single-constructor scenarios</a></li>
+<li><a href="https://stackoverflow.com/a/2153680/548473" rel="nofollow">Inject 2 beans of same type</a></li>
+<li><a href="https://habrahabr.ru/post/334636/" rel="nofollow">Перевод "Field Dependency Injection Considered Harmful"</a></li>
+<li><a href="http://www.vogella.com/tutorials/AssertJ/article.html" rel="nofollow">Tutorial: testing with AssertJ</a></li>
+<li><a href="http://stackoverflow.com/questions/39890849/what-exactly-is-field-injection-and-how-to-avoid-it" rel="nofollow">Field vs Constructor vs Setter DI</a></li>
+<li><a href="https://spring.io/blog/2016/03/04/core-container-refinements-in-spring-framework-4-3#implicit-constructor-injection-for-single-constructor-scenarios" rel="nofollow">Implicit constructor injection for single-constructor scenarios</a></li>
 </ul>
 <p>В контроллерах <em>Constructor Injection</em> делать не стал, добавляется лишний код (попробуйте сделать сами). На каждом проекте свои правила, универсальных нет.</p>
 <h4><a href="#Дополнительно-видео-по-spring" aria-hidden="true" class="anchor" id="user-content-Дополнительно-видео-по-spring"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Дополнительно видео по Spring</h4>
 <ul>
-<li><a href="https://www.youtube.com/playlist?list=PL6jg6AGdCNaWF-sUH2QDudBRXo54zuN1t">Юрий Ткач: Spring Framework - The Basics</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLC97BDEFDCDD169D7">Java Brains: Spring Framework</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLwwk4BHih4fho6gmaAwdHYZ6QQq0aE7Zi">Тимур Батыршинов: Spring</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL6jg6AGdCNaWF-sUH2QDudBRXo54zuN1t" rel="nofollow">Юрий Ткач: Spring Framework - The Basics</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLC97BDEFDCDD169D7" rel="nofollow">Java Brains: Spring Framework</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLwwk4BHih4fho6gmaAwdHYZ6QQq0aE7Zi" rel="nofollow">Тимур Батыршинов: Spring</a></li>
 </ul>
-<h3><a href="#-6-Пояснения-к-hw2-Обработка-autowired" aria-hidden="true" class="anchor" id="user-content--6-Пояснения-к-hw2-Обработка-autowired"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN2N6LS1PVE96SW8">Пояснения к HW2. Обработка Autowired</a></h3>
+<h3><a href="#-6-Пояснения-к-hw2-Обработка-autowired" aria-hidden="true" class="anchor" id="user-content--6-Пояснения-к-hw2-Обработка-autowired"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN2N6LS1PVE96SW8" rel="nofollow">Пояснения к HW2. Обработка Autowired</a></h3>
 <p><code>&lt;context:annotation-config/&gt;</code> говорит спрингу при поднятии контекста обрабатывать <code>@Autowired</code> (добавляется в контекст спринга <code>AutowiredAnnotationBeanPostProcessor</code>). После того, как все бины уже в контексте постпроцессор через отражение инжектит все <code>@Autowired</code> зависимости. Будет подробнее в видео "Жизненный цикл Spring контекста" на следующем уроке.</p>
 <h2><a href="#-Ваши-вопросы-1" aria-hidden="true" class="anchor" id="user-content--Ваши-вопросы-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Ваши вопросы</h2>
 <blockquote>
 <p>Что такое схема в spring-app.xml xsi:schemaLocation и зачем она нужна</p>
 </blockquote>
-<p><a href="https://ru.wikipedia.org/wiki/XML_Schema">XML схема</a> нужна для валидации xml, IDEA делает по ней автозаполнение.</p>
+<p><a href="https://ru.wikipedia.org/wiki/XML_Schema" rel="nofollow">XML схема</a> нужна для валидации xml, IDEA делает по ней автозаполнение.</p>
 <blockquote>
 <p>Что означает для Spring</p>
 </blockquote>
@@ -857,14 +858,14 @@ and beans</a></li>
 <p>Как биндинг происходит для <code>@Autowired</code>? Как поступать, если у нас больше одной реализации <code>UserRepository</code>?</p>
 </blockquote>
 <p><code>@Autowired</code>  инжектит по типу (т.е. ижектит класс который реализует <code>UserRepository</code>). Обычно он один. Если у нас несколько реализаций, Spring не поднимится и поругается - <code>No unique bean</code>.
-В этом случае <a href="http://www.mkyong.com/spring/spring-autowiring-qualifier-example/">можно уточнить имя бина через @Qualifier</a>. <code>@Qualifier</code> обычно добавляют только в случае нескольких реализаций.</p>
+В этом случае <a href="http://www.mkyong.com/spring/spring-autowiring-qualifier-example/" rel="nofollow">можно уточнить имя бина через @Qualifier</a>. <code>@Qualifier</code> обычно добавляют только в случае нескольких реализаций.</p>
 <blockquote>
 <p>Почему нельзя сервлет помещать в Spring контекст?</p>
 </blockquote>
 <p>Сервлеты- это исключительно классы <code>servlet-api</code> (веб контейнера) и должны инстанциироваться и работать в нем. Те технически можно ( без <code>init/destroy</code>), но идеологически - неверно. Также НЕ надо работать с cервлетом из <code>SpringMain</code>.</p>
 <hr>
 <ul>
-<li><strong>Еще раз смотрим на <a href="http://topjava.herokuapp.com">демо приложение</a> и вникаем, что такое пользователь и его еда и что он может с ней сделать. Когда пользователь авторизуется в приложении, его id и норма калорий чудесным образом попадают в  <code>AuthorizedUser</code> и в приложении мы может обращаемся к ним. Как они реально туда попадут будет в уроке  9 (Spring Security, сессия и куки)</strong></li>
+<li><strong>Еще раз смотрим на <a href="http://topjava.herokuapp.com" rel="nofollow">демо приложение</a> и вникаем, что такое пользователь и его еда и что он может с ней сделать. Когда пользователь авторизуется в приложении, его id и норма калорий чудесным образом попадают в  <code>AuthorizedUser</code> и в приложении мы может обращаемся к ним. Как они реально туда попадут будет в уроке  9 (Spring Security, сессия и куки)</strong></li>
 <li><strong>Перед началом выполнения ДЗ (ели есть хоть какие-то сомнения) прочитайте ВСЕ ДЗ. Если вопросы остаются- то ВСЕ подсказки</strong>. Особенно этот пункт важный, когда будете делать реальное рабочее ТЗ.</li>
 </ul>
 <h2><a href="#-Домашнее-задание-hw02" aria-hidden="true" class="anchor" id="user-content--Домашнее-задание-hw02"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" alt="hw" style="max-width:100%;"></a> Домашнее задание HW02</h2>
@@ -879,14 +880,14 @@ and beans</a></li>
 <li>3.4: атомарность операций не требуется  (коллизии при одновременном изменении одного пользователя можно не учитывать)</li>
 </ul>
 </li>
-<li>4: Реализовать слои приложения для функциональности "еда". API контроллера должна удовлетворять все потребности демо приложения и ничего лишнего (см. <a href="http://topjava.herokuapp.com">демо</a>).
+<li>4: Реализовать слои приложения для функциональности "еда". API контроллера должна удовлетворять все потребности демо приложения и ничего лишнего (см. <a href="http://topjava.herokuapp.com" rel="nofollow">демо</a>).
 <ul>
 <li><strong>Смотрите на реализацию слоя для user и делаете по аналогии! Если там что-то непонятно, не надо исправлять или делать по своему. Задавайте вопросы. Если действительно нужна правка- я сделаю и напишу всем.</strong></li>
 <li>4.1: после авторизации (сделаем позднее), id авторизованного юзера будет попадать в <code>AuthorizedUser.id()</code>. Запрос попадает в контроллер, методы которого будут доступны снаружи по http, т.е. запрос можно будет сделать с ЛЮБЫМ id для еды
 (не принадлежащем авторизированному пользователю). Нельзя позволять модифицировать/смотреть чужую еду.</li>
 <li>4.2: <code>AuthorizedUser</code> известен только на слое web (см. реализацию <code>ProfileRestController</code>). <code>MealService</code> можно тестировать без подмены логики авторизации, принимаем в методах сервиса и репозитория параметр <code>userId</code>: id владельца еды.</li>
 <li>4.3: если еда не принадлежит авторизированному пользователю или отсутствует, в <code>MealServiceImpl</code> бросать <code>NotFoundException</code>.</li>
-<li>4.4: конвертацию в <code>MealWithExceeded</code> можно делать как в слое web, так и в service (<a href="http://stackoverflow.com/questions/31644131">Mapping Entity-&gt;DTO: Controller or Service?</a>)</li>
+<li>4.4: конвертацию в <code>MealWithExceeded</code> можно делать как в слое web, так и в service (<a href="http://stackoverflow.com/questions/31644131" rel="nofollow">Mapping Entity-&gt;DTO: Controller or Service?</a>)</li>
 <li>4.5: в <code>MealServiceImpl</code> постараться сделать в каждом методе только одни запрос к <code>MealRepository</code></li>
 <li>4.6 еще раз: не надо в названиях методов повторять названия класса (<code>Meal</code>).</li>
 </ul>
@@ -900,7 +901,7 @@ and beans</a></li>
 <li>6.1: учесть, что когда будем работать через Spring MVC, <code>MealServlet</code> удалим, те вся логика должна быть в контроллере</li>
 </ul>
 </li>
-<li>7: добавить в <code>meals.jsp</code> и <code>MealServlet</code> две отдельные фильтрации еды: по дате и по времени (см. <a href="http://topjava.herokuapp.com">демо</a>)</li>
+<li>7: добавить в <code>meals.jsp</code> и <code>MealServlet</code> две отдельные фильтрации еды: по дате и по времени (см. <a href="http://topjava.herokuapp.com" rel="nofollow">демо</a>)</li>
 <li>8: добавить выбор текущего залогиненного пользователя (имитация авторизации, сделать Select с двумя элементами со значениями 1 и 2 в <code>index.html</code> и <code>AuthorizedUser.setId(userId)</code> в <code>UserServlet</code>).
 Настоящая атворизация будет через Spring Security позже.</li>
 </ul>
@@ -959,6 +960,7 @@ and beans</a></li>
       <button type="submit" class="btn">Go</button>
 </form>  </div>
 
+
   </div>
   <div class="modal-backdrop js-touch-events"></div>
 </div>
@@ -972,7 +974,7 @@ and beans</a></li>
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.17553s from unicorn-1132214173-7lsxm">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.14299s from unicorn-1390081693-6pzvz">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -1006,10 +1008,10 @@ and beans</a></li>
   </div>
 
 
-    <script crossorigin="anonymous" integrity="sha256-5o4DAg4RwsPXWu3hUX/KM40ddyQeOO9IU2dkk89xQto=" src="https://assets-cdn.github.com/assets/compat-e68e03020e11c2c3d75aede1517fca338d1d77241e38ef4853676493cf7142da.js"></script>
-    <script crossorigin="anonymous" integrity="sha256-F7VsAbjYEuEdAvWDOjCP6snWeqx5tkyuQYm7fPXaSw0=" src="https://assets-cdn.github.com/assets/frameworks-17b56c01b8d812e11d02f5833a308feac9d67aac79b64cae4189bb7cf5da4b0d.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-5CqL+cOAdYc045hR2wTefL7rLzhg771IHJasEsJabss=" src="https://assets-cdn.github.com/assets/compat-e42a8bf9c380758734e39851db04de7cbeeb2f3860efbd481c96ac12c25a6ecb.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-+xnpyXbt6GVODbcDcHIEoyLXhTRuY1OEN4fS1Kp+FA4=" src="https://assets-cdn.github.com/assets/frameworks-fb19e9c976ede8654e0db703707204a322d785346e6353843787d2d4aa7e140e.js"></script>
     
-    <script async="async" crossorigin="anonymous" integrity="sha256-9FNNb9TYeJV92lXqe/r2NKipr2Ztm3XyzMIpTQW4lnc=" src="https://assets-cdn.github.com/assets/github-f4534d6fd4d878957dda55ea7bfaf634a8a9af666d9b75f2ccc2294d05b89677.js"></script>
+    <script async="async" crossorigin="anonymous" integrity="sha256-Tbl8qoIt5ZHTniC2SR/Q6WSamRrTq7BoQGdCT0qXew4=" src="https://assets-cdn.github.com/assets/github-4db97caa822de591d39e20b6491fd0e9649a991ad3abb0684067424f4a977b0e.js"></script>
     
     
     
