@@ -27,19 +27,19 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>topjava/graduation.md at doc · JavaWebinar/topjava</title>
+  <title>topjava/cv.md at master · JavaOPs/topjava</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
     
-    <meta content="https://avatars1.githubusercontent.com/u/11200258?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="JavaWebinar/topjava" property="og:title" /><meta content="https://github.com/JavaWebinar/topjava" property="og:url" /><meta content="Contribute to topjava development by creating an account on GitHub." property="og:description" />
+    <meta content="https://avatars1.githubusercontent.com/u/13649199?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="JavaOPs/topjava" property="og:title" /><meta content="https://github.com/JavaOPs/topjava" property="og:url" /><meta content="topjava - Java Enterprise: Maven/ Spring/ Security/ JPA(Hibernate)/ REST(Jackson)/ Bootstrap(CSS)/ jQuery" property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OjA1Y2U1OWM4MDFiNzc2OWI2MmYwZDlmMzNiY2I3ZGNjNTEyNTBmNmMxMzFmYzQ1M2JiY2JmNDlkZGFhMGNkZmU=--2b95cb217c7d519c751d76581a780fe51619335e">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3Ojk4YTZhOTBmNTRhMDQ3YTcxNGEwZTk3ZTAwYmQ2MmIwYmIyNTkwOGI2Yzc5ZmMwNTkzMjBjYmJkMTI3NmY1YmM=--862e52c4f1255d5eb0de12dc390a16c721320565">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="3D84:189B2:2C4FB57:502CBFF:5A76F560" data-pjax-transient>
+  <meta name="request-id" content="3D84:189B2:2C50E17:502F2E8:5A76F5A5" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -49,7 +49,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="3D84:189B2:2C4FB57:502CBFF:5A76F560" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="3D84:189B2:2C50E17:502F2E8:5A76F5A5" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
 <meta content="https://github.com/hydro_browser_events" name="hydro-events-url" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
@@ -65,7 +65,7 @@
   <meta name="user-login" content="reomor">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NGEzMDAzOWFjNWUzY2E2Zjk2ZDFhNzcxOWM0ZmU5NTJiZTViMTQxMzkxZTc4ODI0MmZjODNhNTNiNTU0MTc1NXx7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiM0Q4NDoxODlCMjoyQzRGQjU3OjUwMkNCRkY6NUE3NkY1NjAiLCJ0aW1lc3RhbXAiOjE1MTc3NDU1MTgsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="YjhlMjc2YjJjMjQzOGMxMmM2ZTRlZGI3NmI3OWJkNzE0NTNlZmI3MDQ3ZDc3YzJjMDdhNTA2MDVmNjBmMmEyM3x7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiM0Q4NDoxODlCMjoyQzUwRTE3OjUwMkYyRTg6NUE3NkY1QTUiLCJ0aW1lc3RhbXAiOjE1MTc3NDU1NzYsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MULTIPLE_ATTRIBUTION,FREE_TRIALS,MARKETPLACE_HERO_CARD_UPLOADER,CONTRIBUTOR_FLAGGED_CONTENT">
 
@@ -74,15 +74,15 @@
   <meta http-equiv="x-pjax-version" content="2bcdfdf37090b189cdf7cd792d535310">
   
 
-      <link href="https://github.com/JavaWebinar/topjava/commits/doc.atom" rel="alternate" title="Recent Commits to topjava:doc" type="application/atom+xml">
+      <link href="https://github.com/JavaOPs/topjava/commits/master.atom" rel="alternate" title="Recent Commits to topjava:master" type="application/atom+xml">
 
-  <meta name="description" content="Contribute to topjava development by creating an account on GitHub.">
-  <meta name="go-import" content="github.com/JavaWebinar/topjava git https://github.com/JavaWebinar/topjava.git">
+  <meta name="description" content="topjava - Java Enterprise: Maven/ Spring/ Security/ JPA(Hibernate)/ REST(Jackson)/ Bootstrap(CSS)/ jQuery">
+  <meta name="go-import" content="github.com/JavaOPs/topjava git https://github.com/JavaOPs/topjava.git">
 
-  <meta content="11200258" name="octolytics-dimension-user_id" /><meta content="JavaWebinar" name="octolytics-dimension-user_login" /><meta content="108113019" name="octolytics-dimension-repository_id" /><meta content="JavaWebinar/topjava" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="108113019" name="octolytics-dimension-repository_network_root_id" /><meta content="JavaWebinar/topjava" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
+  <meta content="13649199" name="octolytics-dimension-user_id" /><meta content="JavaOPs" name="octolytics-dimension-user_login" /><meta content="41392482" name="octolytics-dimension-repository_id" /><meta content="JavaOPs/topjava" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="41392482" name="octolytics-dimension-repository_network_root_id" /><meta content="JavaOPs/topjava" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/JavaWebinar/topjava/blob/doc/doc/graduation.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/JavaOPs/topjava/blob/master/cv.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -127,9 +127,9 @@
       <div class="d-flex">
             <div class="">
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/search" class="js-site-search-form" data-scoped-search-url="/JavaWebinar/topjava/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaOPs/topjava/search" class="js-site-search-form" data-scoped-search-url="/JavaOPs/topjava/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/JavaWebinar/topjava/blob/doc/doc/graduation.md" class="header-search-scope no-underline">This repository</a>
+        <a href="/JavaOPs/topjava/blob/master/cv.md" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -210,9 +210,9 @@
 
   <div class="dropdown-divider"></div>
   <div class="dropdown-header">
-    <span title="JavaWebinar/topjava">This repository</span>
+    <span title="JavaOPs/topjava">This repository</span>
   </div>
-    <a class="dropdown-item" href="/JavaWebinar/topjava/issues/new" data-ga-click="Header, create new issue">
+    <a class="dropdown-item" href="/JavaOPs/topjava/issues/new" data-ga-click="Header, create new issue">
       New issue
     </a>
 
@@ -255,7 +255,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/neb9+emVega8o3kqPfL3HKSYghU4zEN1RT+sI7bXMlLCtFJPHH2+ITH0DOCUaE5JsvYleioJhScfyjvTNR+Kw==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YU8EUFfR30IFKNomWGP6yBKeDIQTrPkCPEF0lXujA7PUMk7ujAZ8Upsdh/FyxZAtRse2Ga/n7ht1KqLKuawhUQ==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -266,7 +266,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gqnOhnnhJPZlwa4BBocUOxDiV+gU4loaATGP91JriVQ31IQ4ojaH5vv089YsIX7eRLvtdaipTQNIWlmokGSrtg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j9TuNUxfGWK0XTWRZvnZb9/Mv1XUCTCK+2Kv0WK/OMU6qaSLl4i6cipoaEZMX7OKi5UFyGhCJ5OyCXmOoLAaJw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -301,10 +301,10 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AC1Kc0c0l4F14nWQfP9KBpx+Tn3Hnx4CV1p9w6SueTstyxro1jdG3aF/Xn/TxwqCK572hEYBQJYnX2MGRQuOew==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="1X1XDgSLWwXoKMHe+y98uRWN0QG5Zj5HvUX5SuQbi974mweVlYiKWTy16jFUFzw9om1p+Dj4YNPNQOePBb58ng==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="41392482" />
 
         <div class="select-menu js-menu-container js-select-menu">
-          <a href="/JavaWebinar/topjava/subscription"
+          <a href="/JavaOPs/topjava/subscription"
             class="btn btn-sm btn-with-count select-menu-button js-menu-target"
             role="button"
             aria-haspopup="true"
@@ -317,9 +317,9 @@
             </span>
           </a>
           <a class="social-count js-social-count"
-            href="/JavaWebinar/topjava/watchers"
-            aria-label="5 users are watching this repository">
-            5
+            href="/JavaOPs/topjava/watchers"
+            aria-label="34 users are watching this repository">
+            34
           </a>
 
         <div class="select-menu-modal-holder">
@@ -381,63 +381,63 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9eq5KfeLrcif02YRQVrnd8dBjgmKfgrKyYk0EpK+OP8aCPOYOQDpOmhleyZs6r0LGHT5LgWlhsdEMhktAm+ZCA==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaOPs/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FmFmvzTUSxgzSEhvwfSsdRDwF35dsXl97EPHHc2zE2m9fja2os0K/YuIlmEgbSfOEe36/VgyySSC00Y88hfiTg==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar JavaWebinar/topjava"
+        aria-label="Unstar this repository" title="Unstar JavaOPs/topjava"
         data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
         <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
         Unstar
       </button>
-        <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="8 users starred this repository">
-          8
+        <a class="social-count js-social-count" href="/JavaOPs/topjava/stargazers"
+           aria-label="101 users starred this repository">
+          101
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rZB7JIUBwklbUcQ9FukPwNPtlI6DE3y/iqTM9+JltqMQDNEGK1xSUr4Kna4axYJF4lWhSwtA9feicCBoM/Lg9w==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaOPs/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IP7jp2IAKZne4A/pgsQ3/dP15f/lnXjyc2Koph0wOMJI8wJWqUwM7WIiJLuc0Ek9QIVIAH5T9Sy7MDkSWbKVDA==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star JavaWebinar/topjava"
+        aria-label="Star this repository" title="Star JavaOPs/topjava"
         data-ga-click="Repository, click star button, action:blob#show; text:Star">
         <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
         Star
       </button>
-        <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="8 users starred this repository">
-          8
+        <a class="social-count js-social-count" href="/JavaOPs/topjava/stargazers"
+           aria-label="101 users starred this repository">
+          101
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nTEcgPJUw1lyVWGIv22RJMyIT9aSgdTCBjW+8Z7PohF9AsfJg0nApbGE1FU03ql/eHCbajk9ojAFAsgUslc+yA==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaOPs/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="L+saQSIhxT1RwnIoF92RD4l9IyKCQAz9qt7DQtvnmtWdrBi0+Cb79RYvY00rnLKzy//7ca0Gl7y2+G2OagRzyQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
                 data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
-                title="Fork your own copy of JavaWebinar/topjava to your account"
-                aria-label="Fork your own copy of JavaWebinar/topjava to your account">
+                title="Fork your own copy of JavaOPs/topjava to your account"
+                aria-label="Fork your own copy of JavaOPs/topjava to your account">
               <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
             </button>
 </form>
-    <a href="/JavaWebinar/topjava/network" class="social-count"
-       aria-label="68 users forked this repository">
-      68
+    <a href="/JavaOPs/topjava/network" class="social-count"
+       aria-label="1020 users forked this repository">
+      1,020
     </a>
   </li>
 </ul>
 
       <h1 class="public ">
   <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a href="/JavaWebinar" class="url fn" rel="author">JavaWebinar</a></span><!--
+  <span class="author" itemprop="author"><a href="/JavaOPs" class="url fn" rel="author">JavaOPs</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a href="/JavaWebinar/topjava" data-pjax="#js-repo-pjax-container">topjava</a></strong>
+--><strong itemprop="name"><a href="/JavaOPs/topjava" data-pjax="#js-repo-pjax-container">topjava</a></strong>
 
 </h1>
 
@@ -450,14 +450,14 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/JavaWebinar/topjava/tree/doc" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /JavaWebinar/topjava/tree/doc" itemprop="url">
+    <a href="/JavaOPs/topjava" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /JavaOPs/topjava" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a href="/JavaWebinar/topjava/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /JavaWebinar/topjava/issues" itemprop="url">
+      <a href="/JavaOPs/topjava/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /JavaOPs/topjava/issues" itemprop="url">
         <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
         <span class="Counter">0</span>
@@ -465,24 +465,24 @@
 </a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/JavaWebinar/topjava/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /JavaWebinar/topjava/pulls" itemprop="url">
+    <a href="/JavaOPs/topjava/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /JavaOPs/topjava/pulls" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">2</span>
+      <span class="Counter">21</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
-    <a href="/JavaWebinar/topjava/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /JavaWebinar/topjava/projects">
+    <a href="/JavaOPs/topjava/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /JavaOPs/topjava/projects">
       <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
-    <a href="/JavaWebinar/topjava/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /JavaWebinar/topjava/wiki">
+    <a href="/JavaOPs/topjava/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /JavaOPs/topjava/wiki">
       <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
 
-  <a href="/JavaWebinar/topjava/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /JavaWebinar/topjava/pulse">
+  <a href="/JavaOPs/topjava/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /JavaOPs/topjava/pulse">
     <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
     Insights
 </a>
@@ -496,9 +496,9 @@
   <div class="repository-content ">
 
     
-  <a href="/JavaWebinar/topjava/blob/104349b3f6d8fed18966e55f90e4e50b6b79addd/doc/graduation.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/JavaOPs/topjava/blob/1eef4275f454218ce2bc06226ffc9c4b6e1488e0/cv.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:5d76a0f7a72445f34f66845441244077 -->
+  <!-- blob contrib key: blob_contributors:v21:c03877da1e1b0041e27bcaa87dbdadc5 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -507,7 +507,7 @@
     
     type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
       <i>Branch:</i>
-      <span class="js-select-button css-truncate-target">doc</span>
+      <span class="js-select-button css-truncate-target">master</span>
   </button>
 
   <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
@@ -540,33 +540,13 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/JavaWebinar/topjava/blob/doc/doc/graduation.md"
-               data-name="doc"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                doc
-              </span>
-            </a>
-            <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/JavaWebinar/topjava/blob/master/doc/graduation.md"
+               href="/JavaOPs/topjava/blob/master/cv.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
               <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
               <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
                 master
-              </span>
-            </a>
-            <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/JavaWebinar/topjava/blob/opt_view_groups/doc/graduation.md"
-               data-name="opt_view_groups"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                opt_view_groups
               </span>
             </a>
         </div>
@@ -588,7 +568,7 @@
 </div>
 
     <div class="BtnGroup float-right">
-      <a href="/JavaWebinar/topjava/find/doc"
+      <a href="/JavaOPs/topjava/find/master"
             class="js-pjax-capture-input btn btn-sm BtnGroup-item"
             data-pjax
             data-hotkey="t">
@@ -597,7 +577,7 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/JavaWebinar/topjava/tree/doc" data-pjax="true"><span>topjava</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/JavaWebinar/topjava/tree/doc/doc" data-pjax="true"><span>doc</span></a></span><span class="separator">/</span><strong class="final-path">graduation.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/JavaOPs/topjava" data-pjax="true"><span>topjava</span></a></span></span><span class="separator">/</span><strong class="final-path">cv.md</strong>
     </div>
   </div>
 
@@ -605,15 +585,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/9ec0cfc8b87217e293b1641d607f3f441ac2ed46" data-pjax>
-          9ec0cfc
+        <a class="commit-tease-sha" href="/JavaOPs/topjava/commit/52f9ec65b3cb3be37d3834699ab590f5ce3444d3" data-pjax>
+          52f9ec6
         </a>
-        <relative-time datetime="2018-01-21T16:43:14Z">Jan 21, 2018</relative-time>
+        <relative-time datetime="2017-12-19T22:58:28Z">Dec 20, 2017</relative-time>
       </span>
       <div>
-        <img alt="@JavaWebinar" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/11200258?s=40&amp;v=4" width="20" />
-        <a href="/JavaWebinar" class="user-mention" rel="author">JavaWebinar</a>
-          <a href="/JavaWebinar/topjava/commit/9ec0cfc8b87217e293b1641d607f3f441ac2ed46" class="message" data-pjax="true" title="Update graduation.md">Update graduation.md</a>
+        <img alt="@JavaOPs" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/13649199?s=40&amp;v=4" width="20" />
+        <a href="/JavaOPs" class="user-mention" rel="author">JavaOPs</a>
+          <a href="/JavaOPs/topjava/commit/52f9ec65b3cb3be37d3834699ab590f5ce3444d3" class="message" data-pjax="true" title="Add info">Add info</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -628,8 +608,8 @@
       <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
       <ul class="facebox-user-list" data-facebox-id="facebox-description">
           <li class="facebox-user-list-item">
-            <img alt="@JavaWebinar" height="24" src="https://avatars2.githubusercontent.com/u/11200258?s=48&amp;v=4" width="24" />
-            <a href="/JavaWebinar">JavaWebinar</a>
+            <img alt="@JavaOPs" height="24" src="https://avatars0.githubusercontent.com/u/13649199?s=48&amp;v=4" width="24" />
+            <a href="/JavaOPs">JavaOPs</a>
           </li>
       </ul>
     </div>
@@ -641,9 +621,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/JavaWebinar/topjava/raw/doc/doc/graduation.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/JavaWebinar/topjava/blame/doc/doc/graduation.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/JavaWebinar/topjava/commits/doc/doc/graduation.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/JavaOPs/topjava/raw/master/cv.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/JavaOPs/topjava/blame/master/cv.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/JavaOPs/topjava/commits/master/cv.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -653,100 +633,152 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/graduation.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="80BwKvmpnt0WaowtJyQrxGB4fD1Vnt5anMIodDFB4+O2BsJO4q7GqjsCwHSyh1ll6B/4zpnm1BKqP95ptJvjFg==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaOPs/topjava/edit/master/cv.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gE7kVupkPOXjQJe11wjOxlreWpLbvBh8vIQizIbwB0DLM5eJ2nh7f65A9TccLBs+vCH6QsZoeOaXyFMF1NIFbA==" /></div>
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/graduation.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="zS71Jx/2NNDHA1neOWb2pecq7yKzXPcSfZKgtvFyfMyMRarExy4gC/IA+iEnV6c+TbLgUTgyVjEmg6XmlRf/1g==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaOPs/topjava/delete/master/cv.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CjplBNyR7K0B9rh18tPc8OxRNsTCs63gEv0Uio9OYKL4jwHRTESA6CYSyNCeGBNv2tWK2/CkaTMG11lg7iZw4Q==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Fork this project and delete the file" data-disable-with>
+            aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
           </button>
 </form>  </div>
 
   <div class="file-info">
-      72 lines (55 sloc)
+      106 lines (85 sloc)
       <span class="file-info-divider"></span>
-    9.02 KB
+    11.4 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h2><a href="#Тестовое-задание-на-оплачиваемую-стажировку" aria-hidden="true" class="anchor" id="user-content-Тестовое-задание-на-оплачиваемую-стажировку"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Тестовое задание на оплачиваемую стажировку</h2>
-<p>Design and implement a REST API using Hibernate/Spring/SpringMVC (or Spring-Boot) <strong>without frontend</strong>.</p>
-<p>The task is:</p>
-<p>Build a voting system for deciding where to have lunch.</p>
+    <article class="markdown-body entry-content" itemprop="text"><h2><a href="#Составление-резюме-подготовка-к-интервью-поиск-работы" aria-hidden="true" class="anchor" id="user-content-Составление-резюме-подготовка-к-интервью-поиск-работы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Составление резюме, подготовка к интервью, поиск работы</h2>
+<p><a href="https://cloud.githubusercontent.com/assets/13649199/10877471/93ea86b8-8157-11e5-9bfa-95e3fba75c58.jpg" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/10877471/93ea86b8-8157-11e5-9bfa-95e3fba75c58.jpg" alt="cv" style="max-width:100%;"></a></p>
 <ul>
-<li>2 types of users: admin and regular users</li>
-<li>Admin can input a restaurant and it's lunch menu of the day (2-5 items usually, just a dish name and price)</li>
-<li>Menu changes each day (admins do the updates)</li>
-<li>Users can vote on which restaurant they want to have lunch at</li>
-<li>Only one vote counted per user</li>
-<li>If user votes again the same day:
+<li><a href="http://habrahabr.ru/company/ua-hosting/blog/272617/" rel="nofollow">Научиться программировать сложнее, чем кажется</a></li>
+<li><a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQVc2WUdCR0xvLWM" rel="nofollow">Собеседование. Разработка ПО. Вопросы.</a></li>
+<li><a href="https://github.com/andreis/interview">Набор ссылок для тренировки и прохождения интервью</a></li>
+</ul>
+<h3><a href="#Составление-резюме" aria-hidden="true" class="anchor" id="user-content-Составление-резюме"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Составление резюме:</h3>
 <ul>
-<li>If it is before 11:00 we asume that he changed his mind.</li>
-<li>If it is after 11:00 then it is too late, vote can't be changed</li>
+<li><a href="https://www.visualcv.com/" rel="nofollow">VisualCV: create resume in minutes</a></li>
+<li><a href="http://resumup.com/" rel="nofollow">Выбрать шаблон для резюме</a></li>
+<li><a href="https://pages.github.com/">GitHub Pages</a>, <a href="https://github.com/jglovier/resume-template">Resume template</a></li>
+<li><a href="http://lifehacker.ru/2015/04/07/33-lajfhaka-dlya-rezyume/" rel="nofollow">Как продать свое резюме в 2 раза дороже</a></li>
+<li><a href="http://enjoy-job.ru/trudoustroistvo/kak-pravilno-sostavit-rezume/" rel="nofollow">Как правильно составить резюме</a></li>
+<li><a href="http://habrahabr.ru/post/184332/" rel="nofollow">Резюме программистов. Часть 1 (плохие)</a></li>
+<li><a href="http://habrahabr.ru/post/184372/" rel="nofollow">Резюме программистов. Часть 2 (хорошие)</a></li>
+<li><a href="http://skyeng.ru/articles/sostavte-rezyume-na-anglijskom-450-primerov" rel="nofollow">Как составить резюме на английском</a></li>
+<li><a href="http://blog.olegdubas.com/2013/03/17/resume/" rel="nofollow">ОФОРМЛЕНИЕ IT-РЕЗЮМЕ для USA</a></li>
 </ul>
-</li>
-</ul>
-<p>Each restaurant provides new menu each day.</p>
-<p>As a result, provide a link to github repository.</p>
-<p>It should contain the code and <strong>README.md with API documentation and curl commands to get data for voting and vote.</strong></p>
-<hr>
-<p>P.S.: Make sure everything works with latest version that is on github :)</p>
-<p>P.P.S.: Asume that your API will be used by a frontend developer to build frontend on top of that.</p>
-<hr>
-<h3><a href="#-Рекомендации" aria-hidden="true" class="anchor" id="user-content--Рекомендации"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" alt="error" style="max-width:100%;"></a> Рекомендации</h3>
+<h3><a href="#Наши-истории-делимся-опытом-и-успехом" aria-hidden="true" class="anchor" id="user-content-Наши-истории-делимся-опытом-и-успехом"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://javaops.ru/story.html" rel="nofollow">Наши истории (делимся опытом и успехом)</a></h3>
+<h3><a href="#Тестызадачи-онлайн" aria-hidden="true" class="anchor" id="user-content-Тестызадачи-онлайн"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Тесты/задачи онлайн:</h3>
 <ul>
-<li><strong>Сделай новый проект и добавляй туда из Topjava только то что нужно! Локализация, типы ошибок, BeanMatcher, Json View, излишние делегирования и наследования - не нужны!</strong></li>
-<li><strong>API продумывай с точки зрения не программиста и объектов, а с точки зрения того, кто им будет пользоваться (frontend)</strong></li>
-<li><strong>Сначала сделай основной сценарий по ТЗ. Все остальное (если очень хочется, 3 раза подумай) - потом.</strong></li>
+<li><a href="https://tests4geeks.com/java" rel="nofollow">Java Programming Test</a></li>
+<li><a href="http://www.javadeathmatch.com/" rel="nofollow">game: test Java skills</a></li>
+<li><a href="https://codility.com/programmers/lessons" rel="nofollow">Codility lesson tests</a></li>
+<li><a href="http://www.quizful.net/test" rel="nofollow">Quizful- тесты онлайн</a></li>
+<li><a href="https://leetcode.com/" rel="nofollow">LeetCode Online Judge</a></li>
+<li><a href="http://www.spoj.com/" rel="nofollow">Sphere online judge</a></li>
+<li><a href="https://codility.com/programmers/lessons/" rel="nofollow">Codility programmers lessons</a></li>
+<li><a href="https://www.hackerrank.com/" rel="nofollow">Hackerrank practice coding</a></li>
 </ul>
-<p><em>Представьте себе, что ПМ (лид, архитектор) дал вам ТЗ и некоторое время недоступен. У вас конечно есть много мыслей, для чего нужно приложение, как исправить ТЗ, дополнить его и сделать правильно. НО НЕ НАДО ИХ РЕАЛИЗОВЫВАТЬ В КОДЕ. Нужно сделать все максимально просто, удобно для доработок и для использования со стороны клиента (если конечно в ТЗ нет оговорок). Все свои вопросы и предложения и хотелки оформляйете отдельно (в <code>read.me</code> например). Если делаете что-то сложнее простейшего случая (например справочник еды)- объязательно напишите в read.me. Как и выбор стратегии кэширования.</em></p>
+<h2><a href="#Тестовое-собеседование-самые-спрашиваемые-темы" aria-hidden="true" class="anchor" id="user-content-Тестовое-собеседование-самые-спрашиваемые-темы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://javaops.ru/interview/test.html" rel="nofollow">Тестовое собеседование, самые спрашиваемые темы</a></h2>
+<h3><a href="#Интервью" aria-hidden="true" class="anchor" id="user-content-Интервью"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Интервью:</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Deb5wMHjBHY" rel="nofollow">Михаил Портнов. Собеседование на работу: как продать себя грамотно</a></li>
+<li><a href="https://www.youtube.com/watch?v=qKsc8PoHJwM" rel="nofollow">Михаил Портнов. Какие вопросы мы задаем на собеседовании?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hry2CNuOxBg" rel="nofollow">Михаил Портнов. Собеседование на работу: жизненный путь</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL7XXjge0nKZczMtQbNk9c2cplvuLZomTh" rel="nofollow">Канал: Резюме, поиск работы, интервью</a></li>
+<li><a href="https://www.youtube.com/watch?v=ft0Nj8Cm9kk" rel="nofollow">Яков Файн: Как стать профессиональным Java разработчиком</a></li>
+<li><a href="https://jsehelper.blogspot.ru/p/blog-page.html" rel="nofollow">Ответы на вопросы на собеседовании Junior Java Developer</a></li>
+<li><a href="http://javastudy.ru/interview/list-of-question-java-interview/" rel="nofollow">Список вопросов с ответами для собеседования по Java</a></li>
+<li><a href="https://github.com/MaximAbramchuck/awesome-interviews#java">Сборка по вопросам на интервью</a></li>
+<li><a href="http://javastudy.ru/category/interview/" rel="nofollow">Сборка вопросов-ответов от JavaStudy</a></li>
+<li><a href="http://habrahabr.ru/post/181033/" rel="nofollow">Тест на знание SQL</a></li>
+<li><a href="http://jsehelper.blogspot.ru/p/blog-page.html" rel="nofollow">Вопросы на собеседовании Java Junior Developer</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.ab.jiq" rel="nofollow">Java вопросы с собеседований на Android</a></li>
+<li><a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLTRFY293RUVPVms" rel="nofollow">Сборка вопросов от JavaRush</a></li>
+</ul>
 <blockquote>
-<p>Совершенство достигнуто не тогда, когда нечего добавить, а тогда, когда нечего отнять</p>
+<p>про clone и finalize объязательно прочтите <a href="http://www.ozon.ru/context/detail/id/24828676/" rel="nofollow">Джошуа Блох: Java. Эффективное программирование (второе издание)</a></p>
 </blockquote>
-<p><em>Антуан де Сент-Экзюпери</em></p>
 <ul>
-<li>1: <strong>читаем ТЗ ОЧЕНЬ внимательно, НЕ надо ничего своего туда домысливать и творчески изменять</strong></li>
-<li>2: <strong>тщательно считайте количество обращений в базу на каждый запрос. Особенно при запросах от юзеров, которых очень много! Также на сложность запросов от них, чтобы не положить базу</strong></li>
-<li>3: <strong>тщательно считайте количество запросов в вашем API для отображения нужной информации и чтобы проголосовать</strong></li>
-<li>4: <strong>учитывайте, что пользователей может быть ооочень много, а админов- мало</strong></li>
-<li>5: в проекте (и тестовом задании на работу) в отличие от нашего учебного topjava оставляйте только необходимый для работы приложения код, ничего лишнего:
-<ul>
-<li>5.1 НЕ надо делать разные профили базы и работы с ней.</li>
-<li>5.2 НЕ надо делать абстрактных контроллеров на всякий случай.</li>
-<li>5.3 НЕ надо делать классов репозиториев, если там нет ничего, кроме делегирования.</li>
-<li>5.4 Из потребностей приложения (которую надо самим придумать) реализовывать только очевидные сценарии. Те.- НИЧЕГО ЛИШНЕГО.</li>
-<li>5.5 НЕ надо все бездумно кэшировать</li>
+<li><a href="http://bookvoed.ru/book?id=2593572" rel="nofollow">Cracking the Coding Interview</a></li>
 </ul>
+<blockquote>
+<p>Особенно обратите внимание на раздел: <a href="http://storage.piter.com/upload/contents/978545901120/978545901120_X.pdf" rel="nofollow">Часть VIII. Вопросы собеседования</a></p>
+</blockquote>
+<h3><a href="#От-себя" aria-hidden="true" class="anchor" id="user-content-От-себя"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>От себя:</h3>
+<ul>
+<li>email, skype - очень желательно, чтобы по ним вы были узнаваемы. Заведите рабочие, если не так.</li>
+<li>написать ВЕСЬ IT опыт (исключая опыт пользователя: Windows, MS Word, Photophop, Yandex disk, Google docs, ..): технологии, какие задачи решали (конкретные), какие инструменты использовали, VCS, DB, инструменты сборки, ... включая опыт в ВУЗе.</li>
+<li>на English иметь желательно. Если вакансия опублинована на Englsih - шлите на нем. Часто могут на нем попросить, если работодатель иностранный.</li>
+<li>удобно иметь резюме где то в инете (hh, linkedin, google doc, чтобы им было удобно делиться).</li>
+</ul>
+<h3><a href="#Позиционирование-проекта-topjava" aria-hidden="true" class="anchor" id="user-content-Позиционирование-проекта-topjava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Позиционирование <a href="https://github.com/JavaOPs/topjava/blob/master/description.md">проекта Topjava</a>:</h3>
+<ul>
+<li>
+<p>Обязательно убери из резюме <strong>любое упоминание Junior</strong>. Количество обращений возрастет на порядок. Ссылку на стажировку можно поставить: <a href="http://javaops.ru" rel="nofollow">http://javaops.ru</a> (в linkedin: <a href="https://www.linkedin.com/company/java-online-projects" rel="nofollow">https://www.linkedin.com/company/java-online-projects</a>).</p>
 </li>
-<li>6: базу лучше взять без установки (H2 или HSQLDB)</li>
-<li>7: по возможности сделать JUnit тесты</li>
-<li>8: уделяйте внимание обработке ошибок</li>
-<li>9: далаем REST API в соответствии с концепцией REST, <strong>с учетом иерархии принадлежности объектов</strong>
-<ul>
-<li><a href="https://habrahabr.ru/company/yandex/blog/265569/" rel="nofollow">15 тривиальных фактов о правильной работе с протоколом HTTP</a></li>
-<li><a href="http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/" rel="nofollow">10 Best Practices for Better RESTful API</a></li>
-</ul>
+<li>
+<p>После завершения проекта ты освошь все заявленные в нем технологии - вставь их в квалификацию (включая java 8 Stream and Time API).</p>
 </li>
-<li>10: не смешивайте TO и Entity вместе. Лучше всего, если они будут независимыми друг от друга.</li>
-<li>11: если приложению в объекте требуется только его id, используйте reference (как мы при сохранении еды вставляем туда юзера)</li>
-<li>12: <a href="http://stackoverflow.com/a/43051227/548473" rel="nofollow">Use for money in java app</a></li>
-<li>13: <strong>Историю еды и голосований лучше сделать. Нужно различать базовые вещи, которые закладываются в архитектуру приложения и неочевидные доработки к ТЗ, которых лучше не делать.</strong></li>
-<li>14: Еще раз про <a href="https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma" rel="nofollow">hashCode/equals в Entity</a>: не делайте сравнение по полям!!</li>
-<li>15: Название пакетов, имен классов для <code>model/to/web</code> достаточно стандартные (например <code>model/domain</code>). НЕ надо придумывать своих собственных правил.</li>
-<li>16: Предпочтительно использовать DATA-JPA (можно без лишней делегации, напрямую из сервиса/контроллера дергать Repository). В случае JPA позаботьтесь о своем собственном generic DAO.</li>
-<li>17: На topjava мы смотрели разные варианты использования, тут делаем максимально просто. С TO многие вещи упрощаются.</li>
-<li>18: Проверьте, не торчат ли из кода учебные уши topjava, типа <code>ProfileRestController.testUTF()</code>, <code>AbstractServiceTest.printResult()</code> или закомментированные <code>JdbcTemplate</code>. Назначение этого проекта совсем другое.</li>
-<li>19: ORM работает с объектами. <a href="https://stackoverflow.com/questions/6311776/hibernate-foreign-keys-instead-of-entities" rel="nofollow">В простейших случаях fk_id как поля допустимы</a>, но при этом JPA их уже никак не обрабатывает и не используйте их вместе с объектами.  Ссылка на stackoverwrflow в коде обязательна!</li>
-<li>20: Проверьте, станет ли код проще с <code>@AuthenticationPrincipal</code> (урок 11, Доступ к AuthorizedUser). С ним можно убрать из <code>AuthorizedUser</code> все статические методы.</li>
-<li>21: Не размещайте логику приложения и преобразования в TO в слое доступа к DB</li>
+<li>
+<p>В разделе опыт работы (если нет коммерческого опыта) вставь:</p>
+<pre><code>  Участие в разработке Spring/JPA Enterprise приложения c авторизацией и правами доступа на основе ролей 
+          на стеке Maven/ Spring MVC/ Security/ REST(Jackson)/ Java 8 Stream API:
+  -  реализация сохранения в базы Postgres и HSQLDB на основе Spring JBDC, JPA(Hibernate) и Spring-Data-JPA
+  -  реализация и тестирование REST и AJAX контроллеров
+  -  реализация клиента на Bootstrap (css/js), datatables, jQuery + plugins.
+  -  собственная доработка проекта
+</code></pre>
+</li>
+<li>
+<p>Делай упор не на обучение, а на <strong>участие в проекте</strong>. Выполнение домашних заданий это полноценное участие с написанием функционала по всем пройденным технологиям. На собеседовании смотрят не на то, что ты заканчивал, а на опыт и знания.</p>
+</li>
 </ul>
-<h4><a href="#Отнеситесь-к-проекту-как-к-вашему-тестовому-заданию-на-работу-Это-означает-что-НЕ-будет-возможности-объяснять-почему-ты-так-сделал-код-и-что-для-запуска-надо-создать-базу-данных-или-переменную-окружения-Если-что-то-не-по-ТЗ-или-не-запускается-и-нет-инструкции-или-код-непонятный-и-нет-комментариев---молча-вычеркнут-из-кандидатов" aria-hidden="true" class="anchor" id="user-content-Отнеситесь-к-проекту-как-к-вашему-тестовому-заданию-на-работу-Это-означает-что-НЕ-будет-возможности-объяснять-почему-ты-так-сделал-код-и-что-для-запуска-надо-создать-базу-данных-или-переменную-окружения-Если-что-то-не-по-ТЗ-или-не-запускается-и-нет-инструкции-или-код-непонятный-и-нет-комментариев---молча-вычеркнут-из-кандидатов"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Отнеситесь к проекту как к вашему тестовому заданию на работу! Это означает, что НЕ будет возможности объяснять, почему ты так сделал код и что для запуска надо создать базу данных или переменную окружения. Если что-то не по ТЗ или не запускается и нет инструкции или код непонятный и нет комментариев - молча вычеркнут из кандидатов.</h4>
+<h3><a href="#В-процессе-обучения" aria-hidden="true" class="anchor" id="user-content-В-процессе-обучения"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>В процессе обучения</h3>
+<ul>
+<li>
+<p>Если рассмотриваешь предложения по работе, подними в своем профиле этот флаг и обязательно заполни ссылку на резюме. Обновления нашей базы выпускников смотрят уже более 125 партнеров по трудоустройству (компании и индивидуальные рекрутеры). Проверь содержание "Информация для HR": по нему принимают решение, открывать резюме или нет.</p>
+</li>
+<li>
+<p>Вступайте в нашу группу участников Slack: каналы помощи с Java, отзывы о работодателях, обсуждение тестовых заданий, вакансии, цены на рынке труда, IT события, интересные видео и многое другое.</p>
+</li>
+<li>
+<p><a href="https://vk.com/javawebinar?w=wall-58538268_414" rel="nofollow">Подпишитесь на рассылку вакансий под себя</a></p>
+</li>
+</ul>
+<h3><a href="#После-прохождения-испытательного-срока-жду-твою-историю-успеха" aria-hidden="true" class="anchor" id="user-content-После-прохождения-испытательного-срока-жду-твою-историю-успеха"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>После прохождения испытательного срока жду твою <a href="http://javaops.ru/view/story" rel="nofollow">историю успеха</a></h3>
+<h3><a href="#Основные-сайты-поиска-работы" aria-hidden="true" class="anchor" id="user-content-Основные-сайты-поиска-работы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Основные сайты поиска работы:</h3>
+<ul>
+<li><a href="https://rabota.yandex.ru/search?job_industry=275&amp;text=java" rel="nofollow">Яндекс агрегатор</a></li>
+<li><a href="/JavaOPs/topjava/blob/master/hh.ru">HH</a></li>
+<li><a href="https://www.linkedin.com/" rel="nofollow">LinkedIn</a></li>
+<li><a href="http://djinni.co/" rel="nofollow">djinni.co (более актуально для Украины)</a></li>
+</ul>
+<h2><a href="#Как-выжить-на-испытательном-сроке" aria-hidden="true" class="anchor" id="user-content-Как-выжить-на-испытательном-сроке"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Как выжить на испытательном сроке</h2>
+<ul>
+<li>Учись грамотно формулировать проблему. Проблема "у меня не работает" может иметь тысячи причин. В
+процессе формулирования очень часто приходит ее решение.</li>
+<li>Учись инвестигировать проблему. Внимательное чтение логов и умение дебажить - основные навыки
+разработчика. В логах надо читать верх самого нижнего эксепшена - там причина всей портянки.</li>
+<li>Грамотно уделяй время каждой проблеме. Две крайности - сразу бросаться за помощью и
+бится нам ней часами.
+Пробуй решить ее сам и в зависимости от проблемы выделяй на это разумное время.</li>
+<li>Если тебе что-то объясняют по проекту - обязательно записывай.</li>
+<li>Когда получаешь задачу - уточни все очень подробно.</li>
+<li>Получай в процессе решения обратную связь - в том ли направлении ты идешь.</li>
+<li>Не игнорируй совместные ланчи (курилки)</li>
+<li>Готовься к стендапам/летучкам. Задавай на них вменяемые вопросы. Выказывай заинтересованность</li>
+<li>Выдели самое главное путем опроса босса и важных коллег. Не распыляйся на мелочи.</li>
+<li><a href="http://blog.csssr.ru/2016/09/19/how-to-be-a-beginner-developer" rel="nofollow"><strong>Советы новичкам</strong></a></li>
+</ul>
+<h2><a href="#Отзывы-по-стажировке-topjava" aria-hidden="true" class="anchor" id="user-content-Отзывы-по-стажировке-topjava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://vk.com/topic-74381644_30447246" rel="nofollow">Отзывы по стажировке Topjava</a></h2>
 </article>
   </div>
 
@@ -773,7 +805,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.13765s from unicorn-1768575-qcqpf">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.15954s from unicorn-3157785725-z8n87">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
