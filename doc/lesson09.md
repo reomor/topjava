@@ -1,978 +1,185 @@
+# Онлайн проекта <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
 
+## <a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFVWRGbEw1RjJrMjg">Материалы занятия</a>
 
+- **Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
+- **При удалении файлов не забывайте делать clean: `mvn clean package`**
 
+### ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Правка
 
+#### Apply 9_0_fix.patch
+- Обновил некоторые зависимости
+- Для DELETE сделал возвращаемый статус `NO_CONTENT (204)`
+  - [15 тривиальных фактов о правильной работе с протоколом HTTP](https://habrahabr.ru/company/yandex/blog/265569/)
 
+## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW8
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
-  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM">HW8</a>
+**Поправка к видео: <a href="http://getbootstrap.com/css/#grid">в гриде bootstrap 12 колонок</a>.**
 
+#### Apply 9_01_HW8.patch
+> - Все события сделал через `onlick`. Чтобы формы не сабмитились, заменил `type="submit"` на `type="button"`. 
+> - Фильтр еды сделал в [Bootstrap Panels](http://getbootstrap.com/components/#panels)
+>   - [Fitting a panel into bootstrap's grid system](http://stackoverflow.com/questions/24816175)
+> - Удалил лишние классы, JSP и i18N
 
+- <a href="http://getbootstrap.com/css/#grid">Grid system</a>
+- <a href="http://getbootstrap.com/css/#description">Bootstrap description</a>
+- <a href="http://getbootstrap.com/css/#forms">Bootstrap forms</a>
 
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-f27d807afb610bf126cbfb9ce429438a328e012239e5a77fc8152b794553dfc0.css" integrity="sha256-8n2AevthC/Emy/uc5ClDijKOASI55ad/yBUreUVT38A=" media="all" rel="stylesheet" />
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-1d7717dfa90687d65ce00c80ab42271195164d949715783c2c80c9f85595784e.css" integrity="sha256-HXcX36kGh9Zc4AyAq0InEZUWTZSXFXg8LIDJ+FWVeE4=" media="all" rel="stylesheet" />
+#### Apply 9_02_HW8_clear_filter.patch
+> Добавил сброс фильтра
+
+###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV0VKY2FGbndGMTQ">HW8 Optional (enable/disable user)</a>
+
+#### Apply 9_03_HW8_enable_disable.patch
+> - Перенес метод `enable` в `userDatatables.js` и вынес стиль `disabled` в css
+> - Меняю стиль `<tr>` ПОСЛЕ успешной обработки запроса через `toggleClass` и при ошибке возвращаю `checked` в прежнее состояние    
+> - Убрал `init()`. При переводе таблицы на Ajax вместо него будет `createdRow`. Стили `disabled` добавляются при отрисовки таблицы в JSP
+
+## Занятие 9:
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0">Spring Binding</a>
+#### Apply 9_04_binding.patch
+
+>  Move `ru.javawebinar.topjava.util.MealsUtil.DEFAULT_CALORIES_PER_DAY` to `ru.javawebinar.topjava.util.UserUtil`
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2ZvcS1pSjdMQlU">Реализация update</a>
+#### Apply 9_05_update.patch
+> - Сделал интерфейс `HasId` от которого наследуются `BaseTo` и `AbstractBaseEntity`
+> - Сделал проверку `id` в `ValidationUtil` на основе `HasId` 
+> - Сделал в `ProfileRestController` обновление своего профиля через `UserTo` (нельзя изменять себе роли) и поправил тест
+
+#### ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Вопрос:
+> Можно ли было удаление делать без перезагрузки таблицы (удалением строки) и для редактирования брать данные со страницы, а не с сервера?
+
+В многопользовательском приложении принято при изменении данных подтягивать все изменения с базы, иначе может быть большая несогласованность базы и UI. В таблице еды наши пользователи видят только свои записи, но лучше для всех таблиц делать общий подход. Дополнительная нагрузка на базу тут совсем небольшая.
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLXp5MTFDMEY5WFE">Spring Validation</a>
+#### Apply 9_06_validation.patch
+> - заменил hibernate `@Depricated` аннотации валидации на анологичные javax
+> - `responseJSON` не выводится в случае его отсутствия (например при попытке добавить пользователья с дублирующимся email)
+> - сделал конкатенацию ошибок через `StringJoiner`
+> - при неверном формате email делается проверка `startsWith`, чтобы поле email не дублировалось в сообщении 
+
+-  <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#validation-beanvalidation">Spring Validation.</a>
+-  <a href="http://beanvalidation.org/">Bean Validation</a>
+-  <a href="https://spring.io/blog/2012/08/29/integrating-spring-mvc-with-jquery-for-validation-rules">Валидация формы по AJAX.</a>
+-  <a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0#answer-17142416">JSR-303, 349</a>
+- <a href="https://dzone.com/articles/spring-31-valid-requestbody">@Valid @RequestBody + Error handling</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
+#### Apply 9_07_datatable_via_ajax.patch
+> Напомню, что мы перешли на [параметры Datatables в формате 1.10](https://datatables.net/upgrade/1.10-convert)
+
+-  [DataTables Ajax](https://datatables.net/manual/ajax)
+
+#### ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Вопрос:
+> Что за дополнительный параметр (который каждый раз инкрементируется) появляется при запросе datatables данных по ajax (например `http://localhost:8080/topjava/ajax/admin/users/?_=1496156621129`) ?
+
+Это защита `datatables` от кэширования запроса браузером (например в IE).
+
+#### Apply 9_08_js_i18n.patch
+> - Добавил [простую интернационализацию в JavaScript](https://stackoverflow.com/questions/6218970/resolving-springmessages-in-javascript-for-i18n-internationalization). 
+>   - на стороне сервера формируется `i18n` JavaScript массив с значениями, который затем используется для интернационализации в браузере
+>   - в модальном окне заголовок подменяется через `$('#modalTitle').html(..title)`
+
+#### Для тестирования локали [можно поменять `Accept-Language`](https://stackoverflow.com/questions/7769061/how-to-add-custom-accept-languages-to-chrome-for-pseudolocalization-testing). Для хрома в `chrome://settings/languages` перетащить нужную локаль наверх.
+   
+- <a href="http://stackoverflow.com/a/6242840/548473">JavaScript internationalization</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmhUTms1WnhTeHc">Форма логина / логаут.</a>
+#### Apply 9_09_min_form_login.patch
+
+> Добавил функциональность logout
+
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-minimal">Минимальный form-login</a>
+-  <a href="https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#m3to4-xmlnamespace-form-login">Migrating &lt;form-login&gt;</a>
+
+#### ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Мои вопросы:
+- Почему при логине как admin еда отдаются для user?
+- Почему при логине как user не отображается список пользователей?
+- Почему еда не редактируется?
+
+> Подсказка: поглядите вкладку Network в браузере.
+ 
+#### Apply 9_10_jsp_form_login.patch
+> Рефакторинг
+> - В `login.jsp` вместо атрибутов достаю параметры запроса (`param.error/message`).
+> - Закрыл доступ к `/login` для уже авторизованных в приложении пользователей (в `spring-security.xml` изменил `permitAll` на `isAnonymous`)
+
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторизации.</a>
+#### Apply 9_11_auth_via_user_service.patch
+
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#userdetailsservice-implementations">UserDetailsService Implementations</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT2Qya2V4N0kzWWM">Принцип работы Spring Security. Проксирование.</a>
+-  <a href="http://www.spring-source.ru/articles.php?type=manual&theme=articles&docs=article_07">Принцип работы Spring Security</a>
+-  <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#aop-proxying">Типы проксирования</a>
+-  <a href="http://samolisov.blogspot.ru/2010/04/proxy-java.html">Dynamic Proxy API</a>
+-  <a href="http://stackoverflow.com/questions/13977093/how-to-use-jparepositories-with-proxy-target-class-true/25543659#25543659">Конфликт проксирования Data Repository</a>
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#filter-stack">Security фильтры</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 10. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU3hMR0o4eGNoUmc">Spring Security Test</a>
+#### Apply 9_12_spring_security_test.patch
+
+> - Cделал "честную" авторизацию в `RootControllerTest` (через `authentication` в утильном методе `TestUtil`)
+> - Cделал `mockAuthorize` для `SpringMain`, в который не попадают фильтры
+
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#test">Spring Security Test</a></h3>
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#test-mockmvc">Интеграция со Spring MVC Test</a>
+-  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#testing-http-basic-authentication">HttpBasic авторизация</a>
+-  <a href="http://habrahabr.ru/post/171911/">Тестирование контроллеров с помощью MockMvc (без spring-security-test)</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 11. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUzNFanF6MGZGNHc">Cookie. Session.</a>
+-  <a href="https://ru.wikipedia.org/wiki/HTTP_cookie">HTTP cookie</a></h3>
+-  <a href="http://stackoverflow.com/questions/595872/under-what-conditions-is-a-jsessionid-created">Under what conditions is a JSESSIONID created?</a>
+-  <a href="http://halyph.blogspot.ru/2014/08/how-to-disable-tomcat-session.html">Tomcat Session Serialization</a>
+
+## ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Ваши вопросы
+
+>  В куки попадает обычная строка JSESSIONID. Куда сериалиуется объект User?
+
+Для хранения сосотяния сессии (например корзины покупателя) в Servlet API есть механизм хранения объектов сессии (грубо- мультимапмапа, которая достается из хранилища по ключу). При создании сессии на стороне сервера (через `request.getSession`) создается кука `JSESSIONID`, которая пеердается между клиентом и сервером и является ключом в хранилище объектов сессий. См. <a href="http://javatutor.net/books/tiej/servlets#_Toc39472970">обработка сессий с помощью сервлетов</a>
+
+> В `login.jsp` есть форма `&lt;form:form action="spring_security_check" ..&gt;` Где такой url используется?
+
+Это стандартный url для авторизации в `spring-security`. Он его и обрабатывает.
+
+> Если не пользовать js, а писать UI на JSP, сообщения между ui и сервером будут в формате json? Это же будет JSON API?
+
+Есть данные, которые передаются между клиентом и сервером в формате json или get/post с параметрами, есть стили взаимодействия клиента и сервера (<a href="https://ru.wikipedia.org/wiki/REST">REST</a>, <a href="http://jsonapi.org/">JSON API</a>, <a href="https://ru.wikipedia.org/wiki/JSON-RPC">JSON-RPC</a>) и есть отрисовка UI: JSP, Javascript фреймворк, Thymleaf и пр. Не надо эти вещи путать между собой. 
+
+> По умолчанию спринг работает с `UserDetailsService`, который должен возвращать `UserDetails`. Но мы не хотим стандартные, мы хотим свои, поэтому просто наследуем наши `UserServiceImpl` и `AuthorizedUser` от соответствующих интерфейсов и реализуем недостающие методы, которые spring security и будет использовать?
+
+Да. Сервис аутентификации конфигурится в `spring-security.xml` `<authentication-manager>` и должен реализовывать интерфейс `UserDetailsService`. В spring-security есть его стандартные реализации, которые использовались до нашей кастомной `UserServiceImpl`, например `jdbc-user-service` использует реализацию `JdbcUserDetailsManager`
+
+## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW9
+
+- 1: Реализовать для meal Binding/ Update/ Validation. Проверить работу при пустом значении `calories`.
+- 2: Перевести `meals.jsp` на работу по ajax. Стиль строки таблицы сделать в зависимости от exceeded, время отображать без `T`. Добавить i18n.
+- 3: Починить meals тесты, добавить тест на неавторизованный доступ
+
+#### Optional
+- 4: Подключить datetime-picker к фильтрам и модальному окну добавления/редактирования еды
+  - 4.1 <a href="http://xdsoft.net/jqplugins/datetimepicker/">DateTimePicker jQuery plugin</a>
+  - 4.2 Еще есть <a href="https://eonasdan.github.io/bootstrap-datetimepicker/">Bootstrap 3 Datepicker</a>
   
-  
-  
-  
-
-  <meta name="viewport" content="width=device-width">
-  
-  <title>topjava/lesson09.md at doc · JavaWebinar/topjava</title>
-  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-  <meta property="fb:app_id" content="1401488693436528">
-
-    
-    <meta content="https://avatars1.githubusercontent.com/u/11200258?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="JavaWebinar/topjava" property="og:title" /><meta content="https://github.com/JavaWebinar/topjava" property="og:url" /><meta content="Contribute to topjava development by creating an account on GitHub." property="og:description" />
-
-  <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTk3OTIzOTQ3OjA0ZWYxZjIwNDIyYjEzNmFjYTY5YWM2YjBjODMyZDc4ZTU0MjNiMGYyZDFkYzBjYWY3ZGU4YzQ4ODI3MjkzZDI=--8623788e56c4b264102715adbb43fa95cd12ad50">
-  <meta name="pjax-timeout" content="1000">
-  <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="38E4:14C71:76478E3:C5DD185:5A55088F" data-pjax-transient>
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
-    <meta name="google-analytics" content="UA-3769691-2">
-
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="38E4:14C71:76478E3:C5DD185:5A55088F" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="1889491" name="octolytics-actor-id" /><meta content="reomor" name="octolytics-actor-login" /><meta content="f65370bc716f5e55b7213b87fd0419f3a1dbf1f8010bc983e851e5ee66270be5" name="octolytics-actor-hash" />
-<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
-
-
-
-
-  <meta class="js-ga-set" name="dimension1" content="Logged In">
-
-
-  
-
-      <meta name="hostname" content="github.com">
-  <meta name="user-login" content="reomor">
-
-      <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="OGM3OTBmZDViNjNjMjFlMGMwNDViM2NkZjM4ODIyZmRiMzRkZDQ3YTc3NTRiYjFhOWExMWRjYWY0NWQxYTAzZnx7InJlbW90ZV9hZGRyZXNzIjoiOTUuMTY1LjE1NC4yMDIiLCJyZXF1ZXN0X2lkIjoiMzhFNDoxNEM3MTo3NjQ3OEUzOkM1REQxODU6NUE1NTA4OEYiLCJ0aW1lc3RhbXAiOjE1MTU1MjIxOTYsImhvc3QiOiJnaXRodWIuY29tIn0=">
-
-    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
-
-  <meta name="html-safe-nonce" content="fa82dd700a6a0972927d8c1ff85d92a6707462f2">
-
-  <meta http-equiv="x-pjax-version" content="9ffdd113ec2a1de902de624b42adb9ea">
-  
-
-      <link href="https://github.com/JavaWebinar/topjava/commits/doc.atom" rel="alternate" title="Recent Commits to topjava:doc" type="application/atom+xml">
-
-  <meta name="description" content="Contribute to topjava development by creating an account on GitHub.">
-  <meta name="go-import" content="github.com/JavaWebinar/topjava git https://github.com/JavaWebinar/topjava.git">
-
-  <meta content="11200258" name="octolytics-dimension-user_id" /><meta content="JavaWebinar" name="octolytics-dimension-user_login" /><meta content="108113019" name="octolytics-dimension-repository_id" /><meta content="JavaWebinar/topjava" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="108113019" name="octolytics-dimension-repository_network_root_id" /><meta content="JavaWebinar/topjava" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
-
-
-    <link rel="canonical" href="https://github.com/JavaWebinar/topjava/blob/doc/doc/lesson09.md" data-pjax-transient>
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
-  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
-
-<meta name="theme-color" content="#1e2327">
-
-
-  <meta name="u2f-support" content="true">
-
-  </head>
-
-  <body class="logged-in env-production page-blob">
-    
-
-  <div class="position-relative js-header-wrapper ">
-    <a href="#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
-    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
-
-    
-    
-    
-
-
-
-        
-<header class="Header  f5" role="banner">
-  <div class="d-flex px-3 flex-justify-between container-lg">
-    <div class="d-flex flex-justify-between">
-      <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
-  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-
-
-    </div>
-
-    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
-      <div class="d-flex">
-            <div class="">
-              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/search" class="js-site-search-form" data-scoped-search-url="/JavaWebinar/topjava/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-    <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/JavaWebinar/topjava/blob/doc/doc/lesson09.md" class="header-search-scope no-underline">This repository</a>
-      <input type="text"
-        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
-        data-hotkey="s"
-        name="q"
-        value=""
-        placeholder="Search"
-        aria-label="Search this repository"
-        data-unscoped-placeholder="Search GitHub"
-        data-scoped-placeholder="Search"
-        autocapitalize="off">
-        <input type="hidden" class="js-site-search-type-field" name="type" >
-    </label>
-</form></div>
-
-            </div>
-
-          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
-            <li>
-              <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
-                Pull requests
-</a>            </li>
-            <li>
-              <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
-                Issues
-</a>            </li>
-                <li>
-                  <a href="/marketplace" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
-                    Marketplace
-</a>                </li>
-            <li>
-              <a href="/explore" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
-                Explore
-</a>            </li>
-          </ul>
-      </div>
-
-      <div class="d-flex">
-        
-<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
-  <li class="dropdown js-menu-container">
-    <span class="d-inline-block  px-2">
-      
-    <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-channel="notification-changed:1889491" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
-        <span class="mail-status "></span>
-        <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
-</a>
-    </span>
-  </li>
-
-  <li class="dropdown js-menu-container">
-    <details class="dropdown-details details-reset js-dropdown-details d-flex px-2 flex-items-center">
-      <summary class="HeaderNavlink"
-         aria-label="Create new…"
-         data-ga-click="Header, create new, icon:add">
-        <svg aria-hidden="true" class="octicon octicon-plus float-left mr-1 mt-1" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
-        <span class="dropdown-caret mt-1"></span>
-      </summary>
-
-      <ul class="dropdown-menu dropdown-menu-sw">
-        
-<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
-  New repository
-</a>
-
-  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
-    Import repository
-  </a>
-
-<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
-  New gist
-</a>
-
-  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
-    New organization
-  </a>
-
-
-
-  <div class="dropdown-divider"></div>
-  <div class="dropdown-header">
-    <span title="JavaWebinar/topjava">This repository</span>
-  </div>
-    <a class="dropdown-item" href="/JavaWebinar/topjava/issues/new" data-ga-click="Header, create new issue">
-      New issue
-    </a>
-
-      </ul>
-    </details>
-  </li>
-
-  <li class="dropdown js-menu-container">
-
-    <details class="dropdown-details details-reset js-dropdown-details d-flex pl-2 flex-items-center">
-      <summary class="HeaderNavlink name mt-1"
-        aria-label="View profile and more"
-        data-ga-click="Header, show menu, icon:avatar">
-        <img alt="@reomor" class="avatar float-left mr-1" src="https://avatars0.githubusercontent.com/u/1889491?s=40&amp;v=4" height="20" width="20">
-        <span class="dropdown-caret"></span>
-      </summary>
-
-      <ul class="dropdown-menu dropdown-menu-sw">
-        <li class="dropdown-header header-nav-current-user css-truncate">
-          Signed in as <strong class="css-truncate-target">reomor</strong>
-        </li>
-
-        <li class="dropdown-divider"></li>
-
-        <li><a class="dropdown-item" href="/reomor" data-ga-click="Header, go to profile, text:your profile">
-          Your profile
-        </a></li>
-        <li><a class="dropdown-item" href="/reomor?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
-          Your stars
-        </a></li>
-          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your Gists</a></li>
-
-        <li class="dropdown-divider"></li>
-
-        <li><a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
-          Help
-        </a></li>
-
-        <li><a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
-          Settings
-        </a></li>
-
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nDr7idQUS51V5n9OIcw0MoCSjBaiQPcPDWtJAxkQ0nspR7E3D8PojcvTIpkLal7X1Ms2ix4L4BZEAJ9c2x/wmQ==" /></div>
-          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
-            Sign out
-          </button>
-        </form></li>
-      </ul>
-    </details>
-  </li>
-</ul>
-
-
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="f8eBwqk7rRKoaOqUQ0iiloUmgyggVuDX3/ieiQlLHN7Kust8cuwOAjZdt0Np7shz0X85tZwd986Wk0jWy0Q+PA==" /></div>
-          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
-            Sign out
-          </button>
-</form>      </div>
-    </div>
-  </div>
-</header>
-
-      
-
-  </div>
-
-  <div id="start-of-content" class="show-on-focus"></div>
-
-    <div id="js-flash-container">
-</div>
-
-
-
-  <div role="main" >
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <div id="js-repo-pjax-container" data-pjax-container >
-      
-
-
-
-
-
-
-  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
-    <div class="repohead-details-container clearfix container">
-
-      <ul class="pagehead-actions">
-  <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0lwZVgL6hwpzRzpBuIwElQXpLDpUp4VzKQYnWaLP5kH/uknNk/lWVqfaEa4XtEQRsgmUw9U52+dZAzmcQ2oRAQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="108113019" />
-
-        <div class="select-menu js-menu-container js-select-menu">
-          <a href="/JavaWebinar/topjava/subscription"
-            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
-            role="button"
-            aria-haspopup="true"
-            aria-expanded="false"
-            aria-label="Toggle repository notifications menu"
-            data-ga-click="Repository, click Watch settings, action:blob#show">
-            <span class="js-select-button">
-                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                Watch
-            </span>
-          </a>
-          <a class="social-count js-social-count"
-            href="/JavaWebinar/topjava/watchers"
-            aria-label="5 users are watching this repository">
-            5
-          </a>
-
-        <div class="select-menu-modal-holder">
-          <div class="select-menu-modal subscription-menu-modal js-menu-content">
-            <div class="select-menu-header js-navigation-enable" tabindex="-1">
-              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-              <span class="select-menu-title">Notifications</span>
-            </div>
-
-              <div class="select-menu-list js-navigation-container" role="menu">
-
-                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
-                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-                  <div class="select-menu-item-text">
-                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
-                    <span class="select-menu-item-heading">Not watching</span>
-                    <span class="description">Be notified when participating or @mentioned.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                      Watch
-                    </span>
-                  </div>
-                </div>
-
-                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
-                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-                  <div class="select-menu-item-text">
-                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
-                    <span class="select-menu-item-heading">Watching</span>
-                    <span class="description">Be notified of all conversations.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                        Unwatch
-                    </span>
-                  </div>
-                </div>
-
-                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
-                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-                  <div class="select-menu-item-text">
-                    <input id="do_ignore" name="do" type="radio" value="ignore" />
-                    <span class="select-menu-item-heading">Ignoring</span>
-                    <span class="description">Never be notified.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
-                        Stop ignoring
-                    </span>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-</form>
-  </li>
-
-  <li>
-    
-  <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="S6UoeuptF67BGFVleokyDQmzAEEWoEbY1FwpdmXRvIikR2LLJOZTXDauSFJXOWhx1oZ3Zpl7ytVZ5wRJ9QAdfw==" /></div>
-      <input type="hidden" name="context" value="repository"></input>
-      <button
-        type="submit"
-        class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar JavaWebinar/topjava"
-        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
-        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
-        Unstar
-      </button>
-        <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="7 users starred this repository">
-          7
-        </a>
-</form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CIqcyxji/g5p0zDtueycLCJssL5x4M7FyWcIdL8zmay1Fjbptr9uFYyIaX61wBGpE9SFe/mzR43hs+TrbqTP+A==" /></div>
-      <input type="hidden" name="context" value="repository"></input>
-      <button
-        type="submit"
-        class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star JavaWebinar/topjava"
-        data-ga-click="Repository, click star button, action:blob#show; text:Star">
-        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
-        Star
-      </button>
-        <a class="social-count js-social-count" href="/JavaWebinar/topjava/stargazers"
-           aria-label="7 users starred this repository">
-          7
-        </a>
-</form>  </div>
-
-  </li>
-
-  <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kbF4wCmAf+dz12pqdjUl8G4eFD1simFs0u+0RpjX+ylxgqOJWJ18G7AG37f9hh2r2ubAgcc2F57R2MKjtE9n8A==" /></div>
-            <button
-                type="submit"
-                class="btn btn-sm btn-with-count"
-                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
-                title="Fork your own copy of JavaWebinar/topjava to your account"
-                aria-label="Fork your own copy of JavaWebinar/topjava to your account">
-              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-              Fork
-            </button>
-</form>
-    <a href="/JavaWebinar/topjava/network" class="social-count"
-       aria-label="59 users forked this repository">
-      59
-    </a>
-  </li>
-</ul>
-
-      <h1 class="public ">
-  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a href="/JavaWebinar" class="url fn" rel="author">JavaWebinar</a></span><!--
---><span class="path-divider">/</span><!--
---><strong itemprop="name"><a href="/JavaWebinar/topjava" data-pjax="#js-repo-pjax-container">topjava</a></strong>
-
-</h1>
-
-    </div>
-    
-<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-     role="navigation"
-     data-pjax="#js-repo-pjax-container">
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/JavaWebinar/topjava/tree/doc" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /JavaWebinar/topjava/tree/doc" itemprop="url">
-      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-      <span itemprop="name">Code</span>
-      <meta itemprop="position" content="1">
-</a>  </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a href="/JavaWebinar/topjava/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /JavaWebinar/topjava/issues" itemprop="url">
-        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
-        <span itemprop="name">Issues</span>
-        <span class="Counter">0</span>
-        <meta itemprop="position" content="2">
-</a>    </span>
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/JavaWebinar/topjava/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /JavaWebinar/topjava/pulls" itemprop="url">
-      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-      <span itemprop="name">Pull requests</span>
-      <span class="Counter">3</span>
-      <meta itemprop="position" content="3">
-</a>  </span>
-
-    <a href="/JavaWebinar/topjava/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /JavaWebinar/topjava/projects">
-      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      Projects
-      <span class="Counter" >0</span>
-</a>
-    <a href="/JavaWebinar/topjava/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /JavaWebinar/topjava/wiki">
-      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
-      Wiki
-</a>
-
-  <a href="/JavaWebinar/topjava/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /JavaWebinar/topjava/pulse">
-    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
-    Insights
-</a>
-
-</nav>
-
-
-  </div>
-
-<div class="container new-discussion-timeline experiment-repo-nav ">
-  <div class="repository-content ">
-
-    
-  <a href="/JavaWebinar/topjava/blob/6aef295341970e96e469217fdfd821412007c57c/doc/lesson09.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
-
-  <!-- blob contrib key: blob_contributors:v21:d9e3125cc0bbd10bc54016ac8d658d12 -->
-
-  <div class="file-navigation js-zeroclipboard-container">
-    
-<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
-  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    
-    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
-      <i>Branch:</i>
-      <span class="js-select-button css-truncate-target">doc</span>
-  </button>
-
-  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
-
-    <div class="select-menu-modal">
-      <div class="select-menu-header">
-        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-        <span class="select-menu-title">Switch branches/tags</span>
-      </div>
-
-      <div class="select-menu-filters">
-        <div class="select-menu-text-filter">
-          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-        </div>
-        <div class="select-menu-tabs">
-          <ul>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
-            </li>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
-
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-            <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/JavaWebinar/topjava/blob/doc/doc/lesson09.md"
-               data-name="doc"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                doc
-              </span>
-            </a>
-            <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/JavaWebinar/topjava/blob/master/doc/lesson09.md"
-               data-name="master"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                master
-              </span>
-            </a>
-        </div>
-
-          <div class="select-menu-no-results">Nothing to show</div>
-      </div>
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-        </div>
-
-        <div class="select-menu-no-results">Nothing to show</div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-    <div class="BtnGroup float-right">
-      <a href="/JavaWebinar/topjava/find/doc"
-            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-            data-pjax
-            data-hotkey="t">
-        Find file
-      </a>
-      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
-    </div>
-    <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/JavaWebinar/topjava/tree/doc"><span>topjava</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/JavaWebinar/topjava/tree/doc/doc"><span>doc</span></a></span><span class="separator">/</span><strong class="final-path">lesson09.md</strong>
-    </div>
-  </div>
-
-
-  
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/JavaWebinar/topjava/commit/6aef295341970e96e469217fdfd821412007c57c" data-pjax>
-          6aef295
-        </a>
-        <relative-time datetime="2018-01-08T21:31:06Z">Jan 9, 2018</relative-time>
-      </span>
-      <div>
-        <img alt="@JavaWebinar" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/11200258?s=40&amp;v=4" width="20" />
-        <a href="/JavaWebinar" class="user-mention" rel="author">JavaWebinar</a>
-          <a href="/JavaWebinar/topjava/commit/6aef295341970e96e469217fdfd821412007c57c" class="message" data-pjax="true" title="Add lesson09">Add lesson09</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@JavaWebinar" height="24" src="https://avatars2.githubusercontent.com/u/11200258?s=48&amp;v=4" width="24" />
-            <a href="/JavaWebinar">JavaWebinar</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="file">
-    <div class="file-header">
-  <div class="file-actions">
-
-    <div class="BtnGroup">
-      <a href="/JavaWebinar/topjava/raw/doc/doc/lesson09.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/JavaWebinar/topjava/blame/doc/doc/lesson09.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/JavaWebinar/topjava/commits/doc/doc/lesson09.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
-    </div>
-
-        <a class="btn-octicon tooltipped tooltipped-nw"
-           href="https://desktop.github.com"
-           aria-label="Open this file in GitHub Desktop"
-           data-ga-click="Repository, open with desktop, type:windows">
-            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
-        </a>
-
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/edit/doc/doc/lesson09.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ta6/KQjxnWmvzR4yYLs9nXRAoaN7zev/Fg22dlJjn1+AhbVYFxZ3ER6P6p6CyqKlQ80wX0lAYZNjkWUJpN6vsw==" /></div>
-          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
-            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-          </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/JavaWebinar/topjava/delete/doc/doc/lesson09.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XObZsY75xezB6naGRJ1DJsVmhLbSTThZ1F9O1onzPBz4O9oSTIxb0pFswQsAcffN8aFu1Xp5z9UIEGhsvjFSCA==" /></div>
-          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Fork this project and delete the file" data-disable-with>
-            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
-          </button>
-</form>  </div>
-
-  <div class="file-info">
-      186 lines (131 sloc)
-      <span class="file-info-divider"></span>
-    18.8 KB
-  </div>
-</div>
-
-    
-  <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a href="#Онлайн-проекта-topjava" aria-hidden="true" class="anchor" id="user-content-Онлайн-проекта-topjava"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Онлайн проекта <a href="https://github.com/JavaWebinar/topjava">Topjava</a></h1>
-<h2><a href="#Материалы-занятия" aria-hidden="true" class="anchor" id="user-content-Материалы-занятия"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFVWRGbEw1RjJrMjg" rel="nofollow">Материалы занятия</a></h2>
-<ul>
-<li><strong>Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5</strong></li>
-<li><strong>При удалении файлов не забывайте делать clean: <code>mvn clean package</code></strong></li>
-</ul>
-<h3><a href="#-Правка" aria-hidden="true" class="anchor" id="user-content--Правка"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" alt="error" style="max-width:100%;"></a> Правка</h3>
-<h4><a href="#apply-9_0_fixpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_0_fixpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_0_fix.patch</h4>
-<ul>
-<li>Обновил некоторые зависимости</li>
-<li>Для DELETE сделал возвращаемый статус <code>NO_CONTENT (204)</code>
-<ul>
-<li><a href="https://habrahabr.ru/company/yandex/blog/265569/" rel="nofollow">15 тривиальных фактов о правильной работе с протоколом HTTP</a></li>
-</ul>
-</li>
-</ul>
-<h2><a href="#-Разбор-домашнего-задания-hw8" aria-hidden="true" class="anchor" id="user-content--Разбор-домашнего-задания-hw8"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" alt="hw" style="max-width:100%;"></a> Разбор домашнего задания HW8</h2>
-<h3><a href="#-1-hw8" aria-hidden="true" class="anchor" id="user-content--1-hw8"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM" rel="nofollow">HW8</a></h3>
-<p><strong>Поправка к видео: <a href="http://getbootstrap.com/css/#grid" rel="nofollow">в гриде bootstrap 12 колонок</a>.</strong></p>
-<h4><a href="#apply-9_01_hw8patch" aria-hidden="true" class="anchor" id="user-content-apply-9_01_hw8patch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_01_HW8.patch</h4>
-<blockquote>
-<ul>
-<li>Все события сделал через <code>onlick</code>. Чтобы формы не сабмитились, заменил <code>type="submit"</code> на <code>type="button"</code>.</li>
-<li>Фильтр еды сделал в <a href="http://getbootstrap.com/components/#panels" rel="nofollow">Bootstrap Panels</a>
-<ul>
-<li><a href="http://stackoverflow.com/questions/24816175" rel="nofollow">Fitting a panel into bootstrap's grid system</a></li>
-</ul>
-</li>
-<li>Удалил лишние классы, JSP и i18N</li>
-</ul>
-</blockquote>
-<ul>
-<li><a href="http://getbootstrap.com/css/#grid" rel="nofollow">Grid system</a></li>
-<li><a href="http://getbootstrap.com/css/#description" rel="nofollow">Bootstrap description</a></li>
-<li><a href="http://getbootstrap.com/css/#forms" rel="nofollow">Bootstrap forms</a></li>
-</ul>
-<h4><a href="#apply-9_02_hw8_clear_filterpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_02_hw8_clear_filterpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_02_HW8_clear_filter.patch</h4>
-<blockquote>
-<p>Добавил сброс фильтра</p>
-</blockquote>
-<h3><a href="#-2-hw8-optional-enabledisable-user" aria-hidden="true" class="anchor" id="user-content--2-hw8-optional-enabledisable-user"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV0VKY2FGbndGMTQ" rel="nofollow">HW8 Optional (enable/disable user)</a></h3>
-<h4><a href="#apply-9_03_hw8_enable_disablepatch" aria-hidden="true" class="anchor" id="user-content-apply-9_03_hw8_enable_disablepatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_03_HW8_enable_disable.patch</h4>
-<blockquote>
-<ul>
-<li>Перенес метод <code>enable</code> в <code>userDatatables.js</code> и вынес стиль <code>disabled</code> в css</li>
-<li>Меняю стиль <code>&lt;tr&gt;</code> ПОСЛЕ успешной обработки запроса через <code>toggleClass</code> и при ошибке возвращаю <code>checked</code> в прежнее состояние</li>
-<li>Убрал <code>init()</code>. При переводе таблицы на Ajax вместо него будет <code>createdRow</code>. Стили <code>disabled</code> добавляются при отрисовки таблицы в JSP</li>
-</ul>
-</blockquote>
-<h2><a href="#Занятие-9" aria-hidden="true" class="anchor" id="user-content-Занятие-9"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Занятие 9:</h2>
-<h3><a href="#-3--spring-binding" aria-hidden="true" class="anchor" id="user-content--3--spring-binding"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 3.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0" rel="nofollow">Spring Binding</a></h3>
-<h4><a href="#apply-9_04_bindingpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_04_bindingpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_04_binding.patch</h4>
-<blockquote>
-<p>Move <code>ru.javawebinar.topjava.util.MealsUtil.DEFAULT_CALORIES_PER_DAY</code> to <code>ru.javawebinar.topjava.util.UserUtil</code></p>
-</blockquote>
-<h3><a href="#-4--Реализация-update" aria-hidden="true" class="anchor" id="user-content--4--Реализация-update"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 4.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2ZvcS1pSjdMQlU" rel="nofollow">Реализация update</a></h3>
-<h4><a href="#apply-9_05_updatepatch" aria-hidden="true" class="anchor" id="user-content-apply-9_05_updatepatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_05_update.patch</h4>
-<blockquote>
-<ul>
-<li>Сделал интерфейс <code>HasId</code> от которого наследуются <code>BaseTo</code> и <code>AbstractBaseEntity</code></li>
-<li>Сделал проверку <code>id</code> в <code>ValidationUtil</code> на основе <code>HasId</code></li>
-<li>Сделал в <code>ProfileRestController</code> обновление своего профиля через <code>UserTo</code> (нельзя изменять себе роли) и поправил тест</li>
-</ul>
-</blockquote>
-<h4><a href="#-Вопрос" aria-hidden="true" class="anchor" id="user-content--Вопрос"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Вопрос:</h4>
-<blockquote>
-<p>Можно ли было удаление делать без перезагрузки таблицы (удалением строки) и для редактирования брать данные со страницы, а не с сервера?</p>
-</blockquote>
-<p>В многопользовательском приложении принято при изменении данных подтягивать все изменения с базы, иначе может быть большая несогласованность базы и UI. В таблице еды наши пользователи видят только свои записи, но лучше для всех таблиц делать общий подход. Дополнительная нагрузка на базу тут совсем небольшая.</p>
-<h3><a href="#-5--spring-validation" aria-hidden="true" class="anchor" id="user-content--5--spring-validation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 5.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLXp5MTFDMEY5WFE" rel="nofollow">Spring Validation</a></h3>
-<h4><a href="#apply-9_06_validationpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_06_validationpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_06_validation.patch</h4>
-<blockquote>
-<ul>
-<li>заменил hibernate <code>@Depricated</code> аннотации валидации на анологичные javax</li>
-<li><code>responseJSON</code> не выводится в случае его отсутствия (например при попытке добавить пользователья с дублирующимся email)</li>
-<li>сделал конкатенацию ошибок через <code>StringJoiner</code></li>
-<li>при неверном формате email делается проверка <code>startsWith</code>, чтобы поле email не дублировалось в сообщении</li>
-</ul>
-</blockquote>
-<ul>
-<li><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#validation-beanvalidation" rel="nofollow">Spring Validation.</a></li>
-<li><a href="http://beanvalidation.org/" rel="nofollow">Bean Validation</a></li>
-<li><a href="https://spring.io/blog/2012/08/29/integrating-spring-mvc-with-jquery-for-validation-rules" rel="nofollow">Валидация формы по AJAX.</a></li>
-<li><a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0#answer-17142416" rel="nofollow">JSR-303, 349</a></li>
-<li><a href="https://dzone.com/articles/spring-31-valid-requestbody" rel="nofollow">@Valid @RequestBody + Error handling</a></li>
-</ul>
-<h3><a href="#-6--Перевод-datatables-на-ajax" aria-hidden="true" class="anchor" id="user-content--6--Перевод-datatables-на-ajax"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 6.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM" rel="nofollow">Перевод DataTables на Ajax</a></h3>
-<h4><a href="#apply-9_07_datatable_via_ajaxpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_07_datatable_via_ajaxpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_07_datatable_via_ajax.patch</h4>
-<blockquote>
-<p>Напомню, что мы перешли на <a href="https://datatables.net/upgrade/1.10-convert" rel="nofollow">параметры Datatables в формате 1.10</a></p>
-</blockquote>
-<ul>
-<li><a href="https://datatables.net/manual/ajax" rel="nofollow">DataTables Ajax</a></li>
-</ul>
-<h4><a href="#-Вопрос-1" aria-hidden="true" class="anchor" id="user-content--Вопрос-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Вопрос:</h4>
-<blockquote>
-<p>Что за дополнительный параметр (который каждый раз инкрементируется) появляется при запросе datatables данных по ajax (например <code>http://localhost:8080/topjava/ajax/admin/users/?_=1496156621129</code>) ?</p>
-</blockquote>
-<p>Это защита <code>datatables</code> от кэширования запроса браузером (например в IE).</p>
-<h4><a href="#apply-9_08_js_i18npatch" aria-hidden="true" class="anchor" id="user-content-apply-9_08_js_i18npatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_08_js_i18n.patch</h4>
-<blockquote>
-<ul>
-<li>Добавил <a href="https://stackoverflow.com/questions/6218970/resolving-springmessages-in-javascript-for-i18n-internationalization" rel="nofollow">простую интернационализацию в JavaScript</a>.
-<ul>
-<li>на стороне сервера формируется <code>i18n</code> JavaScript массив с значениями, который затем используется для интернационализации в браузере</li>
-<li>в модальном окне заголовок подменяется через <code>$('#modalTitle').html(..title)</code></li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<h4><a href="#Для-тестирования-локали-можно-поменять-accept-language-Для-хрома-в-chromesettingslanguages-перетащить-нужную-локаль-наверх" aria-hidden="true" class="anchor" id="user-content-Для-тестирования-локали-можно-поменять-accept-language-Для-хрома-в-chromesettingslanguages-перетащить-нужную-локаль-наверх"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Для тестирования локали <a href="https://stackoverflow.com/questions/7769061/how-to-add-custom-accept-languages-to-chrome-for-pseudolocalization-testing" rel="nofollow">можно поменять <code>Accept-Language</code></a>. Для хрома в <code>chrome://settings/languages</code> перетащить нужную локаль наверх.</h4>
-<ul>
-<li><a href="http://stackoverflow.com/a/6242840/548473" rel="nofollow">JavaScript internationalization</a></li>
-</ul>
-<h3><a href="#-7--Форма-логина--логаут" aria-hidden="true" class="anchor" id="user-content--7--Форма-логина--логаут"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 7.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmhUTms1WnhTeHc" rel="nofollow">Форма логина / логаут.</a></h3>
-<h4><a href="#apply-9_09_min_form_loginpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_09_min_form_loginpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_09_min_form_login.patch</h4>
-<blockquote>
-<p>Добавил функциональность logout</p>
-</blockquote>
-<ul>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-minimal" rel="nofollow">Минимальный form-login</a></li>
-<li><a href="https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#m3to4-xmlnamespace-form-login" rel="nofollow">Migrating &lt;form-login&gt;</a></li>
-</ul>
-<h4><a href="#-Мои-вопросы" aria-hidden="true" class="anchor" id="user-content--Мои-вопросы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Мои вопросы:</h4>
-<ul>
-<li>Почему при логине как admin еда отдаются для user?</li>
-<li>Почему при логине как user не отображается список пользователей?</li>
-<li>Почему еда не редактируется?</li>
-</ul>
-<blockquote>
-<p>Подсказка: поглядите вкладку Network в браузере.</p>
-</blockquote>
-<h4><a href="#apply-9_10_jsp_form_loginpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_10_jsp_form_loginpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_10_jsp_form_login.patch</h4>
-<blockquote>
-<p>Рефакторинг</p>
-<ul>
-<li>В <code>login.jsp</code> вместо атрибутов достаю параметры запроса (<code>param.error/message</code>).</li>
-<li>Закрыл доступ к <code>/login</code> для уже авторизованных в приложении пользователей (в <code>spring-security.xml</code> изменил <code>permitAll</code> на <code>isAnonymous</code>)</li>
-</ul>
-</blockquote>
-<ul>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic" rel="nofollow">Собственный form-login</a></li>
-</ul>
-<h3><a href="#-8-Реализация-собственного-провайдера-авторизации" aria-hidden="true" class="anchor" id="user-content--8-Реализация-собственного-провайдера-авторизации"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU" rel="nofollow">Реализация собственного провайдера авторизации.</a></h3>
-<h4><a href="#apply-9_11_auth_via_user_servicepatch" aria-hidden="true" class="anchor" id="user-content-apply-9_11_auth_via_user_servicepatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_11_auth_via_user_service.patch</h4>
-<ul>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#userdetailsservice-implementations" rel="nofollow">UserDetailsService Implementations</a></li>
-</ul>
-<h3><a href="#-9--Принцип-работы-spring-security-Проксирование" aria-hidden="true" class="anchor" id="user-content--9--Принцип-работы-spring-security-Проксирование"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 9.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT2Qya2V4N0kzWWM" rel="nofollow">Принцип работы Spring Security. Проксирование.</a></h3>
-<ul>
-<li><a href="http://www.spring-source.ru/articles.php?type=manual&amp;theme=articles&amp;docs=article_07" rel="nofollow">Принцип работы Spring Security</a></li>
-<li><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#aop-proxying" rel="nofollow">Типы проксирования</a></li>
-<li><a href="http://samolisov.blogspot.ru/2010/04/proxy-java.html" rel="nofollow">Dynamic Proxy API</a></li>
-<li><a href="http://stackoverflow.com/questions/13977093/how-to-use-jparepositories-with-proxy-target-class-true/25543659#25543659" rel="nofollow">Конфликт проксирования Data Repository</a></li>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#filter-stack" rel="nofollow">Security фильтры</a></li>
-</ul>
-<h3><a href="#-10-spring-security-test" aria-hidden="true" class="anchor" id="user-content--10-spring-security-test"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 10. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU3hMR0o4eGNoUmc" rel="nofollow">Spring Security Test</a></h3>
-<h4><a href="#apply-9_12_spring_security_testpatch" aria-hidden="true" class="anchor" id="user-content-apply-9_12_spring_security_testpatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Apply 9_12_spring_security_test.patch</h4>
-<blockquote>
-<ul>
-<li>Cделал "честную" авторизацию в <code>RootControllerTest</code> (через <code>authentication</code> в утильном методе <code>TestUtil</code>)</li>
-<li>Cделал <code>mockAuthorize</code> для <code>SpringMain</code>, в который не попадают фильтры</li>
-</ul>
-</blockquote>
-<ul>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#test" rel="nofollow">Spring Security Test</a></li>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#test-mockmvc" rel="nofollow">Интеграция со Spring MVC Test</a></li>
-<li><a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#testing-http-basic-authentication" rel="nofollow">HttpBasic авторизация</a></li>
-<li><a href="http://habrahabr.ru/post/171911/" rel="nofollow">Тестирование контроллеров с помощью MockMvc (без spring-security-test)</a></li>
-</ul>
-<h3><a href="#-11-cookie-session" aria-hidden="true" class="anchor" id="user-content--11-cookie-session"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png" alt="video" style="max-width:100%;"></a> 11. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUzNFanF6MGZGNHc" rel="nofollow">Cookie. Session.</a></h3>
-<ul>
-<li><a href="https://ru.wikipedia.org/wiki/HTTP_cookie" rel="nofollow">HTTP cookie</a></li>
-<li><a href="http://stackoverflow.com/questions/595872/under-what-conditions-is-a-jsessionid-created" rel="nofollow">Under what conditions is a JSESSIONID created?</a></li>
-<li><a href="http://halyph.blogspot.ru/2014/08/how-to-disable-tomcat-session.html" rel="nofollow">Tomcat Session Serialization</a></li>
-</ul>
-<h2><a href="#-Ваши-вопросы" aria-hidden="true" class="anchor" id="user-content--Ваши-вопросы"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png" alt="question" style="max-width:100%;"></a> Ваши вопросы</h2>
-<blockquote>
-<p>В куки попадает обычная строка JSESSIONID. Куда сериалиуется объект User?</p>
-</blockquote>
-<p>Для хранения сосотяния сессии (например корзины покупателя) в Servlet API есть механизм хранения объектов сессии (грубо- мультимапмапа, которая достается из хранилища по ключу). При создании сессии на стороне сервера (через <code>request.getSession</code>) создается кука <code>JSESSIONID</code>, которая пеердается между клиентом и сервером и является ключом в хранилище объектов сессий. См. <a href="http://javatutor.net/books/tiej/servlets#_Toc39472970" rel="nofollow">обработка сессий с помощью сервлетов</a></p>
-<blockquote>
-<p>В <code>login.jsp</code> есть форма <code>&amp;lt;form:form action="spring_security_check" ..&amp;gt;</code> Где такой url используется?</p>
-</blockquote>
-<p>Это стандартный url для авторизации в <code>spring-security</code>. Он его и обрабатывает.</p>
-<blockquote>
-<p>Если не пользовать js, а писать UI на JSP, сообщения между ui и сервером будут в формате json? Это же будет JSON API?</p>
-</blockquote>
-<p>Есть данные, которые передаются между клиентом и сервером в формате json или get/post с параметрами, есть стили взаимодействия клиента и сервера (<a href="https://ru.wikipedia.org/wiki/REST" rel="nofollow">REST</a>, <a href="http://jsonapi.org/" rel="nofollow">JSON API</a>, <a href="https://ru.wikipedia.org/wiki/JSON-RPC" rel="nofollow">JSON-RPC</a>) и есть отрисовка UI: JSP, Javascript фреймворк, Thymleaf и пр. Не надо эти вещи путать между собой.</p>
-<blockquote>
-<p>По умолчанию спринг работает с <code>UserDetailsService</code>, который должен возвращать <code>UserDetails</code>. Но мы не хотим стандартные, мы хотим свои, поэтому просто наследуем наши <code>UserServiceImpl</code> и <code>AuthorizedUser</code> от соответствующих интерфейсов и реализуем недостающие методы, которые spring security и будет использовать?</p>
-</blockquote>
-<p>Да. Сервис аутентификации конфигурится в <code>spring-security.xml</code> <code>&lt;authentication-manager&gt;</code> и должен реализовывать интерфейс <code>UserDetailsService</code>. В spring-security есть его стандартные реализации, которые использовались до нашей кастомной <code>UserServiceImpl</code>, например <code>jdbc-user-service</code> использует реализацию <code>JdbcUserDetailsManager</code></p>
-<h2><a href="#-Домашнее-задание-hw9" aria-hidden="true" class="anchor" id="user-content--Домашнее-задание-hw9"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png" alt="hw" style="max-width:100%;"></a> Домашнее задание HW9</h2>
-<ul>
-<li>1: Реализовать для meal Binding/ Update/ Validation. Проверить работу при пустом значении <code>calories</code>.</li>
-<li>2: Перевести <code>meals.jsp</code> на работу по ajax. Стиль строки таблицы сделать в зависимости от exceeded, время отображать без <code>T</code>. Добавить i18n.</li>
-<li>3: Починить meals тесты, добавить тест на неавторизованный доступ</li>
-</ul>
-<h4><a href="#optional" aria-hidden="true" class="anchor" id="user-content-optional"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optional</h4>
-<ul>
-<li>4: Подключить datetime-picker к фильтрам и модальному окну добавления/редактирования еды
-<ul>
-<li>4.1 <a href="http://xdsoft.net/jqplugins/datetimepicker/" rel="nofollow">DateTimePicker jQuery plugin</a></li>
-<li>4.2 Еще есть <a href="https://eonasdan.github.io/bootstrap-datetimepicker/" rel="nofollow">Bootstrap 3 Datepicker</a></li>
-</ul>
-</li>
-</ul>
-<p>Попробуйте при запросах по REST оставить стандартный ISO формат (с разделителем <code>T</code>)</p>
-<h2><a href="#-Проверка-в-hw09" aria-hidden="true" class="anchor" id="user-content--Проверка-в-hw09"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png" alt="error" style="max-width:100%;"></a> Проверка в HW09</h2>
-<ul>
-<li>1: Проверьте, что при добавлении и редактировании пользователя и еды у вас корректно отображаются заголовки модального окна:
-"Добавить/Редактировать еду пользователя"</li>
-<li>2: Не дублируйте</li>
-</ul>
-<pre><code>&lt;c:forEach var='key' ...
+Попробуйте при запросах по REST оставить стандартный ISO формат (с разделителем `T`)
+
+## ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Проверка в HW09
+- 1: Проверьте, что при добавлении и редактировании пользователя и еды у вас корректно отображаются заголовки модального окна:
+"Добавить/Редактировать еду пользователя"
+- 2: Не дублируйте
+```
+<c:forEach var='key' ...
 i18n['${key}'] = ...
-</code></pre>
-<ul>
-<li>3: Для подключения css и js datetimepicker-а посмотрите в его jar (или поищите в проекте по Ctrl+Shift+N: <code>datetimepicker</code>)</li>
-<li>4: datetimepicker работает корректно в Хроме, если убрать в <code>type</code> в <code>&lt;input type="date/time/datetime-local" ..</code></li>
-<li>5: Если появляются проблемы с JS типа <code>... is not defined</code> - обратите внимание на порядок загрузки скриптов и атрибут <code>defer</code>. Скрипты должны идти в нужном порядке. Если определяете скрипт прямо в jsp, он выполняется до <code>defer</code> скриптов.</li>
-<li>6: Не дублируйте обработку ошибок в <code>BindingResult</code> в ajax контроллерах</li>
-<li>7: Проверьте редактирование еды: открыть на редактирование и сохранить не должно приводить к ошибкам с форматом времени.</li>
-<li>8: Проверьте в <code>RootController.meals()</code>, его нужно тоже поправить</li>
-</ul>
-</article>
-  </div>
-
-  </div>
-
-  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
-  <div id="jump-to-line" style="display:none">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-      <button type="submit" class="btn">Go</button>
-</form>  </div>
-
-
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
-
-    </div>
-  </div>
-
-  </div>
-
-      
-<div class="footer container-lg px-3" role="contentinfo">
-  <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
-    <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.13526s from unicorn-1390081693-c40ml">GitHub</span>, Inc.</li>
-        <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
-        <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
-        <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
-        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
-    </ul>
-
-    <a href="https://github.com" aria-label="Homepage" class="footer-octicon" title="GitHub">
-      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-    <ul class="list-style-none d-flex flex-wrap ">
-        <li class="mr-3"><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
-      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
-        <li class="mr-3"><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
-
-    </ul>
-  </div>
-</div>
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-    </button>
-    You can't perform that action at this time.
-  </div>
-
-
-    <script crossorigin="anonymous" integrity="sha256-5CqL+cOAdYc045hR2wTefL7rLzhg771IHJasEsJabss=" src="https://assets-cdn.github.com/assets/compat-e42a8bf9c380758734e39851db04de7cbeeb2f3860efbd481c96ac12c25a6ecb.js"></script>
-    <script crossorigin="anonymous" integrity="sha256-+xnpyXbt6GVODbcDcHIEoyLXhTRuY1OEN4fS1Kp+FA4=" src="https://assets-cdn.github.com/assets/frameworks-fb19e9c976ede8654e0db703707204a322d785346e6353843787d2d4aa7e140e.js"></script>
-    
-    <script async="async" crossorigin="anonymous" integrity="sha256-Tbl8qoIt5ZHTniC2SR/Q6WSamRrTq7BoQGdCT0qXew4=" src="https://assets-cdn.github.com/assets/github-4db97caa822de591d39e20b6491fd0e9649a991ad3abb0684067424f4a977b0e.js"></script>
-    
-    
-    
-    
-  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
-    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
-    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-  <div class="facebox" id="facebox" style="display:none;">
-  <div class="facebox-popup">
-    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
-    </div>
-    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
-      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-    </button>
-  </div>
-</div>
-
-
-  </body>
-</html>
-
+```
+- 3: Для подключения css и js datetimepicker-а посмотрите в его jar (или поищите в проекте по Ctrl+Shift+N: `datetimepicker`)
+- 4: datetimepicker работает корректно в Хроме, если убрать в `type` в `<input type="date/time/datetime-local" ..`
+- 5: Если появляются проблемы с JS типа `... is not defined` - обратите внимание на порядок загрузки скриптов и атрибут `defer`. Скрипты должны идти в нужном порядке. Если определяете скрипт прямо в jsp, он выполняется до `defer` скриптов.
+- 6: Не дублируйте обработку ошибок в `BindingResult` в ajax контроллерах
+- 7: Проверьте редактирование еды: открыть на редактирование и сохранить не должно приводить к ошибкам с форматом времени.
+- 8: Проверьте в `RootController.meals()`, его нужно тоже поправить
